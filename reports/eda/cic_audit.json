@@ -1,0 +1,42 @@
+{
+  "rows": 2830743,
+  "labels": {
+    "BENIGN": 2273097,
+    "Bot": 1966,
+    "DDoS": 128027,
+    "DoS GoldenEye": 10293,
+    "DoS Hulk": 231073,
+    "DoS Slowhttptest": 5499,
+    "DoS slowloris": 5796,
+    "FTP-Patator": 7938,
+    "Heartbleed": 11,
+    "Infiltration": 36,
+    "PortScan": 158930,
+    "SSH-Patator": 5897,
+    "Web Attack \ufffd Brute Force": 1507,
+    "Web Attack \ufffd Sql Injection": 21,
+    "Web Attack \ufffd XSS": 652
+  },
+  "columns": [
+    "Destination Port",
+    "Flow Duration",
+    "Total Fwd Packets",
+    "Total Backward Packets",
+    "Total Length of Fwd Packets",
+    "Total Length of Bwd Packets",
+    "Flow Bytes/s",
+    "Flow Packets/s",
+    "Flow IAT Mean",
+    "Flow IAT Std",
+    "SYN Flag Count",
+    "ACK Flag Count",
+    "RST Flag Count",
+    "FIN Flag Count",
+    "Average Packet Size",
+    "Fwd Packet Length Mean",
+    "Bwd Packet Length Mean",
+    "Active Mean",
+    "Idle Mean"
+  ],
+  "note": "CSV lacks timestamp, IP and flow identifiers; chronological temporal windows cannot be verified."
+}

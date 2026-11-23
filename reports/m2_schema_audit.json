@@ -1,0 +1,31 @@
+{
+  "model": "Feature-Tokenized MultiScale CNN + SE + MHSA + SMOTE (train-only)",
+  "manifest_n_features": 60,
+  "demo_n_columns": 79,
+  "demo_missing_required": [],
+  "demo_feature_order_matches": true,
+  "demo_extras": [
+    "Bwd PSH Flags",
+    "Fwd URG Flags",
+    "Bwd URG Flags",
+    "SYN Flag Count",
+    "CWE Flag Count",
+    "ECE Flag Count",
+    "Avg Fwd Segment Size",
+    "Avg Bwd Segment Size",
+    "Fwd Header Length.1",
+    "Fwd Avg Bytes/Bulk",
+    "Fwd Avg Packets/Bulk",
+    "Fwd Avg Bulk Rate",
+    "Bwd Avg Bytes/Bulk",
+    "Bwd Avg Packets/Bulk",
+    "Bwd Avg Bulk Rate",
+    "Subflow Fwd Packets",
+    "Subflow Fwd Bytes",
+    "Subflow Bwd Packets",
+    "Label"
+  ],
+  "pcap_schema": null,
+  "ready_for_realtime_inference": false,
+  "status": "AUDIT_ONLY; no raw-PCAP feature parity or replay validation performed"
+}

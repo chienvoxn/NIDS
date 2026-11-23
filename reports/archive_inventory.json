@@ -1,0 +1,132 @@
+{
+  "cic": [
+    {
+      "file": "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+      "bytes": 77123859,
+      "compressed_bytes": 18649412,
+      "crc": 1464047879
+    },
+    {
+      "file": "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+      "bytes": 76906168,
+      "compressed_bytes": 13598367,
+      "crc": 1105097602
+    },
+    {
+      "file": "Friday-WorkingHours-Morning.pcap_ISCX.csv",
+      "bytes": 58316725,
+      "compressed_bytes": 16989662,
+      "crc": 3808143146
+    },
+    {
+      "file": "Monday-WorkingHours.pcap_ISCX.csv",
+      "bytes": 176927918,
+      "compressed_bytes": 54016820,
+      "crc": 1693930990
+    },
+    {
+      "file": "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv",
+      "bytes": 83102436,
+      "compressed_bytes": 20895356,
+      "crc": 2223313870
+    },
+    {
+      "file": "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+      "bytes": 52023263,
+      "compressed_bytes": 15267924,
+      "crc": 2220561568
+    },
+    {
+      "file": "Tuesday-WorkingHours.pcap_ISCX.csv",
+      "bytes": 135078995,
+      "compressed_bytes": 40021654,
+      "crc": 909406442
+    },
+    {
+      "file": "Wednesday-workingHours.pcap_ISCX.csv",
+      "bytes": 225166395,
+      "compressed_bytes": 61397381,
+      "crc": 3790751498
+    }
+  ],
+  "ctu": [
+    {
+      "file": "1-Neris-20110810.binetflow.parquet",
+      "bytes": 17835057,
+      "compressed_bytes": 15616950,
+      "crc": 2507262851
+    },
+    {
+      "file": "10-Rbot-20110818.binetflow.parquet",
+      "bytes": 9337907,
+      "compressed_bytes": 8159506,
+      "crc": 782984090
+    },
+    {
+      "file": "11-Rbot-20110818-2.binetflow.parquet",
+      "bytes": 849597,
+      "compressed_bytes": 747673,
+      "crc": 286024518
+    },
+    {
+      "file": "12-NsisAy-20110819.binetflow.parquet",
+      "bytes": 2659805,
+      "compressed_bytes": 2371840,
+      "crc": 2013730312
+    },
+    {
+      "file": "13-Virut-20110815-3.binetflow.parquet",
+      "bytes": 11139041,
+      "compressed_bytes": 9687784,
+      "crc": 1383025375
+    },
+    {
+      "file": "2-Neris-20110811.binetflow.parquet",
+      "bytes": 12528710,
+      "compressed_bytes": 10918001,
+      "crc": 1758286311
+    },
+    {
+      "file": "3-Rbot-20110812.binetflow.parquet",
+      "bytes": 21361396,
+      "compressed_bytes": 18845232,
+      "crc": 2767603316
+    },
+    {
+      "file": "4-Rbot-20110815.binetflow.parquet",
+      "bytes": 8298296,
+      "compressed_bytes": 7188941,
+      "crc": 1512045914
+    },
+    {
+      "file": "5-Virut-20110815-2.binetflow.parquet",
+      "bytes": 1094505,
+      "compressed_bytes": 961723,
+      "crc": 3415682453
+    },
+    {
+      "file": "6-Menti-20110816.binetflow.parquet",
+      "bytes": 4344568,
+      "compressed_bytes": 3798679,
+      "crc": 225661887
+    },
+    {
+      "file": "7-Sogou-20110816-2.binetflow.parquet",
+      "bytes": 1016517,
+      "compressed_bytes": 888841,
+      "crc": 208017488
+    },
+    {
+      "file": "8-Murlo-20110816-3.binetflow.parquet",
+      "bytes": 16920429,
+      "compressed_bytes": 14732641,
+      "crc": 1264235173
+    },
+    {
+      "file": "9-Neris-20110817.binetflow.parquet",
+      "bytes": 14874672,
+      "compressed_bytes": 12971985,
+      "crc": 1973522962
+    }
+  ]
+}

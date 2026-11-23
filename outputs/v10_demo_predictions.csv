@@ -1,0 +1,3669 @@
+actual,predicted,confidence,is_attack
+BENIGN,BENIGN,0.999995,False
+BENIGN,BENIGN,0.9999918,False
+BENIGN,BENIGN,0.9999615,False
+BENIGN,PortScan,0.8867074,True
+BENIGN,BENIGN,0.9999769,False
+BENIGN,BENIGN,0.99621695,False
+BENIGN,BENIGN,0.99994004,False
+BENIGN,BENIGN,0.9994282,False
+BENIGN,PortScan,0.76573145,True
+BENIGN,BENIGN,0.9999765,False
+BENIGN,BENIGN,0.9999943,False
+BENIGN,BENIGN,0.9985241,False
+BENIGN,BENIGN,0.9999913,False
+BENIGN,BENIGN,0.9798242,False
+BENIGN,BENIGN,0.9999901,False
+BENIGN,BENIGN,0.9921893,False
+BENIGN,BENIGN,0.9999726,False
+BENIGN,BENIGN,0.9999474,False
+BENIGN,BENIGN,0.99998236,False
+BENIGN,BENIGN,0.9980932,False
+BENIGN,BENIGN,0.99983025,False
+BENIGN,BENIGN,0.9928127,False
+BENIGN,BENIGN,0.9999379,False
+BENIGN,BENIGN,0.9999857,False
+BENIGN,BENIGN,0.99995863,False
+BENIGN,BENIGN,0.9997143,False
+BENIGN,BENIGN,0.9999832,False
+BENIGN,BENIGN,0.90892935,False
+BENIGN,BENIGN,0.99999106,False
+BENIGN,BENIGN,0.9999573,False
+BENIGN,BENIGN,0.9998934,False
+BENIGN,BENIGN,0.99993384,False
+BENIGN,BENIGN,0.9999956,False
+BENIGN,BENIGN,0.9999255,False
+BENIGN,BENIGN,0.9999831,False
+BENIGN,BENIGN,0.9999436,False
+BENIGN,BENIGN,0.9997272,False
+BENIGN,BENIGN,0.99047613,False
+BENIGN,BENIGN,0.9999852,False
+BENIGN,BENIGN,0.9974023,False
+BENIGN,BENIGN,0.996236,False
+BENIGN,BENIGN,0.78608316,False
+BENIGN,BENIGN,0.9999764,False
+BENIGN,BENIGN,0.999645,False
+BENIGN,BENIGN,0.99470717,False
+BENIGN,BENIGN,0.9999492,False
+BENIGN,BENIGN,0.9961863,False
+BENIGN,BENIGN,0.99798214,False
+BENIGN,BENIGN,0.9999896,False
+BENIGN,BENIGN,0.99642086,False
+BENIGN,BENIGN,0.9999857,False
+BENIGN,BENIGN,0.99991536,False
+BENIGN,BENIGN,0.99994206,False
+BENIGN,BENIGN,0.9999914,False
+BENIGN,BENIGN,0.99996924,False
+BENIGN,BENIGN,0.9984713,False
+BENIGN,BENIGN,0.9999602,False
+BENIGN,BENIGN,0.9999875,False
+BENIGN,BENIGN,0.99998915,False
+BENIGN,BENIGN,0.9998229,False
+BENIGN,BENIGN,0.9999318,False
+BENIGN,BENIGN,0.9364706,False
+BENIGN,BENIGN,0.9973117,False
+BENIGN,BENIGN,0.9999727,False
+BENIGN,Bot,0.8371431,True
+BENIGN,BENIGN,0.99848855,False
+BENIGN,BENIGN,0.99991333,False
+BENIGN,BENIGN,0.9999895,False
+BENIGN,BENIGN,0.9977512,False
+BENIGN,BENIGN,0.99944156,False
+BENIGN,BENIGN,0.9862192,False
+BENIGN,BENIGN,0.9999846,False
+BENIGN,BENIGN,0.99998856,False
+BENIGN,BENIGN,0.99985635,False
+BENIGN,BENIGN,0.9999864,False
+BENIGN,BENIGN,0.8207517,False
+BENIGN,BENIGN,0.99990964,False
+BENIGN,BENIGN,0.99612266,False
+BENIGN,BENIGN,0.99989533,False
+BENIGN,BENIGN,0.9837096,False
+BENIGN,BENIGN,0.99975306,False
+BENIGN,BENIGN,0.99997175,False
+BENIGN,BENIGN,0.9999685,False
+BENIGN,BENIGN,0.9999511,False
+BENIGN,BENIGN,0.9989335,False
+BENIGN,BENIGN,0.999985,False
+BENIGN,BENIGN,0.9999912,False
+BENIGN,BENIGN,0.99997914,False
+BENIGN,BENIGN,0.99998355,False
+BENIGN,BENIGN,0.9997918,False
+BENIGN,BENIGN,0.99575967,False
+BENIGN,BENIGN,0.9999125,False
+BENIGN,BENIGN,0.99999094,False
+BENIGN,BENIGN,0.99975175,False
+BENIGN,BENIGN,0.98593765,False
+BENIGN,BENIGN,0.9999964,False
+BENIGN,Bot,0.86869013,True
+BENIGN,BENIGN,0.99741745,False
+BENIGN,BENIGN,0.99996555,False
+BENIGN,BENIGN,0.99998724,False
+BENIGN,Bot,0.9070655,True
+BENIGN,BENIGN,0.999938,False
+BENIGN,BENIGN,0.9999825,False
+BENIGN,BENIGN,0.9999893,False
+BENIGN,BENIGN,0.99998796,False
+BENIGN,PortScan,0.87258244,True
+BENIGN,BENIGN,0.9999635,False
+BENIGN,BENIGN,0.9999906,False
+BENIGN,BENIGN,0.9997639,False
+BENIGN,BENIGN,0.9999676,False
+BENIGN,BENIGN,0.9999404,False
+BENIGN,BENIGN,0.9999896,False
+BENIGN,BENIGN,0.9999763,False
+BENIGN,BENIGN,0.99712425,False
+BENIGN,BENIGN,0.9999839,False
+BENIGN,BENIGN,0.9999908,False
+BENIGN,BENIGN,0.9996352,False
+BENIGN,BENIGN,0.99973553,False
+BENIGN,BENIGN,0.9999362,False
+BENIGN,BENIGN,0.9997422,False
+BENIGN,BENIGN,0.9999906,False
+BENIGN,BENIGN,0.9992267,False
+BENIGN,BENIGN,0.998713,False
+BENIGN,BENIGN,0.9999896,False
+BENIGN,BENIGN,0.97049594,False
+BENIGN,BENIGN,0.9999672,False
+BENIGN,BENIGN,0.9989207,False
+BENIGN,BENIGN,0.9999491,False
+BENIGN,BENIGN,0.99972385,False
+BENIGN,BENIGN,0.9999291,False
+BENIGN,BENIGN,0.9999857,False
+BENIGN,DoS Hulk,0.671401,True
+BENIGN,BENIGN,0.9995222,False
+BENIGN,BENIGN,0.99998784,False
+BENIGN,BENIGN,0.9999291,False
+BENIGN,BENIGN,0.9961765,False
+BENIGN,BENIGN,0.996166,False
+BENIGN,BENIGN,0.9999398,False
+BENIGN,BENIGN,0.9847185,False
+BENIGN,BENIGN,0.9998522,False
+BENIGN,BENIGN,0.99991894,False
+BENIGN,BENIGN,0.9999471,False
+BENIGN,BENIGN,0.99993205,False
+BENIGN,BENIGN,0.9999858,False
+BENIGN,BENIGN,0.9999881,False
+BENIGN,BENIGN,0.9999329,False
+BENIGN,BENIGN,0.99999094,False
+BENIGN,BENIGN,0.97571987,False
+BENIGN,BENIGN,0.7661639,False
+BENIGN,BENIGN,0.9999914,False
+BENIGN,BENIGN,0.99996233,False
+BENIGN,BENIGN,0.99994075,False
+BENIGN,BENIGN,0.99933016,False
+BENIGN,PortScan,0.76034015,True
+BENIGN,BENIGN,0.9999908,False
+BENIGN,BENIGN,0.96632373,False
+BENIGN,BENIGN,0.99993825,False
+BENIGN,BENIGN,0.97012883,False
+BENIGN,BENIGN,0.9570619,False
+BENIGN,BENIGN,0.9968509,False
+BENIGN,BENIGN,0.9867488,False
+BENIGN,BENIGN,0.9996737,False
+BENIGN,BENIGN,0.9997223,False
+BENIGN,BENIGN,0.999941,False
+BENIGN,BENIGN,0.99994123,False
+BENIGN,BENIGN,0.9994709,False
+BENIGN,BENIGN,0.9999392,False
+BENIGN,BENIGN,0.9999546,False
+BENIGN,BENIGN,0.99999034,False
+BENIGN,BENIGN,0.99999094,False
+BENIGN,Bot,0.6039435,True
+BENIGN,BENIGN,0.99722195,False
+BENIGN,BENIGN,0.9999695,False
+BENIGN,BENIGN,0.99996555,False
+BENIGN,BENIGN,0.99962866,False
+BENIGN,BENIGN,0.9999304,False
+BENIGN,BENIGN,0.99873906,False
+BENIGN,BENIGN,0.99999595,False
+BENIGN,BENIGN,0.9999807,False
+BENIGN,BENIGN,0.9999316,False
+BENIGN,BENIGN,0.9999702,False
+BENIGN,BENIGN,0.99188894,False
+BENIGN,BENIGN,0.9996426,False
+BENIGN,BENIGN,0.99954337,False
+BENIGN,BENIGN,0.9962261,False
+BENIGN,BENIGN,0.9938398,False
+BENIGN,BENIGN,0.99996996,False
+BENIGN,BENIGN,0.9952186,False
+BENIGN,BENIGN,0.97905755,False
+BENIGN,BENIGN,0.9999169,False
+BENIGN,BENIGN,0.99998534,False
+BENIGN,BENIGN,0.99998844,False
+BENIGN,BENIGN,0.9999678,False
+BENIGN,BENIGN,0.9997882,False
+BENIGN,BENIGN,0.9997032,False
+BENIGN,BENIGN,0.999974,False
+BENIGN,BENIGN,0.9999912,False
+BENIGN,BENIGN,0.99994123,False
+BENIGN,BENIGN,0.99994683,False
+BENIGN,BENIGN,0.99998856,False
+BENIGN,BENIGN,0.9999379,False
+BENIGN,BENIGN,0.99999046,False
+BENIGN,BENIGN,0.99978095,False
+BENIGN,BENIGN,0.98657006,False
+BENIGN,BENIGN,0.9999901,False
+BENIGN,BENIGN,0.99993,False
+BENIGN,BENIGN,0.99994683,False
+BENIGN,BENIGN,0.99997914,False
+BENIGN,BENIGN,0.9999187,False
+BENIGN,BENIGN,0.9999856,False
+BENIGN,BENIGN,0.9999032,False
+BENIGN,BENIGN,0.99716896,False
+BENIGN,BENIGN,0.99631834,False
+BENIGN,BENIGN,0.99998987,False
+BENIGN,BENIGN,0.9999857,False
+BENIGN,BENIGN,0.98120123,False
+BENIGN,BENIGN,0.9999907,False
+BENIGN,BENIGN,0.999984,False
+BENIGN,BENIGN,0.9999335,False
+BENIGN,BENIGN,0.99999106,False
+BENIGN,PortScan,0.7329251,True
+BENIGN,BENIGN,0.9997491,False
+BENIGN,BENIGN,0.999982,False
+BENIGN,BENIGN,0.9994862,False
+BENIGN,BENIGN,0.9575313,False
+BENIGN,BENIGN,0.9926473,False
+BENIGN,BENIGN,0.99997866,False
+BENIGN,BENIGN,0.99969816,False
+BENIGN,BENIGN,0.99991834,False
+BENIGN,BENIGN,0.999992,False
+BENIGN,BENIGN,0.9997631,False
+BENIGN,BENIGN,0.99993134,False
+BENIGN,BENIGN,0.99998987,False
+BENIGN,BENIGN,0.9970197,False
+BENIGN,BENIGN,0.9991411,False
+BENIGN,BENIGN,0.9989786,False
+BENIGN,BENIGN,0.9992649,False
+BENIGN,BENIGN,0.99984765,False
+BENIGN,BENIGN,0.9989454,False
+BENIGN,BENIGN,0.9999441,False
+BENIGN,BENIGN,0.9999838,False
+BENIGN,BENIGN,0.99998736,False
+BENIGN,BENIGN,0.999977,False
+BENIGN,BENIGN,0.9999908,False
+BENIGN,BENIGN,0.99992836,False
+BENIGN,BENIGN,0.99993944,False
+BENIGN,BENIGN,0.99992454,False
+BENIGN,BENIGN,0.99994135,False
+BENIGN,BENIGN,0.9999244,False
+BENIGN,BENIGN,0.999928,False
+BENIGN,BENIGN,0.9999862,False
+BENIGN,BENIGN,0.9999486,False
+BENIGN,BENIGN,0.99959224,False
+BENIGN,BENIGN,0.99987745,False
+BENIGN,BENIGN,0.9998425,False
+BENIGN,BENIGN,0.99883205,False
+BENIGN,BENIGN,0.99986804,False
+BENIGN,BENIGN,0.9999894,False
+BENIGN,BENIGN,0.999426,False
+BENIGN,Bot,0.87453115,True
+BENIGN,BENIGN,0.99998534,False
+BENIGN,BENIGN,0.999236,False
+BENIGN,BENIGN,0.9999143,False
+BENIGN,BENIGN,0.99923503,False
+BENIGN,BENIGN,0.9933303,False
+BENIGN,BENIGN,0.9918247,False
+BENIGN,BENIGN,0.99998593,False
+BENIGN,BENIGN,0.9999844,False
+BENIGN,BENIGN,0.99979407,False
+BENIGN,BENIGN,0.99996877,False
+BENIGN,BENIGN,0.9793615,False
+BENIGN,BENIGN,0.9999902,False
+BENIGN,BENIGN,0.9999337,False
+BENIGN,BENIGN,0.99998844,False
+BENIGN,BENIGN,0.9816001,False
+BENIGN,BENIGN,0.99996865,False
+BENIGN,BENIGN,0.99997747,False
+BENIGN,BENIGN,0.9999852,False
+BENIGN,BENIGN,0.99919003,False
+BENIGN,BENIGN,0.9999403,False
+BENIGN,BENIGN,0.999617,False
+BENIGN,BENIGN,0.9987791,False
+BENIGN,BENIGN,0.99998856,False
+BENIGN,BENIGN,0.9999174,False
+BENIGN,BENIGN,0.99999166,False
+BENIGN,BENIGN,0.999931,False
+BENIGN,BENIGN,0.9995327,False
+BENIGN,BENIGN,0.99993134,False
+BENIGN,BENIGN,0.9999392,False
+BENIGN,BENIGN,0.9999782,False
+BENIGN,BENIGN,0.9999777,False
+BENIGN,BENIGN,0.9999448,False
+BENIGN,BENIGN,0.99996555,False
+BENIGN,BENIGN,0.9999914,False
+BENIGN,BENIGN,0.9999882,False
+BENIGN,BENIGN,0.974501,False
+BENIGN,BENIGN,0.99991965,False
+BENIGN,DoS Hulk,0.6716479,True
+BENIGN,BENIGN,0.9999887,False
+BENIGN,BENIGN,0.99960643,False
+DDoS,DDoS,0.9972063,True
+DDoS,DDoS,0.9952975,True
+DDoS,DDoS,0.99991095,True
+DDoS,DDoS,0.99680173,True
+DDoS,DDoS,0.99749005,True
+DDoS,DDoS,0.96028084,True
+DDoS,DDoS,0.99992096,True
+DDoS,DDoS,0.94238365,True
+DDoS,DDoS,0.9999002,True
+DDoS,BENIGN,0.6722963,False
+DDoS,DDoS,0.9998369,True
+DDoS,DDoS,0.99990606,True
+DDoS,DDoS,0.9998895,True
+DDoS,DDoS,0.9490272,True
+DDoS,DDoS,0.9998253,True
+DDoS,DDoS,0.9999409,True
+DDoS,DDoS,0.56138617,True
+DDoS,DDoS,0.98973083,True
+DDoS,DDoS,0.99981076,True
+DDoS,DDoS,0.88287055,True
+DDoS,DDoS,0.9999403,True
+DDoS,DDoS,0.9999845,True
+DDoS,DDoS,0.9606921,True
+DDoS,DDoS,0.9997811,True
+DDoS,DDoS,0.99991906,True
+DDoS,DDoS,0.9969758,True
+DDoS,BENIGN,0.9131759,False
+DDoS,DDoS,0.99993265,True
+DDoS,DDoS,0.99988675,True
+DDoS,DDoS,0.9999206,True
+DDoS,DDoS,0.99580896,True
+DDoS,DDoS,0.9999894,True
+DDoS,DDoS,0.99575186,True
+DDoS,DDoS,0.99991107,True
+DDoS,DDoS,0.99993134,True
+DDoS,DDoS,0.9889416,True
+DDoS,DDoS,0.9998839,True
+DDoS,DDoS,0.9992312,True
+DDoS,DDoS,0.95730793,True
+DDoS,DDoS,0.9563375,True
+DDoS,DDoS,0.99992645,True
+DDoS,DDoS,0.99990857,True
+DDoS,DDoS,0.9999409,True
+DDoS,DDoS,0.9999348,True
+DDoS,DDoS,0.99726427,True
+DDoS,DDoS,0.999943,True
+DDoS,DDoS,0.99507517,True
+DDoS,DDoS,0.99981815,True
+DDoS,DDoS,0.99988186,True
+DDoS,DDoS,0.9976814,True
+DDoS,DDoS,0.999944,True
+DDoS,DDoS,0.9998832,True
+DDoS,DDoS,0.99977463,True
+DDoS,DDoS,0.99991083,True
+DDoS,DDoS,0.9903481,True
+DDoS,DDoS,0.99989283,True
+DDoS,DDoS,0.9999212,True
+DDoS,DDoS,0.99990416,True
+DDoS,DDoS,0.9973093,True
+DDoS,DDoS,0.9998435,True
+DDoS,DDoS,0.99775344,True
+DDoS,DDoS,0.8770823,True
+DDoS,DDoS,0.99992526,True
+DDoS,DDoS,0.99719197,True
+DDoS,DDoS,0.9999435,True
+DDoS,DDoS,0.9998994,True
+DDoS,DDoS,0.9598549,True
+DDoS,DDoS,0.87727684,True
+DDoS,DDoS,0.94621056,True
+DDoS,DDoS,0.99610645,True
+DDoS,DDoS,0.9998822,True
+DDoS,DDoS,0.88123316,True
+DDoS,DDoS,0.999931,True
+DDoS,DDoS,0.99992514,True
+DDoS,DDoS,0.9997147,True
+DDoS,BENIGN,0.7391818,False
+DDoS,DDoS,0.9999248,True
+DDoS,DDoS,0.99992514,True
+DDoS,DDoS,0.99980646,True
+DDoS,DDoS,0.9975172,True
+DDoS,DDoS,0.99978906,True
+DDoS,DDoS,0.997672,True
+DDoS,DDoS,0.8932285,True
+DDoS,DDoS,0.9975325,True
+DDoS,DDoS,0.9999244,True
+DDoS,DDoS,0.9998282,True
+DDoS,DDoS,0.99984276,True
+DDoS,DDoS,0.99997354,True
+DDoS,DDoS,0.9999082,True
+DDoS,DDoS,0.98956805,True
+DDoS,DDoS,0.99992895,True
+DDoS,DDoS,0.99093515,True
+DDoS,DDoS,0.99659085,True
+DDoS,DDoS,0.99746644,True
+DDoS,DDoS,0.9974853,True
+DDoS,DDoS,0.99994195,True
+DDoS,DDoS,0.9998141,True
+DDoS,DDoS,0.99992824,True
+DDoS,DDoS,0.94757706,True
+DDoS,DDoS,0.9628524,True
+DDoS,DDoS,0.9999174,True
+DDoS,DDoS,0.9997726,True
+DDoS,DDoS,0.99991727,True
+DDoS,DDoS,0.9977449,True
+DDoS,DDoS,0.9999286,True
+DDoS,DDoS,0.9999149,True
+DDoS,DDoS,0.99992704,True
+DDoS,DDoS,0.99991405,True
+DDoS,DDoS,0.9500083,True
+DDoS,DDoS,0.9999268,True
+DDoS,DDoS,0.999925,True
+DDoS,DDoS,0.9575878,True
+DDoS,DDoS,0.99990773,True
+DDoS,DDoS,0.99993455,True
+DDoS,DDoS,0.99996614,True
+DDoS,DDoS,0.9999081,True
+DDoS,DDoS,0.99603623,True
+DDoS,DDoS,0.99998236,True
+DDoS,DDoS,0.99997985,True
+DDoS,DDoS,0.9999213,True
+DDoS,DDoS,0.99991417,True
+DDoS,DDoS,0.99725926,True
+DDoS,DDoS,0.9149465,True
+DDoS,DDoS,0.9965436,True
+DDoS,DDoS,0.99969673,True
+DDoS,DDoS,0.9956891,True
+DDoS,DDoS,0.9999449,True
+DDoS,DDoS,0.99984586,True
+DDoS,DDoS,0.9999105,True
+DDoS,DDoS,0.9999088,True
+DDoS,DDoS,0.9652411,True
+DDoS,DDoS,0.9999021,True
+DDoS,DDoS,0.9999436,True
+DDoS,DDoS,0.9998838,True
+DDoS,DDoS,0.99989045,True
+DDoS,DDoS,0.9999591,True
+DDoS,DDoS,0.99991906,True
+DDoS,DDoS,0.9998373,True
+DDoS,DDoS,0.9998896,True
+DDoS,DDoS,0.99991035,True
+DDoS,DDoS,0.99746966,True
+DDoS,DDoS,0.99981946,True
+DDoS,DDoS,0.9999504,True
+DDoS,DDoS,0.9961151,True
+DDoS,DDoS,0.99731183,True
+DDoS,DDoS,0.9977496,True
+DDoS,DDoS,0.9999155,True
+DDoS,DDoS,0.9998198,True
+DDoS,DDoS,0.99993324,True
+DDoS,DDoS,0.9999738,True
+DDoS,DDoS,0.9999393,True
+DDoS,DDoS,0.99991655,True
+DDoS,DDoS,0.9999001,True
+DDoS,DDoS,0.99998164,True
+DDoS,DDoS,0.99723274,True
+DDoS,DDoS,0.999889,True
+DDoS,DDoS,0.99963284,True
+DDoS,DDoS,0.9959389,True
+DDoS,DDoS,0.99563,True
+DDoS,DDoS,0.999858,True
+DDoS,DDoS,0.99987495,True
+DDoS,DDoS,0.9999006,True
+DDoS,DDoS,0.9999225,True
+DDoS,DDoS,0.9998791,True
+DDoS,DDoS,0.9999839,True
+DDoS,DDoS,0.99602926,True
+DDoS,DDoS,0.7883273,True
+DDoS,DDoS,0.9634085,True
+DDoS,DDoS,0.99983907,True
+DDoS,DDoS,0.9999118,True
+DDoS,DDoS,0.9977391,True
+DDoS,BENIGN,0.7323803,False
+DDoS,DDoS,0.9999124,True
+DDoS,DDoS,0.99991596,True
+DDoS,DDoS,0.99991655,True
+DDoS,DDoS,0.52170867,True
+DDoS,DDoS,0.96830386,True
+DDoS,DDoS,0.95677465,True
+DDoS,DDoS,0.9996779,True
+DDoS,DDoS,0.99990547,True
+DDoS,DDoS,0.97214174,True
+DDoS,DDoS,0.9977642,True
+DDoS,BENIGN,0.742753,False
+DDoS,DDoS,0.9999287,True
+DDoS,DDoS,0.9999397,True
+DDoS,BENIGN,0.55200046,False
+DDoS,DDoS,0.9999323,True
+DDoS,DDoS,0.9999168,True
+DDoS,DDoS,0.999933,True
+DDoS,DDoS,0.99990237,True
+DDoS,DDoS,0.9999279,True
+DDoS,DDoS,0.9999405,True
+DDoS,DDoS,0.9999223,True
+DDoS,DDoS,0.8783438,True
+DDoS,DDoS,0.9900898,True
+DDoS,BENIGN,0.73606,False
+DDoS,DDoS,0.97387785,True
+DDoS,DDoS,0.9999224,True
+DDoS,DDoS,0.9998621,True
+DDoS,DDoS,0.9999325,True
+DDoS,DDoS,0.9941419,True
+DDoS,DDoS,0.87454903,True
+DDoS,DDoS,0.9998492,True
+DDoS,DDoS,0.9999609,True
+DDoS,DDoS,0.99988675,True
+DDoS,DDoS,0.6255023,True
+DDoS,DDoS,0.9998155,True
+DDoS,DDoS,0.7431761,True
+DDoS,DDoS,0.99774396,True
+DDoS,DDoS,0.999106,True
+DDoS,DDoS,0.99228317,True
+DDoS,DDoS,0.99601316,True
+DDoS,DDoS,0.9964384,True
+DDoS,DDoS,0.9994512,True
+DDoS,DDoS,0.9999293,True
+DDoS,DDoS,0.99991024,True
+DDoS,DDoS,0.9941116,True
+DDoS,DDoS,0.9999509,True
+DDoS,DDoS,0.999783,True
+DDoS,DDoS,0.8854269,True
+DDoS,DDoS,0.9563988,True
+DDoS,DDoS,0.99992144,True
+DDoS,DDoS,0.99990034,True
+DDoS,DDoS,0.99989927,True
+DDoS,DDoS,0.9997476,True
+DDoS,DDoS,0.99992335,True
+DDoS,DDoS,0.99566793,True
+DDoS,DDoS,0.9999138,True
+DDoS,DDoS,0.9959785,True
+DDoS,DDoS,0.9999087,True
+DDoS,DDoS,0.99992776,True
+DDoS,DDoS,0.99990666,True
+DDoS,DDoS,0.9998653,True
+DDoS,DDoS,0.9976483,True
+DDoS,DDoS,0.9999323,True
+DDoS,DDoS,0.9998838,True
+DDoS,DDoS,0.9999124,True
+DDoS,DDoS,0.99969816,True
+DDoS,DDoS,0.9999435,True
+DDoS,DDoS,0.99688727,True
+DDoS,DDoS,0.99993396,True
+DDoS,DDoS,0.99636346,True
+DDoS,DDoS,0.9975478,True
+DDoS,DDoS,0.9999099,True
+DDoS,DDoS,0.96128595,True
+DDoS,DDoS,0.99988127,True
+DDoS,DDoS,0.9967699,True
+DDoS,DDoS,0.9972435,True
+DDoS,DDoS,0.9952768,True
+DDoS,DDoS,0.9976197,True
+DDoS,DDoS,0.9901293,True
+DDoS,DDoS,0.99987996,True
+DDoS,DDoS,0.99471116,True
+DDoS,DDoS,0.9964748,True
+DDoS,DDoS,0.5331756,True
+DDoS,DDoS,0.99758315,True
+DDoS,DDoS,0.9999107,True
+DDoS,DDoS,0.99993217,True
+DDoS,DDoS,0.9857809,True
+DDoS,DDoS,0.9997371,True
+DDoS,DDoS,0.9999285,True
+DDoS,DDoS,0.9998901,True
+DDoS,DDoS,0.99991024,True
+DDoS,DDoS,0.99937373,True
+DDoS,DDoS,0.6040527,True
+DDoS,DDoS,0.9998435,True
+DDoS,DDoS,0.99992156,True
+DDoS,DDoS,0.9998223,True
+DDoS,DDoS,0.9999696,True
+DDoS,DDoS,0.99993944,True
+DDoS,DDoS,0.9999505,True
+DDoS,DDoS,0.9972606,True
+DDoS,DDoS,0.9975777,True
+DDoS,DDoS,0.99984455,True
+DDoS,DDoS,0.9973078,True
+DDoS,DDoS,0.99985564,True
+DDoS,DDoS,0.99982363,True
+DDoS,DDoS,0.99734724,True
+DDoS,DDoS,0.99984086,True
+DDoS,DDoS,0.9953902,True
+DDoS,DDoS,0.9960896,True
+DDoS,DDoS,0.99989235,True
+DDoS,DDoS,0.9998517,True
+DDoS,DDoS,0.9931798,True
+DDoS,DDoS,0.99995077,True
+DDoS,DDoS,0.9999162,True
+DDoS,DDoS,0.9999852,True
+DDoS,DDoS,0.999835,True
+DDoS,DDoS,0.9999068,True
+DDoS,DDoS,0.8926991,True
+DDoS,DDoS,0.7418613,True
+DDoS,DDoS,0.99773043,True
+DDoS,DDoS,0.9998118,True
+DDoS,DDoS,0.9999771,True
+DDoS,DDoS,0.99994123,True
+DDoS,DDoS,0.87352914,True
+DDoS,DDoS,0.9999895,True
+DDoS,DDoS,0.99990666,True
+DDoS,DDoS,0.99991953,True
+DDoS,DDoS,0.9999105,True
+PortScan,PortScan,0.9803623,True
+PortScan,PortScan,0.80028915,True
+PortScan,PortScan,0.8657521,True
+PortScan,PortScan,0.8144281,True
+PortScan,PortScan,0.99195975,True
+PortScan,PortScan,0.9954912,True
+PortScan,PortScan,0.9754769,True
+PortScan,PortScan,0.9942415,True
+PortScan,PortScan,0.99741936,True
+PortScan,PortScan,0.85020196,True
+PortScan,PortScan,0.9947935,True
+PortScan,PortScan,0.9343307,True
+PortScan,PortScan,0.7484975,True
+PortScan,PortScan,0.9973258,True
+PortScan,PortScan,0.8569834,True
+PortScan,PortScan,0.99691087,True
+PortScan,PortScan,0.9874637,True
+PortScan,PortScan,0.96770793,True
+PortScan,PortScan,0.87053967,True
+PortScan,PortScan,0.9886231,True
+PortScan,PortScan,0.9869105,True
+PortScan,PortScan,0.9905556,True
+PortScan,PortScan,0.99744594,True
+PortScan,PortScan,0.78723836,True
+PortScan,PortScan,0.96698886,True
+PortScan,PortScan,0.96677285,True
+PortScan,PortScan,0.90417975,True
+PortScan,PortScan,0.90005183,True
+PortScan,PortScan,0.9932935,True
+PortScan,BENIGN,0.9622313,False
+PortScan,PortScan,0.9666403,True
+PortScan,PortScan,0.75992745,True
+PortScan,PortScan,0.99702424,True
+PortScan,PortScan,0.99580574,True
+PortScan,PortScan,0.98844075,True
+PortScan,PortScan,0.8602021,True
+PortScan,PortScan,0.9930835,True
+PortScan,PortScan,0.9874862,True
+PortScan,PortScan,0.9950595,True
+PortScan,PortScan,0.9034448,True
+PortScan,PortScan,0.94580305,True
+PortScan,PortScan,0.84505224,True
+PortScan,PortScan,0.8529291,True
+PortScan,PortScan,0.99329007,True
+PortScan,PortScan,0.91615,True
+PortScan,PortScan,0.99438196,True
+PortScan,PortScan,0.9971535,True
+PortScan,PortScan,0.99227375,True
+PortScan,PortScan,0.99449795,True
+PortScan,PortScan,0.992069,True
+PortScan,PortScan,0.9942595,True
+PortScan,PortScan,0.99082726,True
+PortScan,PortScan,0.8739226,True
+PortScan,PortScan,0.99564797,True
+PortScan,PortScan,0.9467003,True
+PortScan,PortScan,0.8020249,True
+PortScan,PortScan,0.9926796,True
+PortScan,PortScan,0.99387145,True
+PortScan,PortScan,0.9266509,True
+PortScan,PortScan,0.990576,True
+PortScan,PortScan,0.99412644,True
+PortScan,PortScan,0.88630664,True
+PortScan,PortScan,0.91261697,True
+PortScan,PortScan,0.91035146,True
+PortScan,PortScan,0.99247533,True
+PortScan,PortScan,0.99763834,True
+PortScan,PortScan,0.92020863,True
+PortScan,PortScan,0.9425547,True
+PortScan,PortScan,0.9874889,True
+PortScan,PortScan,0.9797503,True
+PortScan,PortScan,0.91977054,True
+PortScan,PortScan,0.9912844,True
+PortScan,PortScan,0.9106685,True
+PortScan,PortScan,0.99249446,True
+PortScan,PortScan,0.77464783,True
+PortScan,PortScan,0.99440813,True
+PortScan,PortScan,0.9912128,True
+PortScan,PortScan,0.8478933,True
+PortScan,PortScan,0.84826744,True
+PortScan,PortScan,0.92461425,True
+PortScan,PortScan,0.78137326,True
+PortScan,PortScan,0.94792634,True
+PortScan,PortScan,0.99739313,True
+PortScan,PortScan,0.9537393,True
+PortScan,PortScan,0.98632544,True
+PortScan,PortScan,0.9973992,True
+PortScan,PortScan,0.9794628,True
+PortScan,PortScan,0.86064893,True
+PortScan,PortScan,0.58339065,True
+PortScan,PortScan,0.87118554,True
+PortScan,PortScan,0.9937575,True
+PortScan,PortScan,0.9875466,True
+PortScan,PortScan,0.99169636,True
+PortScan,PortScan,0.9429811,True
+PortScan,PortScan,0.81036,True
+PortScan,PortScan,0.9644811,True
+PortScan,PortScan,0.9614054,True
+PortScan,PortScan,0.98745316,True
+PortScan,PortScan,0.8895779,True
+PortScan,PortScan,0.75009334,True
+PortScan,PortScan,0.85689837,True
+PortScan,PortScan,0.9951361,True
+PortScan,PortScan,0.99735534,True
+PortScan,PortScan,0.9974757,True
+PortScan,PortScan,0.83707434,True
+PortScan,PortScan,0.92090636,True
+PortScan,PortScan,0.9868585,True
+PortScan,PortScan,0.88127536,True
+PortScan,PortScan,0.7752655,True
+PortScan,PortScan,0.99352854,True
+PortScan,PortScan,0.9936173,True
+PortScan,PortScan,0.9439583,True
+PortScan,PortScan,0.84001726,True
+PortScan,PortScan,0.8658685,True
+PortScan,PortScan,0.9935226,True
+PortScan,PortScan,0.9935247,True
+PortScan,PortScan,0.9849732,True
+PortScan,PortScan,0.9964205,True
+PortScan,PortScan,0.8709026,True
+PortScan,PortScan,0.9882018,True
+PortScan,PortScan,0.9919625,True
+PortScan,PortScan,0.97244173,True
+PortScan,PortScan,0.94384897,True
+PortScan,PortScan,0.99212307,True
+PortScan,PortScan,0.9685254,True
+PortScan,PortScan,0.96669,True
+PortScan,PortScan,0.98540515,True
+PortScan,PortScan,0.7954109,True
+PortScan,PortScan,0.9133091,True
+PortScan,PortScan,0.97856253,True
+PortScan,PortScan,0.99170035,True
+PortScan,PortScan,0.7402796,True
+PortScan,PortScan,0.86716074,True
+PortScan,PortScan,0.99636465,True
+PortScan,PortScan,0.90493625,True
+PortScan,PortScan,0.9682782,True
+PortScan,PortScan,0.9034097,True
+PortScan,PortScan,0.99363494,True
+PortScan,PortScan,0.95419145,True
+PortScan,PortScan,0.99650747,True
+PortScan,PortScan,0.9973912,True
+PortScan,PortScan,0.99580586,True
+PortScan,PortScan,0.7859483,True
+PortScan,PortScan,0.9784516,True
+PortScan,PortScan,0.9950217,True
+PortScan,PortScan,0.99404114,True
+PortScan,PortScan,0.9031573,True
+PortScan,PortScan,0.9973247,True
+PortScan,PortScan,0.98725015,True
+PortScan,PortScan,0.80760705,True
+PortScan,PortScan,0.90031177,True
+PortScan,PortScan,0.994362,True
+PortScan,PortScan,0.85353154,True
+PortScan,PortScan,0.76211166,True
+PortScan,PortScan,0.77447456,True
+PortScan,PortScan,0.89678675,True
+PortScan,PortScan,0.9901867,True
+PortScan,PortScan,0.9433662,True
+PortScan,PortScan,0.9729011,True
+PortScan,PortScan,0.743332,True
+PortScan,PortScan,0.9766099,True
+PortScan,PortScan,0.9258667,True
+PortScan,PortScan,0.97598845,True
+PortScan,PortScan,0.9967223,True
+PortScan,PortScan,0.98630005,True
+PortScan,PortScan,0.9954912,True
+PortScan,PortScan,0.8396743,True
+PortScan,PortScan,0.9900423,True
+PortScan,PortScan,0.9919037,True
+PortScan,PortScan,0.9336131,True
+PortScan,PortScan,0.9784873,True
+PortScan,PortScan,0.89557076,True
+PortScan,PortScan,0.9596236,True
+PortScan,PortScan,0.7430606,True
+PortScan,PortScan,0.992716,True
+PortScan,PortScan,0.91378164,True
+PortScan,PortScan,0.9890667,True
+PortScan,PortScan,0.8662562,True
+PortScan,PortScan,0.8793661,True
+PortScan,PortScan,0.742543,True
+PortScan,PortScan,0.9649485,True
+PortScan,PortScan,0.98321414,True
+PortScan,PortScan,0.9399728,True
+PortScan,PortScan,0.98613316,True
+PortScan,PortScan,0.98733974,True
+PortScan,PortScan,0.89940554,True
+PortScan,PortScan,0.81875086,True
+PortScan,PortScan,0.85698754,True
+PortScan,PortScan,0.828063,True
+PortScan,PortScan,0.8537835,True
+PortScan,PortScan,0.9864362,True
+PortScan,PortScan,0.9484554,True
+PortScan,PortScan,0.9905868,True
+PortScan,PortScan,0.99161434,True
+PortScan,PortScan,0.8333317,True
+PortScan,PortScan,0.99763656,True
+PortScan,PortScan,0.49573416,True
+PortScan,PortScan,0.8261981,True
+PortScan,PortScan,0.98778176,True
+PortScan,PortScan,0.8552262,True
+PortScan,PortScan,0.84008217,True
+PortScan,PortScan,0.9965179,True
+PortScan,PortScan,0.7319609,True
+PortScan,PortScan,0.99093527,True
+PortScan,PortScan,0.8910174,True
+PortScan,PortScan,0.874872,True
+PortScan,PortScan,0.98644596,True
+PortScan,PortScan,0.83498985,True
+PortScan,PortScan,0.9971886,True
+PortScan,PortScan,0.8483556,True
+PortScan,PortScan,0.8760402,True
+PortScan,PortScan,0.99262106,True
+PortScan,PortScan,0.8992856,True
+PortScan,PortScan,0.9650697,True
+PortScan,PortScan,0.8787792,True
+PortScan,PortScan,0.9926831,True
+PortScan,PortScan,0.90914667,True
+PortScan,PortScan,0.9503886,True
+PortScan,PortScan,0.89879006,True
+PortScan,PortScan,0.90879256,True
+PortScan,PortScan,0.8522188,True
+PortScan,PortScan,0.98893857,True
+PortScan,PortScan,0.9908833,True
+PortScan,PortScan,0.8650841,True
+PortScan,PortScan,0.9957949,True
+PortScan,PortScan,0.8382496,True
+PortScan,PortScan,0.98084,True
+PortScan,PortScan,0.8797465,True
+PortScan,PortScan,0.9281583,True
+PortScan,PortScan,0.9931671,True
+PortScan,PortScan,0.90755796,True
+PortScan,PortScan,0.9011216,True
+PortScan,BENIGN,0.96182877,False
+PortScan,PortScan,0.8243716,True
+PortScan,PortScan,0.9830474,True
+PortScan,PortScan,0.99569786,True
+PortScan,PortScan,0.9258769,True
+PortScan,PortScan,0.8838134,True
+PortScan,PortScan,0.9860584,True
+PortScan,PortScan,0.98613876,True
+PortScan,PortScan,0.76824623,True
+PortScan,PortScan,0.89255047,True
+PortScan,PortScan,0.9955449,True
+PortScan,PortScan,0.86003065,True
+PortScan,PortScan,0.86452717,True
+PortScan,PortScan,0.9621429,True
+PortScan,PortScan,0.99496174,True
+PortScan,PortScan,0.86163265,True
+PortScan,PortScan,0.9928918,True
+PortScan,PortScan,0.9861158,True
+PortScan,PortScan,0.99407935,True
+PortScan,PortScan,0.99495775,True
+PortScan,PortScan,0.99757475,True
+PortScan,PortScan,0.9563306,True
+PortScan,PortScan,0.8570926,True
+PortScan,PortScan,0.99659485,True
+PortScan,PortScan,0.9807577,True
+PortScan,PortScan,0.98611915,True
+PortScan,PortScan,0.8566332,True
+PortScan,PortScan,0.8030027,True
+PortScan,PortScan,0.8258962,True
+PortScan,PortScan,0.98692906,True
+PortScan,PortScan,0.9663014,True
+PortScan,PortScan,0.97488153,True
+PortScan,PortScan,0.8142336,True
+PortScan,PortScan,0.9922512,True
+PortScan,PortScan,0.85491127,True
+PortScan,PortScan,0.9568109,True
+PortScan,PortScan,0.9969062,True
+PortScan,PortScan,0.8842743,True
+PortScan,PortScan,0.9943515,True
+PortScan,PortScan,0.91835105,True
+PortScan,PortScan,0.9943362,True
+PortScan,PortScan,0.8496902,True
+PortScan,PortScan,0.73610604,True
+PortScan,PortScan,0.9955515,True
+PortScan,PortScan,0.9905662,True
+PortScan,PortScan,0.9889897,True
+PortScan,PortScan,0.8467785,True
+PortScan,PortScan,0.84383315,True
+PortScan,PortScan,0.96966594,True
+PortScan,PortScan,0.98031837,True
+PortScan,PortScan,0.8829807,True
+PortScan,PortScan,0.80987966,True
+PortScan,PortScan,0.99499965,True
+PortScan,PortScan,0.7544418,True
+PortScan,PortScan,0.9666145,True
+PortScan,PortScan,0.9910443,True
+PortScan,PortScan,0.91851497,True
+PortScan,PortScan,0.99590755,True
+PortScan,PortScan,0.782709,True
+PortScan,PortScan,0.9977615,True
+PortScan,PortScan,0.9931384,True
+PortScan,PortScan,0.85961235,True
+PortScan,PortScan,0.80863863,True
+PortScan,PortScan,0.9897955,True
+PortScan,PortScan,0.879159,True
+PortScan,PortScan,0.9949804,True
+PortScan,PortScan,0.8569218,True
+PortScan,PortScan,0.97026485,True
+Bot,Bot,0.99759346,True
+Bot,Bot,0.99700016,True
+Bot,Bot,0.93039584,True
+Bot,Bot,0.9975942,True
+Bot,Bot,0.88067055,True
+Bot,Bot,0.9976204,True
+Bot,Bot,0.9976299,True
+Bot,Bot,0.84353757,True
+Bot,Bot,0.99699926,True
+Bot,Bot,0.99762076,True
+Bot,Bot,0.99699736,True
+Bot,Bot,0.87624013,True
+Bot,Bot,0.99759823,True
+Bot,Bot,0.9969969,True
+Bot,Bot,0.99759454,True
+Bot,Bot,0.84584326,True
+Bot,Bot,0.99157786,True
+Bot,Bot,0.9969975,True
+Bot,Bot,0.9975925,True
+Bot,Bot,0.99699867,True
+Bot,Bot,0.863088,True
+Bot,Bot,0.88538474,True
+Bot,Bot,0.9969971,True
+Bot,Bot,0.9976205,True
+Bot,Bot,0.997621,True
+Bot,Bot,0.99761295,True
+Bot,Bot,0.9969969,True
+Bot,Bot,0.9517885,True
+Bot,Bot,0.997612,True
+Bot,Bot,0.99762076,True
+Bot,Bot,0.94422126,True
+Bot,Bot,0.9969989,True
+Bot,Bot,0.99761164,True
+Bot,Bot,0.996997,True
+Bot,Bot,0.9970009,True
+Bot,Bot,0.99753064,True
+Bot,Bot,0.9969963,True
+Bot,Bot,0.8241633,True
+Bot,Bot,0.9969976,True
+Bot,Bot,0.9975999,True
+Bot,Bot,0.9976221,True
+Bot,Bot,0.99762064,True
+Bot,Bot,0.8792647,True
+Bot,Bot,0.92984223,True
+Bot,Bot,0.99761486,True
+Bot,Bot,0.99762064,True
+Bot,Bot,0.93842465,True
+Bot,Bot,0.9969997,True
+Bot,Bot,0.996999,True
+Bot,Bot,0.875446,True
+Bot,Bot,0.99762005,True
+Bot,Bot,0.84200144,True
+Bot,Bot,0.7689731,True
+Bot,Bot,0.9533084,True
+Bot,Bot,0.9969969,True
+Bot,Bot,0.9969976,True
+Bot,Bot,0.8655884,True
+Bot,Bot,0.7692909,True
+Bot,Bot,0.9970009,True
+Bot,Bot,0.9976216,True
+Bot,Bot,0.86314857,True
+Bot,Bot,0.99762017,True
+Bot,Bot,0.9976215,True
+Bot,Bot,0.9969976,True
+Bot,Bot,0.9297762,True
+Bot,Bot,0.742263,True
+Bot,Bot,0.78454393,True
+Bot,Bot,0.9975937,True
+Bot,Bot,0.9975998,True
+Bot,Bot,0.9976199,True
+Bot,Bot,0.90675133,True
+Bot,Bot,0.9969969,True
+Bot,Bot,0.99699676,True
+Bot,Bot,0.99761534,True
+Bot,Bot,0.9976284,True
+Bot,Bot,0.95091254,True
+Bot,Bot,0.9969989,True
+Bot,Bot,0.86719525,True
+Bot,Bot,0.9976209,True
+Bot,Bot,0.996997,True
+Bot,Bot,0.9975931,True
+Bot,Bot,0.99700075,True
+Bot,Bot,0.87460715,True
+Bot,Bot,0.99753004,True
+Bot,Bot,0.9514583,True
+Bot,Bot,0.8593846,True
+Bot,Bot,0.8586441,True
+Bot,Bot,0.99749786,True
+Bot,Bot,0.8747823,True
+Bot,Bot,0.95112836,True
+Bot,Bot,0.99699724,True
+Bot,Bot,0.85816866,True
+Bot,Bot,0.99762076,True
+Bot,Bot,0.954411,True
+Bot,Bot,0.99763,True
+Bot,Bot,0.92934006,True
+Bot,Bot,0.84359217,True
+Bot,Bot,0.8751857,True
+Bot,Bot,0.9651782,True
+Bot,Bot,0.84174174,True
+Bot,Bot,0.9300547,True
+Bot,Bot,0.88980687,True
+Bot,Bot,0.9976133,True
+Bot,Bot,0.99305314,True
+Bot,Bot,0.99762875,True
+Bot,Bot,0.99699783,True
+Bot,Bot,0.93808895,True
+Bot,Bot,0.99699724,True
+Bot,Bot,0.838262,True
+Bot,Bot,0.92933017,True
+Bot,Bot,0.9969969,True
+Bot,Bot,0.9970003,True
+Bot,Bot,0.86550593,True
+Bot,Bot,0.9970048,True
+Bot,Bot,0.88546365,True
+Bot,Bot,0.9975631,True
+Bot,Bot,0.99762064,True
+Bot,Bot,0.99326354,True
+Bot,Bot,0.87321556,True
+Bot,Bot,0.9976203,True
+Bot,Bot,0.99762064,True
+Bot,Bot,0.8643164,True
+Bot,Bot,0.99699855,True
+Bot,Bot,0.9970003,True
+Bot,Bot,0.9299741,True
+Bot,Bot,0.99762326,True
+Bot,Bot,0.9969969,True
+Bot,Bot,0.9976246,True
+Bot,Bot,0.68833363,True
+Bot,Bot,0.86519176,True
+Bot,Bot,0.9976203,True
+Bot,Bot,0.9975926,True
+Bot,Bot,0.997001,True
+Bot,Bot,0.95228404,True
+Bot,Bot,0.9969977,True
+Bot,Bot,0.99761164,True
+Bot,Bot,0.9969969,True
+Bot,BENIGN,0.7295304,False
+Bot,Bot,0.8850616,True
+Bot,Bot,0.99762017,True
+Bot,Bot,0.9976126,True
+Bot,Bot,0.99762976,True
+Bot,Bot,0.997623,True
+Bot,Bot,0.9970024,True
+Bot,Bot,0.94844747,True
+Bot,Bot,0.9969965,True
+Bot,Bot,0.99762076,True
+Bot,Bot,0.9970024,True
+Bot,Bot,0.87756336,True
+Bot,Bot,0.9970009,True
+Bot,Bot,0.9976252,True
+Bot,Bot,0.53504956,True
+Bot,Bot,0.9976199,True
+Bot,Bot,0.9969969,True
+Bot,Bot,0.99761164,True
+Bot,Bot,0.95706916,True
+Bot,Bot,0.9976299,True
+Bot,Bot,0.855332,True
+Bot,Bot,0.9976291,True
+Bot,Bot,0.99699724,True
+Bot,Bot,0.84580433,True
+Bot,Bot,0.9976126,True
+Bot,Bot,0.99762124,True
+Bot,Bot,0.99700254,True
+Bot,Bot,0.8384192,True
+Bot,Bot,0.99762017,True
+Bot,Bot,0.9970009,True
+Bot,Bot,0.9976121,True
+Bot,Bot,0.996999,True
+Bot,Bot,0.9975937,True
+Bot,Bot,0.9976204,True
+Bot,Bot,0.9975343,True
+Bot,Bot,0.9518116,True
+Bot,Bot,0.7759021,True
+Bot,Bot,0.99700075,True
+Bot,Bot,0.89852023,True
+Bot,Bot,0.99761236,True
+Bot,Bot,0.93778604,True
+Bot,Bot,0.8899553,True
+Bot,Bot,0.99700016,True
+Bot,Bot,0.99762017,True
+Bot,Bot,0.89717174,True
+Bot,Bot,0.99750155,True
+Bot,Bot,0.9969989,True
+Bot,Bot,0.9969969,True
+Bot,Bot,0.9376029,True
+Bot,Bot,0.8565983,True
+Bot,Bot,0.8580021,True
+Bot,Bot,0.9378216,True
+Bot,Bot,0.99762017,True
+Bot,Bot,0.9969994,True
+Bot,Bot,0.9976199,True
+Bot,Bot,0.9969969,True
+Bot,Bot,0.93019706,True
+Bot,Bot,0.9969983,True
+Bot,Bot,0.99762017,True
+Bot,Bot,0.8905573,True
+Bot,Bot,0.99762017,True
+Bot,Bot,0.9969977,True
+Bot,Bot,0.99763024,True
+Bot,Bot,0.9969997,True
+Bot,Bot,0.9976286,True
+Bot,Bot,0.9975018,True
+Bot,Bot,0.9969983,True
+Bot,Bot,0.9976283,True
+Bot,Bot,0.99762017,True
+Bot,Bot,0.9969969,True
+Bot,Bot,0.99759346,True
+Bot,Bot,0.85708183,True
+Bot,Bot,0.85939986,True
+Bot,Bot,0.9123168,True
+Bot,Bot,0.99753004,True
+Bot,Bot,0.9969969,True
+Bot,Bot,0.996997,True
+Bot,Bot,0.9969969,True
+Bot,Bot,0.99762005,True
+Bot,Bot,0.9976292,True
+Bot,Bot,0.9969977,True
+Bot,Bot,0.85531145,True
+Bot,Bot,0.997621,True
+Bot,Bot,0.997593,True
+Bot,Bot,0.9970009,True
+Bot,Bot,0.9976205,True
+Bot,Bot,0.9976205,True
+Bot,Bot,0.99762076,True
+Bot,Bot,0.9313557,True
+Bot,Bot,0.9976119,True
+Bot,Bot,0.9969975,True
+Bot,Bot,0.8517069,True
+Bot,Bot,0.94973594,True
+Bot,Bot,0.8229253,True
+Bot,Bot,0.85464835,True
+Bot,Bot,0.8482378,True
+Bot,Bot,0.87218726,True
+Bot,Bot,0.9970009,True
+Bot,Bot,0.99762243,True
+Bot,Bot,0.9969982,True
+Bot,Bot,0.90492535,True
+Bot,Bot,0.9976292,True
+Bot,Bot,0.82722276,True
+Bot,Bot,0.99399453,True
+Bot,Bot,0.9975932,True
+Bot,Bot,0.9969969,True
+Bot,Bot,0.84815264,True
+Bot,Bot,0.86702365,True
+Bot,Bot,0.99762005,True
+Bot,Bot,0.99699867,True
+Bot,Bot,0.9976203,True
+Bot,Bot,0.9975552,True
+Bot,Bot,0.9970009,True
+Bot,Bot,0.8503266,True
+Bot,Bot,0.9975005,True
+Bot,Bot,0.9302488,True
+Bot,Bot,0.86324763,True
+Bot,Bot,0.9286831,True
+Bot,Bot,0.863111,True
+Bot,Bot,0.9970009,True
+Bot,Bot,0.99762076,True
+Bot,Bot,0.99761176,True
+Bot,Bot,0.8762466,True
+Bot,Bot,0.99762183,True
+Bot,Bot,0.8904405,True
+Bot,Bot,0.99762076,True
+Bot,Bot,0.8409489,True
+Bot,Bot,0.8594534,True
+Bot,Bot,0.8498207,True
+Bot,Bot,0.9976131,True
+Bot,Bot,0.863093,True
+Bot,Bot,0.99761355,True
+Bot,Bot,0.99753076,True
+Bot,Bot,0.9969969,True
+Bot,Bot,0.9969982,True
+Bot,Bot,0.9969969,True
+Bot,Bot,0.9970028,True
+Bot,Bot,0.99762076,True
+Bot,Bot,0.9976205,True
+Bot,Bot,0.9976203,True
+Bot,Bot,0.85818726,True
+Bot,Bot,0.8414504,True
+Bot,Bot,0.8561706,True
+Bot,Bot,0.9976204,True
+Bot,Bot,0.8745777,True
+Bot,Bot,0.99753124,True
+Bot,Bot,0.997537,True
+Bot,Bot,0.9976286,True
+Bot,Bot,0.87564737,True
+Bot,Bot,0.8588296,True
+Bot,Bot,0.8545901,True
+Bot,Bot,0.82673603,True
+Bot,Bot,0.93038553,True
+Bot,Bot,0.99762005,True
+Bot,Bot,0.99762005,True
+Bot,Bot,0.9969983,True
+Bot,Bot,0.8743208,True
+Bot,Bot,0.9301982,True
+Bot,Bot,0.9976126,True
+Bot,Bot,0.85864836,True
+Bot,Bot,0.87619245,True
+Bot,Bot,0.9969969,True
+Bot,Bot,0.99759275,True
+Infiltration,BENIGN,0.99236417,False
+Infiltration,Infiltration,0.7115102,True
+Infiltration,BENIGN,0.58244675,False
+Infiltration,Infiltration,0.7093051,True
+Infiltration,BENIGN,0.9444463,False
+Infiltration,Infiltration,0.89179784,True
+Infiltration,Infiltration,0.5645629,True
+Infiltration,Infiltration,0.61566275,True
+Infiltration,BENIGN,0.9997745,False
+Infiltration,BENIGN,0.99924755,False
+Infiltration,Infiltration,0.93412375,True
+Infiltration,Infiltration,0.9775044,True
+Infiltration,Infiltration,0.77534914,True
+Infiltration,Infiltration,0.92168903,True
+Infiltration,Infiltration,0.8256338,True
+Infiltration,Infiltration,0.9279597,True
+Infiltration,Infiltration,0.5002832,True
+Infiltration,Infiltration,0.9405297,True
+Infiltration,Infiltration,0.93524706,True
+Infiltration,BENIGN,0.80826795,False
+Infiltration,Infiltration,0.5955775,True
+Infiltration,BENIGN,0.553554,False
+Infiltration,BENIGN,0.9939855,False
+Infiltration,Infiltration,0.9129966,True
+Infiltration,Infiltration,0.55754066,True
+Infiltration,Infiltration,0.9747167,True
+Infiltration,Infiltration,0.8924316,True
+Infiltration,Infiltration,0.90355176,True
+Infiltration,Infiltration,0.7491453,True
+Infiltration,Infiltration,0.74341965,True
+Infiltration,Infiltration,0.8344406,True
+Infiltration,Infiltration,0.7552497,True
+Infiltration,BENIGN,0.9556867,False
+Infiltration,Infiltration,0.7580123,True
+Infiltration,Infiltration,0.8916665,True
+Infiltration,Infiltration,0.94257337,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.9891054,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4962038,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49378273,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49480328,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4958076,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49181604,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49289057,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49569002,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49761626,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.9863949,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4887,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4967479,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49372414,True
+Web Attack ï¿½ Brute Force,SSH-Patator,0.85983926,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.8789406,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4902036,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49107724,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4927847,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49769044,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49038327,True
+Web Attack ï¿½ Brute Force,SSH-Patator,0.7634413,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49057144,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49345246,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.8779705,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49276683,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49862015,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.8503392,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.98639005,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4896429,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4885505,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49531797,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.48872724,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49294218,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4904511,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4900815,True
+Web Attack ï¿½ Brute Force,SSH-Patator,0.46150914,True
+Web Attack ï¿½ Brute Force,SSH-Patator,0.5954552,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49603269,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49214172,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4949227,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49133593,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4924754,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49242756,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4946007,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49090487,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49039984,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49261078,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4940632,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49138936,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.8514593,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49593216,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49357656,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49731654,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49124664,True
+Web Attack ï¿½ Brute Force,SSH-Patator,0.7419548,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49557865,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49146584,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.8521451,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.498923,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49649543,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49239329,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.48862225,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.489505,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49430516,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49314085,True
+Web Attack ï¿½ Brute Force,SSH-Patator,0.776171,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49390402,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4894115,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.48963848,True
+Web Attack ï¿½ Brute Force,SSH-Patator,0.57593566,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49194068,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49055383,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4914084,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49376667,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49608484,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.40985233,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.48937586,True
+Web Attack ï¿½ Brute Force,SSH-Patator,0.76921487,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.97928154,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49256817,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.491745,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.87823045,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49640405,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4971268,True
+Web Attack ï¿½ Brute Force,SSH-Patator,0.66854763,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49604395,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49016756,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49731135,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.491357,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.48855713,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.85302025,True
+Web Attack ï¿½ Brute Force,SSH-Patator,0.8619621,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49001157,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.85055,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49885553,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49929297,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49937314,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49389547,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49427366,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49243972,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4900802,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4947175,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49985513,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4972532,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49977913,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49467915,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49134037,True
+Web Attack ï¿½ Brute Force,SSH-Patator,0.76995987,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4920963,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49680722,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.48976433,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49580482,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49082744,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4934801,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49759164,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49034137,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49226782,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49522287,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.48996216,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.48973048,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.48906088,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4929201,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49305812,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49171358,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49907333,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49198276,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49599755,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4911172,True
+Web Attack ï¿½ Brute Force,SSH-Patator,0.73427206,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.98552436,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.48917326,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49395707,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49660435,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49448508,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49323177,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.8778927,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.495074,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49553794,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49959138,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4955434,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49515483,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49400687,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49978516,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49344388,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49038097,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.48899925,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.492888,True
+Web Attack ï¿½ Brute Force,SSH-Patator,0.46150914,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49436677,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.48971808,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.494766,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4959613,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49143824,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49482715,True
+Web Attack ï¿½ Brute Force,SSH-Patator,0.8543166,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49630767,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49622962,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49974275,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.9893059,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.98910916,True
+Web Attack ï¿½ Brute Force,SSH-Patator,0.7262606,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49942684,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49226004,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.48932374,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49260002,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49054226,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.48964694,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.48906356,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4930933,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49164826,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.48887512,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49733794,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.5000528,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4893572,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.8526239,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49851403,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49950796,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.48893934,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4893387,True
+Web Attack ï¿½ Brute Force,SSH-Patator,0.6595142,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.9792691,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49421746,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49901733,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.48949042,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49131316,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.48988044,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49312353,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49293435,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4945193,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49221513,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49757436,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49012232,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49683183,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49211568,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49201217,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49249792,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4988076,True
+Web Attack ï¿½ Brute Force,SSH-Patator,0.8597053,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49034733,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49755198,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.48878202,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49371198,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49066386,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49363762,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.48999223,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.48888907,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49471965,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.8519939,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4912683,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4941012,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4947231,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.48849943,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.48967108,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4958672,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49660754,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49147555,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49547502,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4963072,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4966367,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49355745,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.8781557,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49865377,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49218118,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49572617,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4910685,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49209177,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49432424,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.87874573,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49578694,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49116752,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49593538,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49336743,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49615195,True
+Web Attack ï¿½ Brute Force,SSH-Patator,0.74945086,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49240553,True
+Web Attack ï¿½ Brute Force,BENIGN,0.48330772,False
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4988988,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49565446,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4989421,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49464503,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49345914,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49791357,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49383795,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49885985,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49563426,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.8506648,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49276966,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.48904082,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4912785,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.98022765,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49799728,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49871823,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.87821656,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49303836,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49884462,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49584228,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49183375,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.48950672,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4891764,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49478176,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49226153,True
+Web Attack ï¿½ Brute Force,SSH-Patator,0.7419548,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4910403,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4972999,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49345216,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.98551774,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49690312,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.48971224,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49487492,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4963812,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49287933,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49577346,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49839318,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49638197,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49773365,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4939195,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4978901,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4945176,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49853563,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49128047,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49393415,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49012196,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4888276,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4979305,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4916894,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49104816,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49242178,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.48852623,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49892223,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4892714,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.50382394,True
+Web Attack ï¿½ Brute Force,BENIGN,0.5627665,False
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4906566,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49599895,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.97584116,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.49485758,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.49176395,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ XSS,0.4966918,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.8783819,True
+Web Attack ï¿½ Brute Force,Web Attack ï¿½ Brute Force,0.4951772,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49659553,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4945213,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49566624,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49143866,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4897954,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4895821,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4970829,True
+Web Attack ï¿½ XSS,DoS Hulk,0.6588189,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.4880678,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49604753,True
+Web Attack ï¿½ XSS,DoS Hulk,0.6587538,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49530217,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49095792,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49960792,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4962628,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49949196,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.4953925,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4906013,True
+Web Attack ï¿½ XSS,DoS Hulk,0.65875876,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4937343,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.48852742,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49679205,True
+Web Attack ï¿½ XSS,DoS GoldenEye,0.97671,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49731594,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49878845,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49245226,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49321362,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49717557,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4913474,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49376935,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49905533,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4980526,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49633956,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49510765,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49290928,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49448735,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.38248363,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49708992,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49882212,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49722332,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49257475,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4942524,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49046618,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49626744,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49508175,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.9416979,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49430063,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.48891687,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49012586,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49805224,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.48971927,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49367532,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4961397,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49039394,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49701574,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49239573,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49308485,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49122167,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.4893355,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.4953625,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.490506,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49269453,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49560475,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49601263,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.48889157,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4929048,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.48983228,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49038655,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.48884502,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49953112,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49760315,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49956807,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49544862,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49522084,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49352115,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49933684,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4904957,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49664834,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49296993,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49628627,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49811444,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49104464,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49919632,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4941686,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4987395,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49232602,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49468833,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49635735,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49595696,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49723306,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49543136,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49171975,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.48999056,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49064112,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49058822,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49627924,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4976795,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4972403,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49219948,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.48988417,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49940747,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4983905,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49450186,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.48911425,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49740872,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49634185,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49235415,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.4897064,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49034038,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49370477,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4955675,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.4937113,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49120054,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49392948,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.4957649,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49956983,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4965745,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4946406,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4935722,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4923587,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49767944,True
+Web Attack ï¿½ XSS,PortScan,0.56395775,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.48870906,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49049875,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4950501,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49441555,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49649483,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4928016,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4967863,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4917943,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4910809,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49875084,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4925072,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49713445,True
+Web Attack ï¿½ XSS,DoS GoldenEye,0.99317706,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49820757,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.48988262,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49221942,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49052528,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49593502,True
+Web Attack ï¿½ XSS,DoS Hulk,0.6587543,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49252245,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49786925,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49787983,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49640712,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49599618,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4948365,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4953964,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.48896745,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.48919544,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4937929,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49395707,True
+Web Attack ï¿½ XSS,DoS Hulk,0.6587533,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.50724447,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49421117,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49551085,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49296054,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49821597,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4972077,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4963869,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.7220025,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.489527,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.48999223,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49116224,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4884685,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49750906,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49288794,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4916247,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49428886,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49951822,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49494454,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49478048,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4907262,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49118507,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4901635,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49535692,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.7114105,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.45811856,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.4886881,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49434194,True
+Web Attack ï¿½ XSS,DoS Hulk,0.6587624,True
+Web Attack ï¿½ XSS,DoS Hulk,0.9930917,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49225703,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49398643,True
+Web Attack ï¿½ XSS,SSH-Patator,0.8633508,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49626434,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49050277,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.9442184,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4972053,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4918778,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4997527,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49189302,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4982566,True
+Web Attack ï¿½ XSS,DoS Hulk,0.6587601,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49098763,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.48900285,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4907627,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49020177,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.48928115,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4927475,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49838635,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4926957,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49058384,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49888402,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49276468,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4961982,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.4884938,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.4920314,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49177694,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4892944,True
+Web Attack ï¿½ XSS,DoS Hulk,0.6587517,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49630684,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49493518,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4936888,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.4928927,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49812487,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49376726,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49065697,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4961221,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4938329,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4893819,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49321038,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4928527,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.4910224,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49601385,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49014586,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49627876,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49762252,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.94181037,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49389225,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49500138,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49005827,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.48918295,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.499963,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49365342,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.48960495,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.4959498,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.9402296,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49131683,True
+Web Attack ï¿½ XSS,SSH-Patator,0.8661964,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49628076,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49371037,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4944099,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49895963,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49571076,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49454904,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.4948393,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.939443,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.4903965,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49404514,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.48901093,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49179614,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49980614,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49145937,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.4497396,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.48845243,True
+Web Attack ï¿½ XSS,DoS Hulk,0.65875655,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49126074,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.9423632,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49159202,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49664465,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4904978,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49195874,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.48875114,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.94148916,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.496687,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4916391,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49809375,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49617592,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4976459,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49869758,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4969017,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49214813,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4975308,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49370006,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49615946,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49495575,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.4887654,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4994058,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49244046,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.48904428,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49908376,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49409306,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49592406,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.34905615,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.50491,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49020922,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4972086,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4942957,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4891276,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.48881647,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49081606,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4937826,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.49621043,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4927419,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49820024,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.4893239,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.49233335,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ Brute Force,0.48857176,True
+Web Attack ï¿½ XSS,Web Attack ï¿½ XSS,0.4886913,True
+Web Attack ï¿½ Sql Injection,Web Attack ï¿½ Sql Injection,0.38303187,True
+Web Attack ï¿½ Sql Injection,SSH-Patator,0.8542308,True
+Web Attack ï¿½ Sql Injection,Web Attack ï¿½ Sql Injection,0.43006858,True
+Web Attack ï¿½ Sql Injection,BENIGN,0.22675742,False
+Web Attack ï¿½ Sql Injection,DoS GoldenEye,0.97313774,True
+Web Attack ï¿½ Sql Injection,DoS GoldenEye,0.51903516,True
+Web Attack ï¿½ Sql Injection,Web Attack ï¿½ Sql Injection,0.3831246,True
+Web Attack ï¿½ Sql Injection,SSH-Patator,0.85407454,True
+Web Attack ï¿½ Sql Injection,DoS GoldenEye,0.87723154,True
+Web Attack ï¿½ Sql Injection,SSH-Patator,0.6863407,True
+Web Attack ï¿½ Sql Injection,Web Attack ï¿½ Brute Force,0.5502041,True
+Web Attack ï¿½ Sql Injection,SSH-Patator,0.6772695,True
+Web Attack ï¿½ Sql Injection,DoS GoldenEye,0.9436538,True
+Web Attack ï¿½ Sql Injection,SSH-Patator,0.73153037,True
+Web Attack ï¿½ Sql Injection,Web Attack ï¿½ Brute Force,0.55958074,True
+Web Attack ï¿½ Sql Injection,DoS GoldenEye,0.49842858,True
+Web Attack ï¿½ Sql Injection,DoS GoldenEye,0.54216653,True
+Web Attack ï¿½ Sql Injection,SSH-Patator,0.5474292,True
+Web Attack ï¿½ Sql Injection,Web Attack ï¿½ Sql Injection,0.41467696,True
+Web Attack ï¿½ Sql Injection,SSH-Patator,0.86505985,True
+Web Attack ï¿½ Sql Injection,SSH-Patator,0.84871507,True
+FTP-Patator,FTP-Patator,0.99862623,True
+FTP-Patator,FTP-Patator,0.9940196,True
+FTP-Patator,FTP-Patator,0.9940202,True
+FTP-Patator,FTP-Patator,0.99370295,True
+FTP-Patator,FTP-Patator,0.99630713,True
+FTP-Patator,FTP-Patator,0.9995821,True
+FTP-Patator,FTP-Patator,0.99393386,True
+FTP-Patator,FTP-Patator,0.9939984,True
+FTP-Patator,FTP-Patator,0.9940042,True
+FTP-Patator,FTP-Patator,0.9940003,True
+FTP-Patator,FTP-Patator,0.9940181,True
+FTP-Patator,FTP-Patator,0.9939948,True
+FTP-Patator,FTP-Patator,0.9984515,True
+FTP-Patator,FTP-Patator,0.99370295,True
+FTP-Patator,FTP-Patator,0.99399275,True
+FTP-Patator,FTP-Patator,0.9939984,True
+FTP-Patator,FTP-Patator,0.9995535,True
+FTP-Patator,FTP-Patator,0.9995365,True
+FTP-Patator,FTP-Patator,0.99400556,True
+FTP-Patator,FTP-Patator,0.99949396,True
+FTP-Patator,FTP-Patator,0.9994783,True
+FTP-Patator,FTP-Patator,0.99953914,True
+FTP-Patator,FTP-Patator,0.9995259,True
+FTP-Patator,FTP-Patator,0.99956447,True
+FTP-Patator,FTP-Patator,0.99402076,True
+FTP-Patator,FTP-Patator,0.99400556,True
+FTP-Patator,FTP-Patator,0.9995425,True
+FTP-Patator,FTP-Patator,0.99948657,True
+FTP-Patator,FTP-Patator,0.99951935,True
+FTP-Patator,FTP-Patator,0.9995567,True
+FTP-Patator,FTP-Patator,0.9994723,True
+FTP-Patator,FTP-Patator,0.99958247,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.99370295,True
+FTP-Patator,FTP-Patator,0.9940118,True
+FTP-Patator,FTP-Patator,0.99402076,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.9995276,True
+FTP-Patator,FTP-Patator,0.9939499,True
+FTP-Patator,FTP-Patator,0.9940088,True
+FTP-Patator,FTP-Patator,0.99393386,True
+FTP-Patator,FTP-Patator,0.9995327,True
+FTP-Patator,FTP-Patator,0.99956757,True
+FTP-Patator,FTP-Patator,0.9994418,True
+FTP-Patator,FTP-Patator,0.99862623,True
+FTP-Patator,FTP-Patator,0.9939653,True
+FTP-Patator,FTP-Patator,0.9995697,True
+FTP-Patator,FTP-Patator,0.993883,True
+FTP-Patator,FTP-Patator,0.9996056,True
+FTP-Patator,FTP-Patator,0.9984515,True
+FTP-Patator,FTP-Patator,0.9995546,True
+FTP-Patator,FTP-Patator,0.99630713,True
+FTP-Patator,FTP-Patator,0.99952567,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.9995577,True
+FTP-Patator,FTP-Patator,0.9940118,True
+FTP-Patator,FTP-Patator,0.99398094,True
+FTP-Patator,FTP-Patator,0.993874,True
+FTP-Patator,FTP-Patator,0.9995216,True
+FTP-Patator,FTP-Patator,0.9940202,True
+FTP-Patator,FTP-Patator,0.9995432,True
+FTP-Patator,FTP-Patator,0.99401313,True
+FTP-Patator,FTP-Patator,0.99370813,True
+FTP-Patator,FTP-Patator,0.9939849,True
+FTP-Patator,FTP-Patator,0.9939464,True
+FTP-Patator,FTP-Patator,0.99402076,True
+FTP-Patator,FTP-Patator,0.99862623,True
+FTP-Patator,FTP-Patator,0.9995708,True
+FTP-Patator,FTP-Patator,0.99394447,True
+FTP-Patator,FTP-Patator,0.99944896,True
+FTP-Patator,FTP-Patator,0.99951625,True
+FTP-Patator,FTP-Patator,0.99954945,True
+FTP-Patator,FTP-Patator,0.99959046,True
+FTP-Patator,FTP-Patator,0.9995666,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.9995435,True
+FTP-Patator,FTP-Patator,0.9939731,True
+FTP-Patator,FTP-Patator,0.9995728,True
+FTP-Patator,FTP-Patator,0.99401313,True
+FTP-Patator,FTP-Patator,0.9995316,True
+FTP-Patator,FTP-Patator,0.99381953,True
+FTP-Patator,FTP-Patator,0.99951494,True
+FTP-Patator,FTP-Patator,0.99952805,True
+FTP-Patator,FTP-Patator,0.9995079,True
+FTP-Patator,FTP-Patator,0.9995554,True
+FTP-Patator,FTP-Patator,0.9939633,True
+FTP-Patator,FTP-Patator,0.9995479,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.99393046,True
+FTP-Patator,FTP-Patator,0.999549,True
+FTP-Patator,FTP-Patator,0.9995839,True
+FTP-Patator,FTP-Patator,0.9995524,True
+FTP-Patator,FTP-Patator,0.99943537,True
+FTP-Patator,FTP-Patator,0.99401313,True
+FTP-Patator,FTP-Patator,0.9995511,True
+FTP-Patator,FTP-Patator,0.9939633,True
+FTP-Patator,FTP-Patator,0.9939731,True
+FTP-Patator,FTP-Patator,0.99862623,True
+FTP-Patator,FTP-Patator,0.99402666,True
+FTP-Patator,FTP-Patator,0.99954885,True
+FTP-Patator,FTP-Patator,0.9995709,True
+FTP-Patator,FTP-Patator,0.9995703,True
+FTP-Patator,FTP-Patator,0.99948573,True
+FTP-Patator,FTP-Patator,0.9939791,True
+FTP-Patator,FTP-Patator,0.9940118,True
+FTP-Patator,FTP-Patator,0.9940158,True
+FTP-Patator,FTP-Patator,0.9994697,True
+FTP-Patator,FTP-Patator,0.99401075,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,DoS slowloris,0.90580094,True
+FTP-Patator,FTP-Patator,0.99954623,True
+FTP-Patator,FTP-Patator,0.99401855,True
+FTP-Patator,FTP-Patator,0.99401855,True
+FTP-Patator,FTP-Patator,0.99402034,True
+FTP-Patator,FTP-Patator,0.99399275,True
+FTP-Patator,FTP-Patator,0.99401313,True
+FTP-Patator,FTP-Patator,0.9995987,True
+FTP-Patator,FTP-Patator,0.9939761,True
+FTP-Patator,FTP-Patator,0.99862623,True
+FTP-Patator,FTP-Patator,0.999526,True
+FTP-Patator,FTP-Patator,0.9995504,True
+FTP-Patator,FTP-Patator,0.99370295,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.9994697,True
+FTP-Patator,FTP-Patator,0.99948126,True
+FTP-Patator,FTP-Patator,0.99630713,True
+FTP-Patator,FTP-Patator,0.9994848,True
+FTP-Patator,FTP-Patator,0.99402076,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.99950385,True
+FTP-Patator,FTP-Patator,0.9994986,True
+FTP-Patator,FTP-Patator,0.99954945,True
+FTP-Patator,FTP-Patator,0.9995253,True
+FTP-Patator,FTP-Patator,0.9939374,True
+FTP-Patator,FTP-Patator,0.9995116,True
+FTP-Patator,FTP-Patator,0.9996043,True
+FTP-Patator,FTP-Patator,0.994017,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.9940154,True
+FTP-Patator,FTP-Patator,0.99398094,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.99400556,True
+FTP-Patator,FTP-Patator,0.9939464,True
+FTP-Patator,FTP-Patator,0.99370295,True
+FTP-Patator,FTP-Patator,0.9995821,True
+FTP-Patator,FTP-Patator,0.9995741,True
+FTP-Patator,FTP-Patator,0.99862623,True
+FTP-Patator,FTP-Patator,0.9995478,True
+FTP-Patator,FTP-Patator,0.9940196,True
+FTP-Patator,FTP-Patator,0.9995029,True
+FTP-Patator,FTP-Patator,0.99400556,True
+FTP-Patator,FTP-Patator,0.9995443,True
+FTP-Patator,FTP-Patator,0.99952364,True
+FTP-Patator,FTP-Patator,0.99862623,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.99400723,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.9940118,True
+FTP-Patator,FTP-Patator,0.99957913,True
+FTP-Patator,FTP-Patator,0.99380684,True
+FTP-Patator,FTP-Patator,0.99952435,True
+FTP-Patator,FTP-Patator,0.9995808,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.99950504,True
+FTP-Patator,FTP-Patator,0.9994949,True
+FTP-Patator,FTP-Patator,0.9995278,True
+FTP-Patator,FTP-Patator,0.9995146,True
+FTP-Patator,FTP-Patator,0.9939984,True
+FTP-Patator,FTP-Patator,0.99393564,True
+FTP-Patator,FTP-Patator,0.9995277,True
+FTP-Patator,FTP-Patator,0.9939948,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.9995598,True
+FTP-Patator,FTP-Patator,0.99952316,True
+FTP-Patator,FTP-Patator,0.99402076,True
+FTP-Patator,FTP-Patator,0.9940181,True
+FTP-Patator,FTP-Patator,0.99862623,True
+FTP-Patator,FTP-Patator,0.9995919,True
+FTP-Patator,FTP-Patator,0.9995121,True
+FTP-Patator,FTP-Patator,0.99953234,True
+FTP-Patator,FTP-Patator,0.99949574,True
+FTP-Patator,FTP-Patator,0.9995042,True
+FTP-Patator,FTP-Patator,0.9995034,True
+FTP-Patator,FTP-Patator,0.99370295,True
+FTP-Patator,FTP-Patator,0.9995455,True
+FTP-Patator,FTP-Patator,0.99949896,True
+FTP-Patator,FTP-Patator,0.9939633,True
+FTP-Patator,FTP-Patator,0.9995431,True
+FTP-Patator,FTP-Patator,0.9995105,True
+FTP-Patator,FTP-Patator,0.99946946,True
+FTP-Patator,FTP-Patator,0.9940196,True
+FTP-Patator,FTP-Patator,0.99955314,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.99911934,True
+FTP-Patator,FTP-Patator,0.9995351,True
+FTP-Patator,FTP-Patator,0.9940196,True
+FTP-Patator,FTP-Patator,0.9939966,True
+FTP-Patator,FTP-Patator,0.9939889,True
+FTP-Patator,FTP-Patator,0.99950933,True
+FTP-Patator,FTP-Patator,0.99395186,True
+FTP-Patator,FTP-Patator,0.99947315,True
+FTP-Patator,FTP-Patator,0.9995788,True
+FTP-Patator,FTP-Patator,0.99399513,True
+FTP-Patator,FTP-Patator,0.9995388,True
+FTP-Patator,FTP-Patator,0.9940088,True
+FTP-Patator,FTP-Patator,0.99952245,True
+FTP-Patator,FTP-Patator,0.99953604,True
+FTP-Patator,FTP-Patator,0.99401313,True
+FTP-Patator,FTP-Patator,0.99954766,True
+FTP-Patator,FTP-Patator,0.9940001,True
+FTP-Patator,FTP-Patator,0.99951434,True
+FTP-Patator,FTP-Patator,0.9995135,True
+FTP-Patator,FTP-Patator,0.99370295,True
+FTP-Patator,FTP-Patator,0.99393564,True
+FTP-Patator,FTP-Patator,0.9940196,True
+FTP-Patator,FTP-Patator,0.9984515,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.9995963,True
+FTP-Patator,FTP-Patator,0.9995466,True
+FTP-Patator,FTP-Patator,0.9995436,True
+FTP-Patator,FTP-Patator,0.99370944,True
+FTP-Patator,FTP-Patator,0.99953806,True
+FTP-Patator,FTP-Patator,0.9995104,True
+FTP-Patator,FTP-Patator,0.9995053,True
+FTP-Patator,FTP-Patator,0.9939751,True
+FTP-Patator,FTP-Patator,0.9995931,True
+FTP-Patator,FTP-Patator,0.9940154,True
+FTP-Patator,FTP-Patator,0.999516,True
+FTP-Patator,FTP-Patator,0.9939558,True
+FTP-Patator,FTP-Patator,0.99370295,True
+FTP-Patator,FTP-Patator,0.99952185,True
+FTP-Patator,FTP-Patator,0.999509,True
+FTP-Patator,FTP-Patator,0.99862623,True
+FTP-Patator,FTP-Patator,0.9939114,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.99944454,True
+FTP-Patator,FTP-Patator,0.99862623,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.99954396,True
+FTP-Patator,FTP-Patator,0.9940118,True
+FTP-Patator,FTP-Patator,0.9939692,True
+FTP-Patator,FTP-Patator,0.9995442,True
+FTP-Patator,FTP-Patator,0.9995332,True
+FTP-Patator,FTP-Patator,0.99957603,True
+FTP-Patator,FTP-Patator,0.99950397,True
+FTP-Patator,FTP-Patator,0.9995209,True
+FTP-Patator,FTP-Patator,0.99951863,True
+FTP-Patator,FTP-Patator,0.99954957,True
+FTP-Patator,FTP-Patator,0.99395376,True
+FTP-Patator,FTP-Patator,0.99400556,True
+FTP-Patator,FTP-Patator,0.9939374,True
+FTP-Patator,FTP-Patator,0.99394447,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.9939481,True
+FTP-Patator,FTP-Patator,0.9995223,True
+FTP-Patator,FTP-Patator,0.99401456,True
+FTP-Patator,FTP-Patator,0.9937032,True
+FTP-Patator,FTP-Patator,0.9937034,True
+FTP-Patator,FTP-Patator,0.99959105,True
+FTP-Patator,FTP-Patator,0.9995421,True
+FTP-Patator,FTP-Patator,0.99954444,True
+FTP-Patator,FTP-Patator,0.99948645,True
+FTP-Patator,FTP-Patator,0.9995396,True
+FTP-Patator,FTP-Patator,0.9940158,True
+FTP-Patator,FTP-Patator,0.99393916,True
+FTP-Patator,FTP-Patator,0.9940202,True
+FTP-Patator,FTP-Patator,0.99862623,True
+FTP-Patator,FTP-Patator,0.994017,True
+FTP-Patator,FTP-Patator,0.99401456,True
+FTP-Patator,FTP-Patator,0.9995253,True
+FTP-Patator,FTP-Patator,0.99956125,True
+FTP-Patator,FTP-Patator,0.99955505,True
+FTP-Patator,FTP-Patator,0.9939633,True
+FTP-Patator,FTP-Patator,0.99958295,True
+FTP-Patator,FTP-Patator,0.9939614,True
+FTP-Patator,FTP-Patator,0.9995414,True
+FTP-Patator,FTP-Patator,0.99954873,True
+FTP-Patator,FTP-Patator,0.9940158,True
+FTP-Patator,FTP-Patator,0.9939633,True
+FTP-Patator,FTP-Patator,0.99402064,True
+FTP-Patator,FTP-Patator,0.99949753,True
+FTP-Patator,FTP-Patator,0.9940037,True
+FTP-Patator,FTP-Patator,0.99402076,True
+FTP-Patator,FTP-Patator,0.9995314,True
+FTP-Patator,FTP-Patator,0.99951935,True
+FTP-Patator,FTP-Patator,0.9940202,True
+FTP-Patator,FTP-Patator,0.99400556,True
+FTP-Patator,FTP-Patator,0.99394625,True
+FTP-Patator,FTP-Patator,0.99395186,True
+FTP-Patator,FTP-Patator,0.9995658,True
+FTP-Patator,FTP-Patator,0.9940171,True
+FTP-Patator,FTP-Patator,0.9995252,True
+FTP-Patator,FTP-Patator,0.99949145,True
+FTP-Patator,FTP-Patator,0.99947053,True
+FTP-Patator,FTP-Patator,0.9986064,True
+FTP-Patator,FTP-Patator,0.99945265,True
+FTP-Patator,FTP-Patator,0.99398685,True
+SSH-Patator,SSH-Patator,0.8748442,True
+SSH-Patator,SSH-Patator,0.9967404,True
+SSH-Patator,SSH-Patator,0.8983092,True
+SSH-Patator,SSH-Patator,0.99674326,True
+SSH-Patator,SSH-Patator,0.92825955,True
+SSH-Patator,SSH-Patator,0.99658245,True
+SSH-Patator,SSH-Patator,0.99670863,True
+SSH-Patator,SSH-Patator,0.9968117,True
+SSH-Patator,SSH-Patator,0.9302358,True
+SSH-Patator,SSH-Patator,0.8126832,True
+SSH-Patator,SSH-Patator,0.9965655,True
+SSH-Patator,SSH-Patator,0.9249261,True
+SSH-Patator,SSH-Patator,0.9104038,True
+SSH-Patator,SSH-Patator,0.9966629,True
+SSH-Patator,SSH-Patator,0.922855,True
+SSH-Patator,SSH-Patator,0.8745368,True
+SSH-Patator,SSH-Patator,0.9966191,True
+SSH-Patator,SSH-Patator,0.9967726,True
+SSH-Patator,SSH-Patator,0.8358898,True
+SSH-Patator,SSH-Patator,0.9249311,True
+SSH-Patator,SSH-Patator,0.99674183,True
+SSH-Patator,SSH-Patator,0.9967309,True
+SSH-Patator,SSH-Patator,0.7752485,True
+SSH-Patator,SSH-Patator,0.99564433,True
+SSH-Patator,SSH-Patator,0.99665546,True
+SSH-Patator,SSH-Patator,0.90659523,True
+SSH-Patator,SSH-Patator,0.99658823,True
+SSH-Patator,SSH-Patator,0.99673706,True
+SSH-Patator,SSH-Patator,0.9967269,True
+SSH-Patator,SSH-Patator,0.9215518,True
+SSH-Patator,SSH-Patator,0.93321747,True
+SSH-Patator,SSH-Patator,0.99673355,True
+SSH-Patator,SSH-Patator,0.9969592,True
+SSH-Patator,SSH-Patator,0.8436078,True
+SSH-Patator,SSH-Patator,0.8745368,True
+SSH-Patator,SSH-Patator,0.8126832,True
+SSH-Patator,SSH-Patator,0.9163665,True
+SSH-Patator,SSH-Patator,0.91987157,True
+SSH-Patator,SSH-Patator,0.9287292,True
+SSH-Patator,SSH-Patator,0.99664897,True
+SSH-Patator,SSH-Patator,0.99677074,True
+SSH-Patator,SSH-Patator,0.8883351,True
+SSH-Patator,SSH-Patator,0.922855,True
+SSH-Patator,SSH-Patator,0.8966337,True
+SSH-Patator,SSH-Patator,0.82741433,True
+SSH-Patator,SSH-Patator,0.8938743,True
+SSH-Patator,SSH-Patator,0.92702913,True
+SSH-Patator,SSH-Patator,0.9957968,True
+SSH-Patator,SSH-Patator,0.99670815,True
+SSH-Patator,SSH-Patator,0.99645174,True
+SSH-Patator,SSH-Patator,0.9337248,True
+SSH-Patator,SSH-Patator,0.91051525,True
+SSH-Patator,SSH-Patator,0.9967925,True
+SSH-Patator,SSH-Patator,0.8785415,True
+SSH-Patator,SSH-Patator,0.99722856,True
+SSH-Patator,SSH-Patator,0.996736,True
+SSH-Patator,SSH-Patator,0.9965025,True
+SSH-Patator,SSH-Patator,0.8938652,True
+SSH-Patator,SSH-Patator,0.9171659,True
+SSH-Patator,SSH-Patator,0.9967303,True
+SSH-Patator,SSH-Patator,0.8845413,True
+SSH-Patator,SSH-Patator,0.91987157,True
+SSH-Patator,SSH-Patator,0.9967796,True
+SSH-Patator,SSH-Patator,0.99671364,True
+SSH-Patator,SSH-Patator,0.8983092,True
+SSH-Patator,SSH-Patator,0.93321747,True
+SSH-Patator,SSH-Patator,0.9967393,True
+SSH-Patator,SSH-Patator,0.9966978,True
+SSH-Patator,SSH-Patator,0.90255684,True
+SSH-Patator,SSH-Patator,0.9325408,True
+SSH-Patator,SSH-Patator,0.91455895,True
+SSH-Patator,SSH-Patator,0.84738487,True
+SSH-Patator,SSH-Patator,0.8748442,True
+SSH-Patator,SSH-Patator,0.88928014,True
+SSH-Patator,SSH-Patator,0.75449455,True
+SSH-Patator,SSH-Patator,0.9292859,True
+SSH-Patator,SSH-Patator,0.9958026,True
+SSH-Patator,SSH-Patator,0.2844523,True
+SSH-Patator,SSH-Patator,0.912652,True
+SSH-Patator,SSH-Patator,0.78834677,True
+SSH-Patator,SSH-Patator,0.99672794,True
+SSH-Patator,SSH-Patator,0.9249311,True
+SSH-Patator,SSH-Patator,0.9256867,True
+SSH-Patator,SSH-Patator,0.9957814,True
+SSH-Patator,SSH-Patator,0.99690163,True
+SSH-Patator,SSH-Patator,0.9311049,True
+SSH-Patator,SSH-Patator,0.86673635,True
+SSH-Patator,SSH-Patator,0.90255684,True
+SSH-Patator,SSH-Patator,0.9965701,True
+SSH-Patator,SSH-Patator,0.99674064,True
+SSH-Patator,SSH-Patator,0.996716,True
+SSH-Patator,SSH-Patator,0.996738,True
+SSH-Patator,SSH-Patator,0.99673235,True
+SSH-Patator,SSH-Patator,0.9967841,True
+SSH-Patator,SSH-Patator,0.918139,True
+SSH-Patator,SSH-Patator,0.92825955,True
+SSH-Patator,SSH-Patator,0.99667764,True
+SSH-Patator,SSH-Patator,0.9958015,True
+SSH-Patator,SSH-Patator,0.922855,True
+SSH-Patator,SSH-Patator,0.996548,True
+SSH-Patator,SSH-Patator,0.9966679,True
+SSH-Patator,SSH-Patator,0.9341148,True
+SSH-Patator,SSH-Patator,0.7752485,True
+SSH-Patator,SSH-Patator,0.9325641,True
+SSH-Patator,SSH-Patator,0.9337248,True
+SSH-Patator,SSH-Patator,0.99673116,True
+SSH-Patator,SSH-Patator,0.996797,True
+SSH-Patator,SSH-Patator,0.9967444,True
+SSH-Patator,SSH-Patator,0.99673766,True
+SSH-Patator,SSH-Patator,0.9256867,True
+SSH-Patator,SSH-Patator,0.9242925,True
+SSH-Patator,SSH-Patator,0.99673057,True
+SSH-Patator,SSH-Patator,0.922855,True
+SSH-Patator,SSH-Patator,0.922855,True
+SSH-Patator,FTP-Patator,0.9935846,True
+SSH-Patator,SSH-Patator,0.90659523,True
+SSH-Patator,SSH-Patator,0.9967393,True
+SSH-Patator,SSH-Patator,0.91051525,True
+SSH-Patator,SSH-Patator,0.88928014,True
+SSH-Patator,SSH-Patator,0.8417767,True
+SSH-Patator,SSH-Patator,0.78834677,True
+SSH-Patator,SSH-Patator,0.9302358,True
+SSH-Patator,SSH-Patator,0.9341148,True
+SSH-Patator,SSH-Patator,0.9967944,True
+SSH-Patator,SSH-Patator,0.8623657,True
+SSH-Patator,SSH-Patator,0.9967776,True
+SSH-Patator,SSH-Patator,0.93321747,True
+SSH-Patator,SSH-Patator,0.82971895,True
+SSH-Patator,SSH-Patator,0.99678874,True
+SSH-Patator,SSH-Patator,0.8540806,True
+SSH-Patator,SSH-Patator,0.9341766,True
+SSH-Patator,SSH-Patator,0.912652,True
+SSH-Patator,SSH-Patator,0.99576914,True
+SSH-Patator,SSH-Patator,0.99673104,True
+SSH-Patator,SSH-Patator,0.8708903,True
+SSH-Patator,SSH-Patator,0.8417767,True
+SSH-Patator,SSH-Patator,0.9337248,True
+SSH-Patator,SSH-Patator,0.9969432,True
+SSH-Patator,SSH-Patator,0.92825955,True
+SSH-Patator,SSH-Patator,0.8748442,True
+SSH-Patator,SSH-Patator,0.9163665,True
+SSH-Patator,SSH-Patator,0.9958131,True
+SSH-Patator,SSH-Patator,0.8576905,True
+SSH-Patator,SSH-Patator,0.90153533,True
+SSH-Patator,SSH-Patator,0.99631965,True
+SSH-Patator,SSH-Patator,0.98801154,True
+SSH-Patator,SSH-Patator,0.8623657,True
+SSH-Patator,SSH-Patator,0.9969537,True
+SSH-Patator,SSH-Patator,0.9311049,True
+SSH-Patator,SSH-Patator,0.99648064,True
+SSH-Patator,SSH-Patator,0.9957903,True
+SSH-Patator,SSH-Patator,0.9965842,True
+SSH-Patator,SSH-Patator,0.9256867,True
+SSH-Patator,SSH-Patator,0.92688215,True
+SSH-Patator,SSH-Patator,0.9967314,True
+SSH-Patator,SSH-Patator,0.99673045,True
+SSH-Patator,SSH-Patator,0.93188554,True
+SSH-Patator,SSH-Patator,0.9967243,True
+SSH-Patator,SSH-Patator,0.92702913,True
+SSH-Patator,SSH-Patator,0.93188554,True
+SSH-Patator,SSH-Patator,0.9967339,True
+SSH-Patator,SSH-Patator,0.99691725,True
+SSH-Patator,SSH-Patator,0.9200342,True
+SSH-Patator,SSH-Patator,0.93152165,True
+SSH-Patator,SSH-Patator,0.9968742,True
+SSH-Patator,SSH-Patator,0.9966209,True
+SSH-Patator,SSH-Patator,0.87452495,True
+SSH-Patator,SSH-Patator,0.99657106,True
+SSH-Patator,SSH-Patator,0.8184794,True
+SSH-Patator,SSH-Patator,0.8983092,True
+SSH-Patator,SSH-Patator,0.996673,True
+SSH-Patator,SSH-Patator,0.73223066,True
+SSH-Patator,SSH-Patator,0.9967253,True
+SSH-Patator,SSH-Patator,0.8576905,True
+SSH-Patator,SSH-Patator,0.78834677,True
+SSH-Patator,SSH-Patator,0.9957,True
+SSH-Patator,SSH-Patator,0.92825955,True
+SSH-Patator,SSH-Patator,0.9967865,True
+SSH-Patator,SSH-Patator,0.9200342,True
+SSH-Patator,SSH-Patator,0.9967885,True
+SSH-Patator,SSH-Patator,0.99681157,True
+SSH-Patator,SSH-Patator,0.99650526,True
+SSH-Patator,SSH-Patator,0.76847297,True
+SSH-Patator,SSH-Patator,0.91051525,True
+SSH-Patator,SSH-Patator,0.9242925,True
+SSH-Patator,SSH-Patator,0.99677247,True
+SSH-Patator,SSH-Patator,0.99656737,True
+SSH-Patator,SSH-Patator,0.9967409,True
+SSH-Patator,SSH-Patator,0.92825955,True
+SSH-Patator,SSH-Patator,0.9967878,True
+SSH-Patator,SSH-Patator,0.99689376,True
+SSH-Patator,SSH-Patator,0.93404377,True
+SSH-Patator,SSH-Patator,0.92825955,True
+SSH-Patator,SSH-Patator,0.93188554,True
+SSH-Patator,SSH-Patator,0.9968832,True
+SSH-Patator,SSH-Patator,0.99666554,True
+SSH-Patator,SSH-Patator,0.8643469,True
+SSH-Patator,SSH-Patator,0.8358898,True
+SSH-Patator,SSH-Patator,0.93188554,True
+SSH-Patator,SSH-Patator,0.9957889,True
+SSH-Patator,SSH-Patator,0.8540655,True
+SSH-Patator,SSH-Patator,0.9969625,True
+SSH-Patator,SSH-Patator,0.99678373,True
+SSH-Patator,SSH-Patator,0.99668485,True
+SSH-Patator,SSH-Patator,0.99672014,True
+SSH-Patator,SSH-Patator,0.9956316,True
+SSH-Patator,SSH-Patator,0.9968682,True
+SSH-Patator,SSH-Patator,0.9311049,True
+SSH-Patator,SSH-Patator,0.9957066,True
+SSH-Patator,SSH-Patator,0.8436078,True
+SSH-Patator,SSH-Patator,0.99670595,True
+SSH-Patator,SSH-Patator,0.9965538,True
+SSH-Patator,SSH-Patator,0.9969283,True
+SSH-Patator,SSH-Patator,0.9954022,True
+SSH-Patator,SSH-Patator,0.9967899,True
+SSH-Patator,SSH-Patator,0.9968317,True
+SSH-Patator,SSH-Patator,0.99659973,True
+SSH-Patator,SSH-Patator,0.9967019,True
+SSH-Patator,SSH-Patator,0.8938743,True
+SSH-Patator,SSH-Patator,0.8643469,True
+SSH-Patator,SSH-Patator,0.73223066,True
+SSH-Patator,SSH-Patator,0.9256867,True
+SSH-Patator,SSH-Patator,0.9967494,True
+SSH-Patator,SSH-Patator,0.93256676,True
+SSH-Patator,SSH-Patator,0.89913434,True
+SSH-Patator,SSH-Patator,0.99672925,True
+SSH-Patator,SSH-Patator,0.9968051,True
+SSH-Patator,SSH-Patator,0.8382862,True
+SSH-Patator,SSH-Patator,0.9964921,True
+SSH-Patator,SSH-Patator,0.934174,True
+SSH-Patator,SSH-Patator,0.99653023,True
+SSH-Patator,SSH-Patator,0.9956168,True
+SSH-Patator,SSH-Patator,0.99674195,True
+SSH-Patator,SSH-Patator,0.9966815,True
+SSH-Patator,SSH-Patator,0.9292859,True
+SSH-Patator,SSH-Patator,0.9964324,True
+SSH-Patator,SSH-Patator,0.8983092,True
+SSH-Patator,SSH-Patator,0.99572563,True
+SSH-Patator,SSH-Patator,0.9964819,True
+SSH-Patator,SSH-Patator,0.6339502,True
+SSH-Patator,SSH-Patator,0.8068444,True
+SSH-Patator,SSH-Patator,0.9967313,True
+SSH-Patator,SSH-Patator,0.91716003,True
+SSH-Patator,SSH-Patator,0.99680185,True
+SSH-Patator,SSH-Patator,0.891241,True
+SSH-Patator,SSH-Patator,0.9968078,True
+SSH-Patator,SSH-Patator,0.8526858,True
+SSH-Patator,SSH-Patator,0.9967894,True
+SSH-Patator,SSH-Patator,0.99668807,True
+SSH-Patator,SSH-Patator,0.9967354,True
+SSH-Patator,SSH-Patator,0.93404377,True
+SSH-Patator,SSH-Patator,0.92702913,True
+SSH-Patator,SSH-Patator,0.99656916,True
+SSH-Patator,SSH-Patator,0.9967631,True
+SSH-Patator,SSH-Patator,0.9967301,True
+SSH-Patator,SSH-Patator,0.9964598,True
+SSH-Patator,SSH-Patator,0.9302358,True
+SSH-Patator,SSH-Patator,0.99672383,True
+SSH-Patator,SSH-Patator,0.90834326,True
+SSH-Patator,SSH-Patator,0.99673057,True
+SSH-Patator,SSH-Patator,0.92702913,True
+SSH-Patator,SSH-Patator,0.8008287,True
+SSH-Patator,SSH-Patator,0.99669087,True
+SSH-Patator,SSH-Patator,0.99671566,True
+SSH-Patator,SSH-Patator,0.9249311,True
+SSH-Patator,SSH-Patator,0.9966903,True
+SSH-Patator,SSH-Patator,0.8708903,True
+SSH-Patator,SSH-Patator,0.8576905,True
+SSH-Patator,SSH-Patator,0.8417767,True
+SSH-Patator,SSH-Patator,0.99660563,True
+SSH-Patator,SSH-Patator,0.9292859,True
+SSH-Patator,SSH-Patator,0.82971895,True
+SSH-Patator,SSH-Patator,0.9969503,True
+SSH-Patator,SSH-Patator,0.9967315,True
+SSH-Patator,SSH-Patator,0.922855,True
+SSH-Patator,SSH-Patator,0.8966337,True
+SSH-Patator,SSH-Patator,0.99678695,True
+SSH-Patator,SSH-Patator,0.98693085,True
+SSH-Patator,SSH-Patator,0.9966478,True
+SSH-Patator,SSH-Patator,0.99527943,True
+SSH-Patator,SSH-Patator,0.9061292,True
+SSH-Patator,SSH-Patator,0.9966208,True
+SSH-Patator,SSH-Patator,0.99671173,True
+SSH-Patator,SSH-Patator,0.9967314,True
+SSH-Patator,SSH-Patator,0.9967159,True
+SSH-Patator,SSH-Patator,0.8938743,True
+SSH-Patator,SSH-Patator,0.918139,True
+SSH-Patator,SSH-Patator,0.9292859,True
+SSH-Patator,SSH-Patator,0.9163665,True
+SSH-Patator,SSH-Patator,0.9966665,True
+SSH-Patator,SSH-Patator,0.99663585,True
+SSH-Patator,SSH-Patator,0.99671185,True
+SSH-Patator,SSH-Patator,0.99663454,True
+SSH-Patator,SSH-Patator,0.9965702,True
+SSH-Patator,SSH-Patator,0.9966808,True
+SSH-Patator,SSH-Patator,0.92702913,True
+SSH-Patator,SSH-Patator,0.99666744,True
+SSH-Patator,SSH-Patator,0.8382862,True
+SSH-Patator,SSH-Patator,0.99652666,True
+SSH-Patator,SSH-Patator,0.99674845,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.9997106,True
+DoS slowloris,DoS slowloris,0.9997092,True
+DoS slowloris,DoS slowloris,0.999302,True
+DoS slowloris,DoS slowloris,0.9997845,True
+DoS slowloris,DoS slowloris,0.99416554,True
+DoS slowloris,DoS slowloris,0.9690899,True
+DoS slowloris,DoS slowloris,0.9872406,True
+DoS slowloris,DoS slowloris,0.9997757,True
+DoS slowloris,DoS slowloris,0.99927026,True
+DoS slowloris,DoS slowloris,0.99971074,True
+DoS slowloris,DoS slowloris,0.9991891,True
+DoS slowloris,DoS slowloris,0.9975153,True
+DoS slowloris,DoS slowloris,0.9997756,True
+DoS slowloris,DoS slowloris,0.9941474,True
+DoS slowloris,DoS slowloris,0.9997726,True
+DoS slowloris,DoS slowloris,0.99971074,True
+DoS slowloris,DoS Hulk,0.6717479,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.9997757,True
+DoS slowloris,DoS slowloris,0.9790248,True
+DoS slowloris,DoS slowloris,0.99971026,True
+DoS slowloris,DoS slowloris,0.994163,True
+DoS slowloris,DoS slowloris,0.98499924,True
+DoS slowloris,DoS slowloris,0.9997845,True
+DoS slowloris,DoS slowloris,0.9674644,True
+DoS slowloris,DoS slowloris,0.8967929,True
+DoS slowloris,DoS slowloris,0.9997621,True
+DoS slowloris,DoS slowloris,0.9988355,True
+DoS slowloris,DoS slowloris,0.9997842,True
+DoS slowloris,DoS slowloris,0.99415743,True
+DoS slowloris,DoS slowloris,0.98877895,True
+DoS slowloris,DoS slowloris,0.999762,True
+DoS slowloris,DoS slowloris,0.99971026,True
+DoS slowloris,DoS slowloris,0.9860334,True
+DoS slowloris,DoS slowloris,0.9997842,True
+DoS slowloris,DoS slowloris,0.9997843,True
+DoS slowloris,DoS slowloris,0.9997756,True
+DoS slowloris,DoS slowloris,0.99971074,True
+DoS slowloris,DoS slowloris,0.99414754,True
+DoS slowloris,DoS slowloris,0.99977237,True
+DoS slowloris,DoS slowloris,0.9941697,True
+DoS slowloris,DoS slowloris,0.9941565,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.9997843,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.9941605,True
+DoS slowloris,DoS slowloris,0.9941664,True
+DoS slowloris,DoS slowloris,0.9941566,True
+DoS slowloris,DoS slowloris,0.9997112,True
+DoS slowloris,DoS slowloris,0.999747,True
+DoS slowloris,DoS slowloris,0.99978465,True
+DoS slowloris,DoS slowloris,0.9941704,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.9941555,True
+DoS slowloris,DoS slowloris,0.9941705,True
+DoS slowloris,DoS slowloris,0.9872406,True
+DoS slowloris,DoS slowloris,0.99756867,True
+DoS slowloris,DoS slowloris,0.9989613,True
+DoS slowloris,DoS slowloris,0.889325,True
+DoS slowloris,DoS slowloris,0.9915931,True
+DoS slowloris,DoS slowloris,0.98932236,True
+DoS slowloris,DoS slowloris,0.9941549,True
+DoS slowloris,DoS slowloris,0.9997757,True
+DoS slowloris,DoS slowloris,0.9997112,True
+DoS slowloris,DoS slowloris,0.9941567,True
+DoS slowloris,DoS slowloris,0.9997727,True
+DoS slowloris,DoS slowloris,0.9997099,True
+DoS slowloris,DoS slowloris,0.99416524,True
+DoS slowloris,DoS slowloris,0.98141265,True
+DoS slowloris,DoS slowloris,0.9966505,True
+DoS slowloris,DoS slowloris,0.99414694,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.9997843,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.9997098,True
+DoS slowloris,DoS slowloris,0.9941659,True
+DoS slowloris,DoS slowloris,0.9941549,True
+DoS slowloris,DoS slowloris,0.98589337,True
+DoS slowloris,DoS slowloris,0.99144137,True
+DoS slowloris,DoS slowloris,0.99186605,True
+DoS slowloris,DoS slowloris,0.99637705,True
+DoS slowloris,DoS slowloris,0.9941605,True
+DoS slowloris,DoS slowloris,0.99970907,True
+DoS slowloris,DoS slowloris,0.99416214,True
+DoS slowloris,DoS slowloris,0.9914415,True
+DoS slowloris,DoS slowloris,0.99971086,True
+DoS slowloris,DoS slowloris,0.99415815,True
+DoS slowloris,DoS slowloris,0.9757437,True
+DoS slowloris,DoS slowloris,0.99416393,True
+DoS slowloris,DoS slowloris,0.9997464,True
+DoS slowloris,DoS slowloris,0.99970907,True
+DoS slowloris,DoS slowloris,0.9997727,True
+DoS slowloris,DoS slowloris,0.99970907,True
+DoS slowloris,DoS slowloris,0.999762,True
+DoS slowloris,DoS slowloris,0.9988477,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.999762,True
+DoS slowloris,DoS slowloris,0.99978465,True
+DoS slowloris,DoS slowloris,0.96912336,True
+DoS slowloris,DoS slowloris,0.9938471,True
+DoS slowloris,BENIGN,0.6147972,False
+DoS slowloris,DoS slowloris,0.99416614,True
+DoS slowloris,DoS slowloris,0.99978465,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.9997845,True
+DoS slowloris,DoS slowloris,0.9872406,True
+DoS slowloris,DoS slowloris,0.99417156,True
+DoS slowloris,DoS slowloris,0.9997757,True
+DoS slowloris,DoS slowloris,0.99416226,True
+DoS slowloris,DoS slowloris,0.99718803,True
+DoS slowloris,DoS slowloris,0.9941462,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.99415815,True
+DoS slowloris,DoS slowloris,0.9941702,True
+DoS slowloris,DoS slowloris,0.9989248,True
+DoS slowloris,DoS slowloris,0.9878203,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.99974626,True
+DoS slowloris,DoS slowloris,0.9941468,True
+DoS slowloris,DoS slowloris,0.99971014,True
+DoS slowloris,DoS slowloris,0.9997093,True
+DoS slowloris,DoS slowloris,0.889325,True
+DoS slowloris,DoS slowloris,0.99415696,True
+DoS slowloris,DoS slowloris,0.99149334,True
+DoS slowloris,DoS slowloris,0.9997092,True
+DoS slowloris,DoS slowloris,0.99416274,True
+DoS slowloris,DoS slowloris,0.99971026,True
+DoS slowloris,DoS slowloris,0.9848809,True
+DoS slowloris,DoS slowloris,0.90924704,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.99756867,True
+DoS slowloris,DoS slowloris,0.9997756,True
+DoS slowloris,DoS slowloris,0.99970955,True
+DoS slowloris,DoS slowloris,0.9997757,True
+DoS slowloris,DoS slowloris,0.9997727,True
+DoS slowloris,DoS slowloris,0.9915093,True
+DoS slowloris,DoS slowloris,0.9882117,True
+DoS slowloris,DoS slowloris,0.99974614,True
+DoS slowloris,DoS slowloris,0.9941706,True
+DoS slowloris,DoS slowloris,0.99417216,True
+DoS slowloris,DoS slowloris,0.9993623,True
+DoS slowloris,DoS slowloris,0.98894066,True
+DoS slowloris,DoS slowloris,0.99977535,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.99416333,True
+DoS slowloris,DoS slowloris,0.9806973,True
+DoS slowloris,DoS slowloris,0.9984282,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.99977547,True
+DoS slowloris,DoS slowloris,0.9941654,True
+DoS slowloris,DoS slowloris,0.9997092,True
+DoS slowloris,DoS slowloris,0.99971026,True
+DoS slowloris,DoS slowloris,0.9938467,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.99976236,True
+DoS slowloris,DoS slowloris,0.9997625,True
+DoS slowloris,DoS slowloris,0.9888353,True
+DoS slowloris,DoS slowloris,0.9993748,True
+DoS slowloris,DoS slowloris,0.9838905,True
+DoS slowloris,DoS slowloris,0.8816016,True
+DoS slowloris,DoS slowloris,0.9984282,True
+DoS slowloris,DoS slowloris,0.99416876,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.99971074,True
+DoS slowloris,DoS slowloris,0.9842705,True
+DoS slowloris,DoS slowloris,0.9941538,True
+DoS slowloris,DoS slowloris,0.99977535,True
+DoS slowloris,DoS slowloris,0.9997757,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.99415565,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.99416333,True
+DoS slowloris,DoS slowloris,0.9941707,True
+DoS slowloris,DoS slowloris,0.9690907,True
+DoS slowloris,DoS slowloris,0.99971074,True
+DoS slowloris,DoS slowloris,0.9860334,True
+DoS slowloris,DoS slowloris,0.9997843,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.991492,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.99977237,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.9941631,True
+DoS slowloris,DoS slowloris,0.99971145,True
+DoS slowloris,DoS slowloris,0.9914465,True
+DoS slowloris,DoS slowloris,0.99977547,True
+DoS slowloris,DoS slowloris,0.99415034,True
+DoS slowloris,DoS slowloris,0.99977547,True
+DoS slowloris,DoS slowloris,0.9997727,True
+DoS slowloris,DoS slowloris,0.99416274,True
+DoS slowloris,DoS slowloris,0.99416536,True
+DoS slowloris,DoS slowloris,0.99971145,True
+DoS slowloris,DoS slowloris,0.99417084,True
+DoS slowloris,DoS slowloris,0.9975153,True
+DoS slowloris,DoS slowloris,0.99415696,True
+DoS slowloris,DoS slowloris,0.9997625,True
+DoS slowloris,DoS slowloris,0.99970955,True
+DoS slowloris,DoS slowloris,0.99978465,True
+DoS slowloris,DoS slowloris,0.99970967,True
+DoS slowloris,DoS slowloris,0.9997843,True
+DoS slowloris,DoS slowloris,0.99970907,True
+DoS slowloris,DoS slowloris,0.999166,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.9975153,True
+DoS slowloris,DoS slowloris,0.99978465,True
+DoS slowloris,DoS slowloris,0.99977535,True
+DoS slowloris,DoS slowloris,0.9690902,True
+DoS slowloris,DoS slowloris,0.9966505,True
+DoS slowloris,DoS slowloris,0.9997756,True
+DoS slowloris,DoS slowloris,0.99977547,True
+DoS slowloris,DoS slowloris,0.9997727,True
+DoS slowloris,DoS slowloris,0.9997112,True
+DoS slowloris,DoS slowloris,0.99416864,True
+DoS slowloris,DoS slowloris,0.9941544,True
+DoS slowloris,DoS slowloris,0.9997112,True
+DoS slowloris,DoS slowloris,0.9993749,True
+DoS slowloris,DoS slowloris,0.9941724,True
+DoS slowloris,DoS slowloris,0.9997727,True
+DoS slowloris,DoS slowloris,0.99970907,True
+DoS slowloris,DoS slowloris,0.99977535,True
+DoS slowloris,DoS slowloris,0.8082062,True
+DoS slowloris,DoS slowloris,0.9997092,True
+DoS slowloris,DoS slowloris,0.99977547,True
+DoS slowloris,DoS slowloris,0.9941606,True
+DoS slowloris,DoS slowloris,0.99971074,True
+DoS slowloris,DoS slowloris,0.9994246,True
+DoS slowloris,DoS slowloris,0.9997843,True
+DoS slowloris,DoS slowloris,0.9997092,True
+DoS slowloris,DoS slowloris,0.9941702,True
+DoS slowloris,DoS slowloris,0.9997757,True
+DoS slowloris,DoS slowloris,0.9997098,True
+DoS slowloris,DoS slowloris,0.9941649,True
+DoS slowloris,DoS slowloris,0.99971086,True
+DoS slowloris,DoS slowloris,0.99756867,True
+DoS slowloris,DoS slowloris,0.9876436,True
+DoS slowloris,DoS slowloris,0.9941474,True
+DoS slowloris,DoS slowloris,0.9941632,True
+DoS slowloris,DoS slowloris,0.99976164,True
+DoS slowloris,DoS slowloris,0.9891801,True
+DoS slowloris,DoS slowloris,0.9997727,True
+DoS slowloris,DoS slowloris,0.9941713,True
+DoS slowloris,DoS slowloris,0.99970907,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.9997843,True
+DoS slowloris,DoS slowloris,0.9997842,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.99976176,True
+DoS slowloris,DoS slowloris,0.99977535,True
+DoS slowloris,DoS slowloris,0.9997843,True
+DoS slowloris,DoS slowloris,0.99971133,True
+DoS slowloris,DoS slowloris,0.9941643,True
+DoS slowloris,DoS slowloris,0.9991954,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.9997842,True
+DoS slowloris,DoS slowloris,0.99416536,True
+DoS slowloris,DoS slowloris,0.99417156,True
+DoS slowloris,DoS slowloris,0.9941697,True
+DoS slowloris,BENIGN,0.9428467,False
+DoS slowloris,DoS slowloris,0.99415636,True
+DoS slowloris,DoS slowloris,0.9941549,True
+DoS slowloris,DoS slowloris,0.9975153,True
+DoS slowloris,DoS slowloris,0.9941645,True
+DoS slowloris,DoS slowloris,0.99416226,True
+DoS slowloris,DoS slowloris,0.9997112,True
+DoS slowloris,DoS slowloris,0.9997845,True
+DoS slowloris,DoS slowloris,0.99976224,True
+DoS slowloris,DoS slowloris,0.99970967,True
+DoS slowloris,DoS slowloris,0.98499924,True
+DoS slowloris,DoS slowloris,0.98620194,True
+DoS slowloris,DoS slowloris,0.9941707,True
+DoS slowloris,DoS slowloris,0.96909475,True
+DoS slowloris,DoS slowloris,0.99976224,True
+DoS slowloris,DoS slowloris,0.9997756,True
+DoS slowloris,DoS slowloris,0.99977535,True
+DoS slowloris,DoS slowloris,0.99976176,True
+DoS slowloris,DoS slowloris,0.99416935,True
+DoS slowloris,DoS slowloris,0.98620194,True
+DoS slowloris,DoS slowloris,0.9997844,True
+DoS slowloris,DoS slowloris,0.9914517,True
+DoS slowloris,DoS slowloris,0.97885704,True
+DoS slowloris,DoS slowloris,0.9997756,True
+DoS slowloris,DoS slowloris,0.99416876,True
+DoS slowloris,DoS slowloris,0.9941685,True
+DoS slowloris,DoS slowloris,0.99977523,True
+DoS slowloris,DoS slowloris,0.9984282,True
+DoS slowloris,DoS slowloris,0.99978465,True
+DoS slowloris,DoS slowloris,0.9997732,True
+DoS slowloris,DoS slowloris,0.9997845,True
+DoS slowloris,DoS slowloris,0.9857621,True
+DoS slowloris,DoS slowloris,0.9997756,True
+DoS slowloris,DoS slowloris,0.999762,True
+DoS slowloris,DoS slowloris,0.9941451,True
+DoS slowloris,DoS slowloris,0.96910715,True
+DoS slowloris,DoS slowloris,0.9941638,True
+DoS slowloris,DoS slowloris,0.99976176,True
+DoS slowloris,DoS slowloris,0.99971074,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.9981237,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996165,True
+DoS Slowhttptest,DoS Slowhttptest,0.99947935,True
+DoS Slowhttptest,DoS Slowhttptest,0.9997626,True
+DoS Slowhttptest,DoS Slowhttptest,0.999683,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.99987304,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996873,True
+DoS Slowhttptest,DoS Slowhttptest,0.99953175,True
+DoS Slowhttptest,DoS Slowhttptest,0.9965061,True
+DoS Slowhttptest,DoS Slowhttptest,0.98877454,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.9993166,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968624,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996866,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968624,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996834,True
+DoS Slowhttptest,DoS Slowhttptest,0.9998511,True
+DoS Slowhttptest,DoS Slowhttptest,0.9625854,True
+DoS Slowhttptest,DoS Slowhttptest,0.99965465,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996871,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968696,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996861,True
+DoS Slowhttptest,DoS Slowhttptest,0.9993125,True
+DoS Slowhttptest,DoS Slowhttptest,0.99984944,True
+DoS Slowhttptest,DoS Slowhttptest,0.99836606,True
+DoS Slowhttptest,DoS Slowhttptest,0.9938897,True
+DoS Slowhttptest,DoS Slowhttptest,0.9967615,True
+DoS Slowhttptest,DoS Slowhttptest,0.9887749,True
+DoS Slowhttptest,DoS Slowhttptest,0.9997639,True
+DoS Slowhttptest,DoS Slowhttptest,0.99987185,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996872,True
+DoS Slowhttptest,DoS Slowhttptest,0.93168485,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968743,True
+DoS Slowhttptest,DoS Slowhttptest,0.999485,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968636,True
+DoS Slowhttptest,DoS Slowhttptest,0.999874,True
+DoS Slowhttptest,DoS Slowhttptest,0.9998481,True
+DoS Slowhttptest,DoS Slowhttptest,0.99929416,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968743,True
+DoS Slowhttptest,DoS Slowhttptest,0.9995938,True
+DoS Slowhttptest,DoS Slowhttptest,0.9998727,True
+DoS Slowhttptest,DoS Slowhttptest,0.98878527,True
+DoS Slowhttptest,DoS Slowhttptest,0.9318451,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968624,True
+DoS Slowhttptest,DoS Slowhttptest,0.99984944,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968636,True
+DoS Slowhttptest,DoS Slowhttptest,0.9995888,True
+DoS Slowhttptest,DoS Slowhttptest,0.9321027,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996871,True
+DoS Slowhttptest,DoS Slowhttptest,0.9993519,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968743,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996871,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996866,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996835,True
+DoS Slowhttptest,DoS Slowhttptest,0.999876,True
+DoS Slowhttptest,DoS Slowhttptest,0.9997249,True
+DoS Slowhttptest,DoS Slowhttptest,0.9993112,True
+DoS Slowhttptest,DoS Slowhttptest,0.99948055,True
+DoS Slowhttptest,DoS Slowhttptest,0.9995314,True
+DoS Slowhttptest,DoS Slowhttptest,0.99987435,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968696,True
+DoS Slowhttptest,DoS Slowhttptest,0.9997514,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.999874,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968743,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996872,True
+DoS Slowhttptest,DoS Slowhttptest,0.99948347,True
+DoS Slowhttptest,DoS Slowhttptest,0.9982874,True
+DoS Slowhttptest,DoS Slowhttptest,0.99957496,True
+DoS Slowhttptest,DoS slowloris,0.42532745,True
+DoS Slowhttptest,DoS Slowhttptest,0.99642676,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996871,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996835,True
+DoS Slowhttptest,DoS Slowhttptest,0.9969585,True
+DoS Slowhttptest,DoS Slowhttptest,0.999683,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.9997689,True
+DoS Slowhttptest,DoS Slowhttptest,0.99977523,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.52290297,True
+DoS Slowhttptest,DoS Slowhttptest,0.999718,True
+DoS Slowhttptest,DoS Slowhttptest,0.9990964,True
+DoS Slowhttptest,DoS Slowhttptest,0.995237,True
+DoS Slowhttptest,DoS Slowhttptest,0.99963486,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.9869654,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996867,True
+DoS Slowhttptest,DoS Slowhttptest,0.9998745,True
+DoS Slowhttptest,DoS Slowhttptest,0.999423,True
+DoS Slowhttptest,DoS Slowhttptest,0.99987376,True
+DoS Slowhttptest,DoS Slowhttptest,0.99985313,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996866,True
+DoS Slowhttptest,DoS Slowhttptest,0.99228597,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.9997514,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996871,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996872,True
+DoS Slowhttptest,DoS Slowhttptest,0.93184507,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968624,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968696,True
+DoS Slowhttptest,DoS Slowhttptest,0.988775,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996871,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996674,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968743,True
+DoS Slowhttptest,DoS Slowhttptest,0.998287,True
+DoS Slowhttptest,DoS Slowhttptest,0.9998739,True
+DoS Slowhttptest,BENIGN,0.64514333,False
+DoS Slowhttptest,DoS Slowhttptest,0.99968743,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.99963665,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996872,True
+DoS Slowhttptest,DoS Slowhttptest,0.98877466,True
+DoS Slowhttptest,DoS Slowhttptest,0.99984956,True
+DoS Slowhttptest,DoS Slowhttptest,0.98877454,True
+DoS Slowhttptest,DoS Slowhttptest,0.9319756,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996867,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996873,True
+DoS Slowhttptest,DoS Slowhttptest,0.9998714,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996861,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996872,True
+DoS Slowhttptest,DoS Slowhttptest,0.999718,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.9997639,True
+DoS Slowhttptest,DoS Slowhttptest,0.93176544,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996872,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.9997696,True
+DoS Slowhttptest,DoS Slowhttptest,0.9887748,True
+DoS Slowhttptest,DoS Slowhttptest,0.99675876,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.99984884,True
+DoS Slowhttptest,DoS Slowhttptest,0.99941266,True
+DoS Slowhttptest,DoS Slowhttptest,0.999608,True
+DoS Slowhttptest,DoS Slowhttptest,0.999683,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996088,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968624,True
+DoS Slowhttptest,DoS Slowhttptest,0.9998734,True
+DoS Slowhttptest,DoS Slowhttptest,0.99794394,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996866,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996866,True
+DoS Slowhttptest,DoS Slowhttptest,0.9997178,True
+DoS Slowhttptest,DoS Slowhttptest,0.9993875,True
+DoS Slowhttptest,DoS Slowhttptest,0.99987125,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968386,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.9994754,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996834,True
+DoS Slowhttptest,DoS Slowhttptest,0.93179214,True
+DoS Slowhttptest,DoS Slowhttptest,0.99942243,True
+DoS Slowhttptest,DoS Slowhttptest,0.9969338,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.999683,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996871,True
+DoS Slowhttptest,DoS Slowhttptest,0.9979442,True
+DoS Slowhttptest,DoS Slowhttptest,0.9998715,True
+DoS Slowhttptest,DoS Slowhttptest,0.9998754,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996872,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996257,True
+DoS Slowhttptest,DoS Slowhttptest,0.99984884,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968624,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996859,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.9997514,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968636,True
+DoS Slowhttptest,DoS Slowhttptest,0.98726964,True
+DoS Slowhttptest,DoS Slowhttptest,0.96258545,True
+DoS Slowhttptest,DoS Slowhttptest,0.9997514,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996871,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996866,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996871,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996867,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996867,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996866,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996871,True
+DoS Slowhttptest,DoS Slowhttptest,0.98878914,True
+DoS Slowhttptest,DoS Slowhttptest,0.9319498,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996524,True
+DoS Slowhttptest,DoS Slowhttptest,0.99948114,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996872,True
+DoS Slowhttptest,DoS Slowhttptest,0.9319498,True
+DoS Slowhttptest,DoS Slowhttptest,0.999265,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.9997639,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996872,True
+DoS Slowhttptest,DoS Slowhttptest,0.9997696,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.9994912,True
+DoS Slowhttptest,DoS Slowhttptest,0.93184507,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.99985254,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996871,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996872,True
+DoS Slowhttptest,DoS Slowhttptest,0.9997664,True
+DoS Slowhttptest,DoS Slowhttptest,0.99963474,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996184,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996873,True
+DoS Slowhttptest,DoS Slowhttptest,0.9318715,True
+DoS Slowhttptest,DoS Slowhttptest,0.999684,True
+DoS Slowhttptest,DoS Slowhttptest,0.9887749,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996872,True
+DoS Slowhttptest,DoS slowloris,0.9941644,True
+DoS Slowhttptest,DoS Slowhttptest,0.93176556,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996141,True
+DoS Slowhttptest,DoS Slowhttptest,0.98541325,True
+DoS Slowhttptest,DoS Slowhttptest,0.9790749,True
+DoS Slowhttptest,DoS Slowhttptest,0.9319758,True
+DoS Slowhttptest,DoS Slowhttptest,0.9317921,True
+DoS Slowhttptest,DoS Slowhttptest,0.99976224,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968636,True
+DoS Slowhttptest,DoS Slowhttptest,0.999718,True
+DoS Slowhttptest,SSH-Patator,0.22007996,True
+DoS Slowhttptest,DoS Slowhttptest,0.999874,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996872,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996867,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968743,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996834,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996866,True
+DoS Slowhttptest,DoS Slowhttptest,0.9992933,True
+DoS Slowhttptest,DoS Slowhttptest,0.9743844,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996834,True
+DoS Slowhttptest,DoS Slowhttptest,0.9319498,True
+DoS Slowhttptest,DoS Slowhttptest,0.999686,True
+DoS Slowhttptest,DoS Slowhttptest,0.99942243,True
+DoS Slowhttptest,DoS Slowhttptest,0.99948174,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968696,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.99909663,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996871,True
+DoS Slowhttptest,DoS Slowhttptest,0.999718,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996866,True
+DoS Slowhttptest,DoS Slowhttptest,0.99976856,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996867,True
+DoS Slowhttptest,DoS Slowhttptest,0.9994134,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.9317387,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996872,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996872,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968624,True
+DoS Slowhttptest,DoS GoldenEye,0.5521593,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.93187153,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968624,True
+DoS Slowhttptest,DoS Slowhttptest,0.9887849,True
+DoS Slowhttptest,DoS Slowhttptest,0.999684,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996866,True
+DoS Slowhttptest,DoS Slowhttptest,0.9998516,True
+DoS Slowhttptest,DoS Slowhttptest,0.99985456,True
+DoS Slowhttptest,DoS Slowhttptest,0.9887744,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996872,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968684,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996871,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968624,True
+DoS Slowhttptest,DoS Slowhttptest,0.99938715,True
+DoS Slowhttptest,DoS Slowhttptest,0.9998511,True
+DoS Slowhttptest,DoS Slowhttptest,0.9998746,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.9997639,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996834,True
+DoS Slowhttptest,DoS Slowhttptest,0.99985313,True
+DoS Slowhttptest,DoS Slowhttptest,0.99987555,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996871,True
+DoS Slowhttptest,DoS Slowhttptest,0.999718,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.9887744,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996871,True
+DoS Slowhttptest,DoS Slowhttptest,0.96258503,True
+DoS Slowhttptest,DoS Slowhttptest,0.9998369,True
+DoS Slowhttptest,DoS Slowhttptest,0.999762,True
+DoS Slowhttptest,DoS Slowhttptest,0.999423,True
+DoS Slowhttptest,DoS Slowhttptest,0.9992933,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996867,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996865,True
+DoS Slowhttptest,DoS Slowhttptest,0.9979437,True
+DoS Slowhttptest,DoS Slowhttptest,0.9996861,True
+DoS Slowhttptest,DoS Slowhttptest,0.99968743,True
+DoS Hulk,DoS Hulk,0.9988286,True
+DoS Hulk,DoS Hulk,0.99991,True
+DoS Hulk,DoS Hulk,0.9997795,True
+DoS Hulk,DoS Hulk,0.9962845,True
+DoS Hulk,DoS Hulk,0.9999559,True
+DoS Hulk,DoS Hulk,0.9999629,True
+DoS Hulk,DoS Hulk,0.9997907,True
+DoS Hulk,DoS Hulk,0.99995303,True
+DoS Hulk,DoS Hulk,0.9988286,True
+DoS Hulk,DoS Hulk,0.99914634,True
+DoS Hulk,DoS Hulk,0.9998363,True
+DoS Hulk,DoS Hulk,0.9998692,True
+DoS Hulk,DoS Hulk,0.9988286,True
+DoS Hulk,DoS Hulk,0.9997609,True
+DoS Hulk,DoS Hulk,0.9962845,True
+DoS Hulk,DoS Hulk,0.9885926,True
+DoS Hulk,DoS Hulk,0.9999343,True
+DoS Hulk,DoS Hulk,0.99984825,True
+DoS Hulk,DoS Hulk,0.99769235,True
+DoS Hulk,DoS Hulk,0.67153823,True
+DoS Hulk,DoS Hulk,0.99860793,True
+DoS Hulk,DoS Hulk,0.99927634,True
+DoS Hulk,DoS Hulk,0.99997556,True
+DoS Hulk,DoS Hulk,0.67139953,True
+DoS Hulk,DoS Hulk,0.99977845,True
+DoS Hulk,DoS Hulk,0.99994516,True
+DoS Hulk,DoS Hulk,0.99991226,True
+DoS Hulk,DoS Hulk,0.99942684,True
+DoS Hulk,DoS Hulk,0.9962845,True
+DoS Hulk,DoS Hulk,0.99996614,True
+DoS Hulk,DoS Hulk,0.99628973,True
+DoS Hulk,DoS Hulk,0.9998957,True
+DoS Hulk,DoS Hulk,0.9999604,True
+DoS Hulk,DoS Hulk,0.6716387,True
+DoS Hulk,DoS Hulk,0.99977094,True
+DoS Hulk,DoS Hulk,0.993662,True
+DoS Hulk,DoS Hulk,0.9936714,True
+DoS Hulk,DoS Hulk,0.99882704,True
+DoS Hulk,DoS Hulk,0.9998202,True
+DoS Hulk,DoS Hulk,0.9962845,True
+DoS Hulk,DoS Hulk,0.99995553,True
+DoS Hulk,DoS Hulk,0.9936714,True
+DoS Hulk,DoS Hulk,0.9996245,True
+DoS Hulk,DoS Hulk,0.9936714,True
+DoS Hulk,DoS Hulk,0.9999727,True
+DoS Hulk,DoS Hulk,0.67141485,True
+DoS Hulk,DoS Hulk,0.8061101,True
+DoS Hulk,BENIGN,0.6467801,False
+DoS Hulk,DoS Hulk,0.99986994,True
+DoS Hulk,DoS Hulk,0.9999689,True
+DoS Hulk,DoS Hulk,0.999793,True
+DoS Hulk,DoS Hulk,0.99995303,True
+DoS Hulk,DoS Hulk,0.6712739,True
+DoS Hulk,DoS Hulk,0.9998721,True
+DoS Hulk,DoS Hulk,0.99995184,True
+DoS Hulk,DoS Hulk,0.9936714,True
+DoS Hulk,DoS Hulk,0.9998822,True
+DoS Hulk,DoS Hulk,0.9994338,True
+DoS Hulk,DoS Hulk,0.99628973,True
+DoS Hulk,DoS Hulk,0.9988286,True
+DoS Hulk,DoS Hulk,0.99985707,True
+DoS Hulk,DoS Hulk,0.999966,True
+DoS Hulk,DoS Hulk,0.99997556,True
+DoS Hulk,DoS Hulk,0.9998803,True
+DoS Hulk,DoS Hulk,0.99991846,True
+DoS Hulk,DoS Hulk,0.9999062,True
+DoS Hulk,DoS Hulk,0.999864,True
+DoS Hulk,DoS Hulk,0.9999008,True
+DoS Hulk,DoS Hulk,0.9999107,True
+DoS Hulk,DoS Hulk,0.9976889,True
+DoS Hulk,DoS Hulk,0.67157525,True
+DoS Hulk,DoS Hulk,0.99959594,True
+DoS Hulk,DoS Hulk,0.6716395,True
+DoS Hulk,DoS Hulk,0.99994826,True
+DoS Hulk,DoS Hulk,0.9962845,True
+DoS Hulk,DoS Hulk,0.9962845,True
+DoS Hulk,DoS Hulk,0.9999769,True
+DoS Hulk,DoS Hulk,0.99995697,True
+DoS Hulk,DoS Hulk,0.99628973,True
+DoS Hulk,DoS Hulk,0.993662,True
+DoS Hulk,DoS Hulk,0.9962845,True
+DoS Hulk,DoS Hulk,0.99977976,True
+DoS Hulk,DoS Hulk,0.9998079,True
+DoS Hulk,DoS Hulk,0.999962,True
+DoS Hulk,DoS Hulk,0.9999691,True
+DoS Hulk,DoS Hulk,0.9936714,True
+DoS Hulk,DoS Hulk,0.99935097,True
+DoS Hulk,DoS Hulk,0.99975437,True
+DoS Hulk,DoS Hulk,0.9936714,True
+DoS Hulk,DoS Hulk,0.9998109,True
+DoS Hulk,DoS Hulk,0.99990463,True
+DoS Hulk,DoS Hulk,0.99994516,True
+DoS Hulk,DoS Hulk,0.9998894,True
+DoS Hulk,DoS Hulk,0.9999052,True
+DoS Hulk,DoS Hulk,0.99997616,True
+DoS Hulk,DoS Hulk,0.6714673,True
+DoS Hulk,DoS Hulk,0.9998839,True
+DoS Hulk,DoS Hulk,0.6723337,True
+DoS Hulk,DoS Hulk,0.99991155,True
+DoS Hulk,DoS Hulk,0.99917185,True
+DoS Hulk,DoS Hulk,0.9602344,True
+DoS Hulk,DoS Hulk,0.9998692,True
+DoS Hulk,DoS Hulk,0.9988286,True
+DoS Hulk,DoS Hulk,0.67163837,True
+DoS Hulk,DoS Hulk,0.67208606,True
+DoS Hulk,DoS Hulk,0.99913317,True
+DoS Hulk,DoS Hulk,0.97979,True
+DoS Hulk,DoS Hulk,0.9999021,True
+DoS Hulk,DoS Hulk,0.9999615,True
+DoS Hulk,DoS Hulk,0.9999081,True
+DoS Hulk,DoS Hulk,0.99978215,True
+DoS Hulk,DoS Hulk,0.9999664,True
+DoS Hulk,DoS Hulk,0.9998442,True
+DoS Hulk,DoS Hulk,0.99991095,True
+DoS Hulk,DoS Hulk,0.999949,True
+DoS Hulk,DoS Hulk,0.9999609,True
+DoS Hulk,DoS Hulk,0.99977726,True
+DoS Hulk,DoS Hulk,0.67147046,True
+DoS Hulk,DoS Hulk,0.9936714,True
+DoS Hulk,DoS Hulk,0.99960774,True
+DoS Hulk,DoS Hulk,0.9886108,True
+DoS Hulk,DoS Hulk,0.9998665,True
+DoS Hulk,DoS Hulk,0.9974988,True
+DoS Hulk,DoS Hulk,0.99993944,True
+DoS Hulk,DoS Hulk,0.99809283,True
+DoS Hulk,DoS Hulk,0.9998323,True
+DoS Hulk,DoS Hulk,0.99981767,True
+DoS Hulk,DoS Hulk,0.99882704,True
+DoS Hulk,DoS Hulk,0.99987924,True
+DoS Hulk,DoS Hulk,0.99991465,True
+DoS Hulk,DoS Hulk,0.9999701,True
+DoS Hulk,DoS Hulk,0.9998287,True
+DoS Hulk,DoS Hulk,0.9936714,True
+DoS Hulk,DoS Hulk,0.9936714,True
+DoS Hulk,DoS Hulk,0.9962845,True
+DoS Hulk,DoS Hulk,0.9702238,True
+DoS Hulk,DoS Hulk,0.99976677,True
+DoS Hulk,DoS Hulk,0.9998981,True
+DoS Hulk,DoS Hulk,0.9998522,True
+DoS Hulk,DoS Hulk,0.99995744,True
+DoS Hulk,DoS Hulk,0.9998715,True
+DoS Hulk,DoS Hulk,0.6722516,True
+DoS Hulk,DoS Hulk,0.9998958,True
+DoS Hulk,DoS Hulk,0.99996126,True
+DoS Hulk,DoS Hulk,0.9936714,True
+DoS Hulk,DoS Hulk,0.9997346,True
+DoS Hulk,DoS Hulk,0.99997497,True
+DoS Hulk,DoS Hulk,0.99986374,True
+DoS Hulk,DoS Hulk,0.99992204,True
+DoS Hulk,DoS Hulk,0.99943787,True
+DoS Hulk,DoS Hulk,0.999861,True
+DoS Hulk,DoS Hulk,0.9936714,True
+DoS Hulk,DoS Hulk,0.6713508,True
+DoS Hulk,DoS Hulk,0.9997882,True
+DoS Hulk,DoS Hulk,0.99971575,True
+DoS Hulk,DoS Hulk,0.999969,True
+DoS Hulk,DoS Hulk,0.6715507,True
+DoS Hulk,DoS Hulk,0.9991634,True
+DoS Hulk,DoS Hulk,0.9998754,True
+DoS Hulk,DoS Hulk,0.99628973,True
+DoS Hulk,DoS Hulk,0.9997774,True
+DoS Hulk,DoS Hulk,0.99985313,True
+DoS Hulk,DoS Hulk,0.9999013,True
+DoS Hulk,DoS Hulk,0.99994683,True
+DoS Hulk,DoS Hulk,0.9936714,True
+DoS Hulk,DoS Hulk,0.99628973,True
+DoS Hulk,DoS Hulk,0.9999701,True
+DoS Hulk,DoS Hulk,0.6715292,True
+DoS Hulk,DoS Hulk,0.9998673,True
+DoS Hulk,DoS Hulk,0.9936714,True
+DoS Hulk,DoS Hulk,0.99997425,True
+DoS Hulk,DoS Hulk,0.9999745,True
+DoS Hulk,DoS Hulk,0.99979407,True
+DoS Hulk,DoS Hulk,0.9999379,True
+DoS Hulk,DoS Hulk,0.64273745,True
+DoS Hulk,BENIGN,0.6472163,False
+DoS Hulk,DoS Hulk,0.99628973,True
+DoS Hulk,DoS Hulk,0.9936714,True
+DoS Hulk,DoS Hulk,0.9990683,True
+DoS Hulk,DoS Hulk,0.99997365,True
+DoS Hulk,DoS Hulk,0.99995077,True
+DoS Hulk,DoS Hulk,0.6713508,True
+DoS Hulk,DoS Hulk,0.9988286,True
+DoS Hulk,DoS Hulk,0.99996245,True
+DoS Hulk,DoS Hulk,0.9936714,True
+DoS Hulk,DoS Hulk,0.9996191,True
+DoS Hulk,DoS Hulk,0.99882704,True
+DoS Hulk,DoS Hulk,0.99990845,True
+DoS Hulk,DoS Hulk,0.993662,True
+DoS Hulk,DoS Hulk,0.99987316,True
+DoS Hulk,DoS Hulk,0.99882704,True
+DoS Hulk,DoS Hulk,0.6715274,True
+DoS Hulk,DoS Hulk,0.9886108,True
+DoS Hulk,DoS Hulk,0.9703208,True
+DoS Hulk,DoS Hulk,0.9997663,True
+DoS Hulk,DoS Hulk,0.67163765,True
+DoS Hulk,DoS Hulk,0.6714305,True
+DoS Hulk,DoS Hulk,0.99995923,True
+DoS Hulk,DoS Hulk,0.67163914,True
+DoS Hulk,DoS Hulk,0.99882704,True
+DoS Hulk,DoS Hulk,0.99882704,True
+DoS Hulk,DoS Hulk,0.9997762,True
+DoS Hulk,DoS Hulk,0.9999379,True
+DoS Hulk,DoS Hulk,0.67132646,True
+DoS Hulk,DoS Hulk,0.99990153,True
+DoS Hulk,DoS Hulk,0.9993857,True
+DoS Hulk,DoS Hulk,0.67157525,True
+DoS Hulk,DoS Hulk,0.9998579,True
+DoS Hulk,DoS Hulk,0.9976889,True
+DoS Hulk,DoS Hulk,0.99981946,True
+DoS Hulk,DoS Hulk,0.99986744,True
+DoS Hulk,DoS Hulk,0.6497572,True
+DoS Hulk,DoS Hulk,0.99997306,True
+DoS Hulk,DoS Hulk,0.9936714,True
+DoS Hulk,DoS Hulk,0.99980634,True
+DoS Hulk,DoS Hulk,0.9603095,True
+DoS Hulk,DoS Hulk,0.999959,True
+DoS Hulk,DoS Hulk,0.999899,True
+DoS Hulk,DoS Hulk,0.67030907,True
+DoS Hulk,DoS Hulk,0.99975234,True
+DoS Hulk,DoS Hulk,0.67132646,True
+DoS Hulk,DoS Hulk,0.9999107,True
+DoS Hulk,DoS Hulk,0.99996877,True
+DoS Hulk,DoS Hulk,0.9998994,True
+DoS Hulk,DoS Hulk,0.95127,True
+DoS Hulk,DoS Hulk,0.9976833,True
+DoS Hulk,DoS Hulk,0.9997981,True
+DoS Hulk,DoS Hulk,0.9981188,True
+DoS Hulk,DoS Hulk,0.9936714,True
+DoS Hulk,DoS Hulk,0.9936714,True
+DoS Hulk,DoS Hulk,0.9997024,True
+DoS Hulk,DoS Hulk,0.9936714,True
+DoS Hulk,DoS Hulk,0.999881,True
+DoS Hulk,DoS Hulk,0.9854591,True
+DoS Hulk,DoS Hulk,0.99995244,True
+DoS Hulk,DoS Hulk,0.9999474,True
+DoS Hulk,DoS Hulk,0.67141044,True
+DoS Hulk,DoS Hulk,0.99995005,True
+DoS Hulk,DoS Hulk,0.9998005,True
+DoS Hulk,DoS Hulk,0.96031415,True
+DoS Hulk,DoS Hulk,0.9957898,True
+DoS Hulk,DoS Hulk,0.9999018,True
+DoS Hulk,DoS Hulk,0.9999707,True
+DoS Hulk,DoS Hulk,0.9976889,True
+DoS Hulk,DoS Hulk,0.9997261,True
+DoS Hulk,DoS Hulk,0.99986684,True
+DoS Hulk,DoS Hulk,0.99991286,True
+DoS Hulk,DoS Hulk,0.99990284,True
+DoS Hulk,DoS Hulk,0.9977964,True
+DoS Hulk,DoS Hulk,0.9936714,True
+DoS Hulk,DoS Hulk,0.9997646,True
+DoS Hulk,DoS Hulk,0.99795437,True
+DoS Hulk,DoS Hulk,0.99936026,True
+DoS Hulk,DoS Hulk,0.9999311,True
+DoS Hulk,DoS Hulk,0.99988735,True
+DoS Hulk,DoS Hulk,0.99984455,True
+DoS Hulk,DoS Hulk,0.99991,True
+DoS Hulk,DoS Hulk,0.99628973,True
+DoS Hulk,DoS Hulk,0.9983334,True
+DoS Hulk,DoS Hulk,0.9999132,True
+DoS Hulk,DoS Hulk,0.99932134,True
+DoS Hulk,DoS Hulk,0.9999646,True
+DoS Hulk,DoS Hulk,0.99997115,True
+DoS Hulk,DoS Hulk,0.9997451,True
+DoS Hulk,DoS Hulk,0.6714149,True
+DoS Hulk,DoS Hulk,0.99983263,True
+DoS Hulk,DoS Hulk,0.999853,True
+DoS Hulk,DoS Hulk,0.99885714,True
+DoS Hulk,DoS Hulk,0.993662,True
+DoS Hulk,DoS Hulk,0.9936714,True
+DoS Hulk,DoS Hulk,0.9999728,True
+DoS Hulk,DoS Hulk,0.9702433,True
+DoS Hulk,DoS Hulk,0.99991643,True
+DoS Hulk,DoS Hulk,0.9999305,True
+DoS Hulk,DoS Hulk,0.99997497,True
+DoS Hulk,DoS Hulk,0.99951315,True
+DoS Hulk,DoS Hulk,0.9997805,True
+DoS Hulk,DoS Hulk,0.9997662,True
+DoS Hulk,DoS Hulk,0.67214596,True
+DoS Hulk,DoS Hulk,0.99977857,True
+DoS Hulk,DoS Hulk,0.9988286,True
+DoS Hulk,DoS Hulk,0.9886108,True
+DoS Hulk,DoS Hulk,0.99882704,True
+DoS Hulk,DoS Hulk,0.99996054,True
+DoS Hulk,DoS Hulk,0.99992573,True
+DoS Hulk,DoS Hulk,0.99968195,True
+DoS Hulk,DoS Hulk,0.9962845,True
+DoS Hulk,DoS Hulk,0.9962845,True
+DoS Hulk,DoS Hulk,0.99769235,True
+DoS Hulk,DoS Hulk,0.9999069,True
+DoS Hulk,DoS Hulk,0.67163855,True
+DoS Hulk,DoS Hulk,0.9998424,True
+DoS Hulk,DoS Hulk,0.9792955,True
+DoS Hulk,DoS Hulk,0.9886108,True
+DoS Hulk,DoS Hulk,0.99996924,True
+DoS Hulk,DoS Hulk,0.993662,True
+DoS Hulk,DoS Hulk,0.9997019,True
+DoS Hulk,DoS Hulk,0.997071,True
+DoS Hulk,DoS Hulk,0.9962845,True
+DoS Hulk,DoS Hulk,0.993662,True
+DoS GoldenEye,DoS GoldenEye,0.99992085,True
+DoS GoldenEye,DoS GoldenEye,0.9998418,True
+DoS GoldenEye,DoS GoldenEye,0.99992585,True
+DoS GoldenEye,DoS GoldenEye,0.99979013,True
+DoS GoldenEye,DoS GoldenEye,0.9993637,True
+DoS GoldenEye,DoS GoldenEye,0.999424,True
+DoS GoldenEye,DoS GoldenEye,0.9989968,True
+DoS GoldenEye,DoS GoldenEye,0.99943405,True
+DoS GoldenEye,DoS GoldenEye,0.99991524,True
+DoS GoldenEye,DoS GoldenEye,0.9999298,True
+DoS GoldenEye,DoS GoldenEye,0.9991968,True
+DoS GoldenEye,DoS GoldenEye,0.99952495,True
+DoS GoldenEye,DoS GoldenEye,0.99992585,True
+DoS GoldenEye,DoS GoldenEye,0.99984777,True
+DoS GoldenEye,DoS GoldenEye,0.99991167,True
+DoS GoldenEye,DoS GoldenEye,0.99734575,True
+DoS GoldenEye,DoS GoldenEye,0.9996055,True
+DoS GoldenEye,DoS GoldenEye,0.99900025,True
+DoS GoldenEye,DoS GoldenEye,0.99988914,True
+DoS GoldenEye,DoS GoldenEye,0.99992085,True
+DoS GoldenEye,DoS GoldenEye,0.9996556,True
+DoS GoldenEye,DoS GoldenEye,0.9998099,True
+DoS GoldenEye,DoS GoldenEye,0.99920756,True
+DoS GoldenEye,DoS GoldenEye,0.9997309,True
+DoS GoldenEye,DoS GoldenEye,0.9920474,True
+DoS GoldenEye,DoS GoldenEye,0.99953103,True
+DoS GoldenEye,DoS GoldenEye,0.999923,True
+DoS GoldenEye,DoS GoldenEye,0.99950254,True
+DoS GoldenEye,DoS GoldenEye,0.9998759,True
+DoS GoldenEye,DoS GoldenEye,0.99987864,True
+DoS GoldenEye,DoS GoldenEye,0.99375993,True
+DoS GoldenEye,DoS GoldenEye,0.99650514,True
+DoS GoldenEye,DoS GoldenEye,0.9999261,True
+DoS GoldenEye,DoS GoldenEye,0.998295,True
+DoS GoldenEye,DoS GoldenEye,0.9956013,True
+DoS GoldenEye,DoS GoldenEye,0.9998068,True
+DoS GoldenEye,DoS GoldenEye,0.999908,True
+DoS GoldenEye,DoS GoldenEye,0.999936,True
+DoS GoldenEye,DoS GoldenEye,0.9998908,True
+DoS GoldenEye,DoS GoldenEye,0.999933,True
+DoS GoldenEye,DoS GoldenEye,0.9997948,True
+DoS GoldenEye,DoS GoldenEye,0.9985322,True
+DoS GoldenEye,DoS GoldenEye,0.99932706,True
+DoS GoldenEye,DoS GoldenEye,0.99975973,True
+DoS GoldenEye,DoS GoldenEye,0.9994161,True
+DoS GoldenEye,DoS GoldenEye,0.9997435,True
+DoS GoldenEye,DoS GoldenEye,0.99974877,True
+DoS GoldenEye,DoS GoldenEye,0.9998642,True
+DoS GoldenEye,DoS GoldenEye,0.9999101,True
+DoS GoldenEye,DoS GoldenEye,0.9998276,True
+DoS GoldenEye,DoS GoldenEye,0.99993074,True
+DoS GoldenEye,DoS GoldenEye,0.99681145,True
+DoS GoldenEye,DoS GoldenEye,0.99961436,True
+DoS GoldenEye,DoS GoldenEye,0.9991098,True
+DoS GoldenEye,DoS GoldenEye,0.999925,True
+DoS GoldenEye,DoS GoldenEye,0.99994004,True
+DoS GoldenEye,DoS GoldenEye,0.9995096,True
+DoS GoldenEye,DoS GoldenEye,0.9997459,True
+DoS GoldenEye,DoS GoldenEye,0.9999225,True
+DoS GoldenEye,DoS GoldenEye,0.9996996,True
+DoS GoldenEye,DoS GoldenEye,0.99987197,True
+DoS GoldenEye,DoS GoldenEye,0.98229766,True
+DoS GoldenEye,DoS GoldenEye,0.99993443,True
+DoS GoldenEye,DoS GoldenEye,0.9999212,True
+DoS GoldenEye,DoS GoldenEye,0.99992406,True
+DoS GoldenEye,DoS GoldenEye,0.9999355,True
+DoS GoldenEye,DoS GoldenEye,0.9997948,True
+DoS GoldenEye,DoS GoldenEye,0.9999193,True
+DoS GoldenEye,DoS GoldenEye,0.9999254,True
+DoS GoldenEye,DoS GoldenEye,0.99991035,True
+DoS GoldenEye,DoS GoldenEye,0.9998294,True
+DoS GoldenEye,DoS GoldenEye,0.9997002,True
+DoS GoldenEye,DoS GoldenEye,0.9999093,True
+DoS GoldenEye,DoS GoldenEye,0.99985754,True
+DoS GoldenEye,DoS GoldenEye,0.99990416,True
+DoS GoldenEye,DoS GoldenEye,0.9999323,True
+DoS GoldenEye,DoS GoldenEye,0.9999163,True
+DoS GoldenEye,DoS GoldenEye,0.9996178,True
+DoS GoldenEye,DoS GoldenEye,0.999926,True
+DoS GoldenEye,DoS GoldenEye,0.99941516,True
+DoS GoldenEye,DoS GoldenEye,0.99969006,True
+DoS GoldenEye,DoS GoldenEye,0.9994174,True
+DoS GoldenEye,DoS GoldenEye,0.8342658,True
+DoS GoldenEye,DoS GoldenEye,0.99838066,True
+DoS GoldenEye,DoS GoldenEye,0.9996101,True
+DoS GoldenEye,DoS GoldenEye,0.99938035,True
+DoS GoldenEye,DoS GoldenEye,0.9998317,True
+DoS GoldenEye,DoS GoldenEye,0.9999249,True
+DoS GoldenEye,DoS GoldenEye,0.99724907,True
+DoS GoldenEye,DoS GoldenEye,0.99983525,True
+DoS GoldenEye,DoS GoldenEye,0.9997557,True
+DoS GoldenEye,DoS GoldenEye,0.99975914,True
+DoS GoldenEye,DoS GoldenEye,0.9999155,True
+DoS GoldenEye,DoS GoldenEye,0.9998915,True
+DoS GoldenEye,DoS GoldenEye,0.99987495,True
+DoS GoldenEye,DoS GoldenEye,0.9997018,True
+DoS GoldenEye,DoS GoldenEye,0.99988127,True
+DoS GoldenEye,DoS GoldenEye,0.99974674,True
+DoS GoldenEye,DoS GoldenEye,0.9998172,True
+DoS GoldenEye,DoS GoldenEye,0.99996114,True
+DoS GoldenEye,DoS GoldenEye,0.999936,True
+DoS GoldenEye,DoS GoldenEye,0.9998543,True
+DoS GoldenEye,DoS GoldenEye,0.99928844,True
+DoS GoldenEye,DoS GoldenEye,0.9998919,True
+DoS GoldenEye,DoS GoldenEye,0.9999157,True
+DoS GoldenEye,DoS GoldenEye,0.94880617,True
+DoS GoldenEye,DoS GoldenEye,0.99855965,True
+DoS GoldenEye,DoS GoldenEye,0.9999068,True
+DoS GoldenEye,DoS GoldenEye,0.99856097,True
+DoS GoldenEye,DoS GoldenEye,0.9994155,True
+DoS GoldenEye,DoS GoldenEye,0.99592066,True
+DoS GoldenEye,DoS GoldenEye,0.99991167,True
+DoS GoldenEye,DoS GoldenEye,0.9997688,True
+DoS GoldenEye,DoS GoldenEye,0.9989261,True
+DoS GoldenEye,DoS GoldenEye,0.9998354,True
+DoS GoldenEye,DoS GoldenEye,0.99972993,True
+DoS GoldenEye,DoS GoldenEye,0.9999454,True
+DoS GoldenEye,DoS GoldenEye,0.9998516,True
+DoS GoldenEye,DoS GoldenEye,0.9999027,True
+DoS GoldenEye,DoS GoldenEye,0.99372935,True
+DoS GoldenEye,DoS GoldenEye,0.9999304,True
+DoS GoldenEye,DoS GoldenEye,0.9995981,True
+DoS GoldenEye,DoS GoldenEye,0.99945515,True
+DoS GoldenEye,DoS GoldenEye,0.9997571,True
+DoS GoldenEye,DoS GoldenEye,0.99993014,True
+DoS GoldenEye,DoS GoldenEye,0.9983139,True
+DoS GoldenEye,DoS GoldenEye,0.87480277,True
+DoS GoldenEye,DoS GoldenEye,0.9993736,True
+DoS GoldenEye,DoS GoldenEye,0.9999261,True
+DoS GoldenEye,DoS GoldenEye,0.9777224,True
+DoS GoldenEye,DoS GoldenEye,0.99961215,True
+DoS GoldenEye,DoS GoldenEye,0.9997495,True
+DoS GoldenEye,DoS GoldenEye,0.9993636,True
+DoS GoldenEye,DoS GoldenEye,0.99020946,True
+DoS GoldenEye,DoS GoldenEye,0.99815303,True
+DoS GoldenEye,DoS GoldenEye,0.9997733,True
+DoS GoldenEye,DoS GoldenEye,0.92305523,True
+DoS GoldenEye,DoS GoldenEye,0.99985874,True
+DoS GoldenEye,DoS GoldenEye,0.99965,True
+DoS GoldenEye,DoS GoldenEye,0.9999279,True
+DoS GoldenEye,DoS GoldenEye,0.99923754,True
+DoS GoldenEye,DoS GoldenEye,0.99991345,True
+DoS GoldenEye,DoS GoldenEye,0.99992347,True
+DoS GoldenEye,DoS GoldenEye,0.99982834,True
+DoS GoldenEye,DoS GoldenEye,0.6310385,True
+DoS GoldenEye,DoS GoldenEye,0.9999236,True
+DoS GoldenEye,DoS GoldenEye,0.9998288,True
+DoS GoldenEye,DoS GoldenEye,0.9994511,True
+DoS GoldenEye,DoS GoldenEye,0.99990594,True
+DoS GoldenEye,DoS GoldenEye,0.999907,True
+DoS GoldenEye,DoS GoldenEye,0.99933225,True
+DoS GoldenEye,DoS GoldenEye,0.9997923,True
+DoS GoldenEye,DoS GoldenEye,0.99992204,True
+DoS GoldenEye,DoS GoldenEye,0.99910235,True
+DoS GoldenEye,DoS GoldenEye,0.99632806,True
+DoS GoldenEye,DoS GoldenEye,0.999405,True
+DoS GoldenEye,DoS GoldenEye,0.99975127,True
+DoS GoldenEye,DoS GoldenEye,0.9996928,True
+DoS GoldenEye,DoS GoldenEye,0.99954224,True
+DoS GoldenEye,DoS GoldenEye,0.99991167,True
+DoS GoldenEye,DoS GoldenEye,0.9998449,True
+DoS GoldenEye,DoS GoldenEye,0.99762636,True
+DoS GoldenEye,DoS GoldenEye,0.99985325,True
+DoS GoldenEye,DoS GoldenEye,0.9997758,True
+DoS GoldenEye,DoS GoldenEye,0.99939644,True
+DoS GoldenEye,DoS GoldenEye,0.99910504,True
+DoS GoldenEye,DoS GoldenEye,0.9989924,True
+DoS GoldenEye,DoS GoldenEye,0.99906904,True
+DoS GoldenEye,DoS GoldenEye,0.99975973,True
+DoS GoldenEye,DoS GoldenEye,0.9999409,True
+DoS GoldenEye,DoS GoldenEye,0.9998517,True
+DoS GoldenEye,DoS GoldenEye,0.9990038,True
+DoS GoldenEye,DoS GoldenEye,0.9997663,True
+DoS GoldenEye,DoS GoldenEye,0.9997689,True
+DoS GoldenEye,DoS GoldenEye,0.9992932,True
+DoS GoldenEye,DoS GoldenEye,0.993451,True
+DoS GoldenEye,DoS GoldenEye,0.9999187,True
+DoS GoldenEye,DoS GoldenEye,0.99879694,True
+DoS GoldenEye,DoS GoldenEye,0.9998865,True
+DoS GoldenEye,DoS GoldenEye,0.99585044,True
+DoS GoldenEye,DoS GoldenEye,0.999889,True
+DoS GoldenEye,DoS GoldenEye,0.9997009,True
+DoS GoldenEye,DoS GoldenEye,0.999782,True
+DoS GoldenEye,DoS GoldenEye,0.99969804,True
+DoS GoldenEye,DoS GoldenEye,0.9999033,True
+DoS GoldenEye,DoS GoldenEye,0.9997284,True
+DoS GoldenEye,DoS GoldenEye,0.9996264,True
+DoS GoldenEye,DoS GoldenEye,0.9999366,True
+DoS GoldenEye,DoS GoldenEye,0.9997328,True
+DoS GoldenEye,DoS GoldenEye,0.999508,True
+DoS GoldenEye,DoS GoldenEye,0.9997383,True
+DoS GoldenEye,DoS GoldenEye,0.8946211,True
+DoS GoldenEye,DoS GoldenEye,0.99919146,True
+DoS GoldenEye,DoS GoldenEye,0.96443915,True
+DoS GoldenEye,DoS GoldenEye,0.9952903,True
+DoS GoldenEye,DoS GoldenEye,0.9874401,True
+DoS GoldenEye,DoS GoldenEye,0.99971205,True
+DoS GoldenEye,DoS GoldenEye,0.9998294,True
+DoS GoldenEye,DoS GoldenEye,0.99860626,True
+DoS GoldenEye,DoS GoldenEye,0.99596244,True
+DoS GoldenEye,DoS GoldenEye,0.99989057,True
+DoS GoldenEye,DoS GoldenEye,0.99992347,True
+DoS GoldenEye,DoS GoldenEye,0.99107856,True
+DoS GoldenEye,DoS GoldenEye,0.99993944,True
+DoS GoldenEye,DoS GoldenEye,0.9999201,True
+DoS GoldenEye,DoS GoldenEye,0.9999194,True
+DoS GoldenEye,DoS GoldenEye,0.9941024,True
+DoS GoldenEye,DoS GoldenEye,0.9998652,True
+DoS GoldenEye,DoS GoldenEye,0.9999211,True
+DoS GoldenEye,DoS GoldenEye,0.99990356,True
+DoS GoldenEye,DoS GoldenEye,0.9998048,True
+DoS GoldenEye,DoS GoldenEye,0.9969645,True
+DoS GoldenEye,DoS GoldenEye,0.99991906,True
+DoS GoldenEye,DoS GoldenEye,0.9929953,True
+DoS GoldenEye,DoS GoldenEye,0.9998647,True
+DoS GoldenEye,DoS GoldenEye,0.99981886,True
+DoS GoldenEye,DoS GoldenEye,0.99992085,True
+DoS GoldenEye,DoS GoldenEye,0.9998847,True
+DoS GoldenEye,DoS GoldenEye,0.9999201,True
+DoS GoldenEye,DoS GoldenEye,0.99991524,True
+DoS GoldenEye,DoS GoldenEye,0.99992514,True
+DoS GoldenEye,DoS GoldenEye,0.9999474,True
+DoS GoldenEye,DoS GoldenEye,0.99956936,True
+DoS GoldenEye,DoS GoldenEye,0.98311955,True
+DoS GoldenEye,DoS GoldenEye,0.9998729,True
+DoS GoldenEye,DoS GoldenEye,0.999828,True
+DoS GoldenEye,DoS GoldenEye,0.9997278,True
+DoS GoldenEye,DoS GoldenEye,0.9999292,True
+DoS GoldenEye,DoS GoldenEye,0.9999218,True
+DoS GoldenEye,DoS GoldenEye,0.9997459,True
+DoS GoldenEye,DoS GoldenEye,0.99983406,True
+DoS GoldenEye,DoS GoldenEye,0.999933,True
+DoS GoldenEye,DoS GoldenEye,0.99990964,True
+DoS GoldenEye,DoS GoldenEye,0.99980444,True
+DoS GoldenEye,DoS GoldenEye,0.9998385,True
+DoS GoldenEye,DoS GoldenEye,0.9994024,True
+DoS GoldenEye,DoS GoldenEye,0.9999168,True
+DoS GoldenEye,DoS GoldenEye,0.9999337,True
+DoS GoldenEye,DoS GoldenEye,0.99969196,True
+DoS GoldenEye,DoS GoldenEye,0.9998863,True
+DoS GoldenEye,DoS GoldenEye,0.9997906,True
+DoS GoldenEye,DoS GoldenEye,0.9999157,True
+DoS GoldenEye,DoS GoldenEye,0.9990453,True
+DoS GoldenEye,DoS GoldenEye,0.9998616,True
+DoS GoldenEye,DoS GoldenEye,0.99884915,True
+DoS GoldenEye,DoS GoldenEye,0.99896026,True
+DoS GoldenEye,DoS GoldenEye,0.9998634,True
+DoS GoldenEye,DoS GoldenEye,0.99958664,True
+DoS GoldenEye,DoS GoldenEye,0.99709964,True
+DoS GoldenEye,DoS GoldenEye,0.999884,True
+DoS GoldenEye,DoS GoldenEye,0.9989837,True
+DoS GoldenEye,DoS GoldenEye,0.9995534,True
+DoS GoldenEye,DoS GoldenEye,0.99970335,True
+DoS GoldenEye,DoS GoldenEye,0.99860317,True
+DoS GoldenEye,DoS GoldenEye,0.9987845,True
+DoS GoldenEye,DoS GoldenEye,0.9986118,True
+DoS GoldenEye,DoS GoldenEye,0.9999336,True
+DoS GoldenEye,DoS GoldenEye,0.99988437,True
+DoS GoldenEye,DoS GoldenEye,0.99974436,True
+DoS GoldenEye,DoS GoldenEye,0.9999218,True
+DoS GoldenEye,DoS GoldenEye,0.9951055,True
+DoS GoldenEye,DoS GoldenEye,0.99883145,True
+DoS GoldenEye,DoS GoldenEye,0.9998031,True
+DoS GoldenEye,DoS GoldenEye,0.99991894,True
+DoS GoldenEye,DoS GoldenEye,0.9998859,True
+DoS GoldenEye,DoS GoldenEye,0.995259,True
+DoS GoldenEye,DoS GoldenEye,0.99961424,True
+DoS GoldenEye,DoS GoldenEye,0.99992406,True
+DoS GoldenEye,DoS GoldenEye,0.9999223,True
+DoS GoldenEye,DoS GoldenEye,0.99917126,True
+DoS GoldenEye,DoS GoldenEye,0.999926,True
+DoS GoldenEye,BENIGN,0.22914144,False
+DoS GoldenEye,DoS GoldenEye,0.99978095,True
+DoS GoldenEye,DoS GoldenEye,0.9965436,True
+DoS GoldenEye,DoS GoldenEye,0.9955651,True
+DoS GoldenEye,DoS GoldenEye,0.9995041,True
+DoS GoldenEye,DoS GoldenEye,0.99956936,True
+DoS GoldenEye,DoS GoldenEye,0.9995453,True
+DoS GoldenEye,DoS GoldenEye,0.9991449,True
+DoS GoldenEye,DoS GoldenEye,0.9999527,True
+DoS GoldenEye,DoS GoldenEye,0.99989104,True
+DoS GoldenEye,DoS GoldenEye,0.9993343,True
+DoS GoldenEye,DoS GoldenEye,0.9996505,True
+DoS GoldenEye,DoS GoldenEye,0.999731,True
+DoS GoldenEye,DoS GoldenEye,0.99864393,True
+DoS GoldenEye,DoS GoldenEye,0.9997738,True
+DoS GoldenEye,DoS GoldenEye,0.9992291,True
+DoS GoldenEye,DoS GoldenEye,0.9985274,True
+DoS GoldenEye,DoS GoldenEye,0.9999099,True
+DoS GoldenEye,DoS GoldenEye,0.9917887,True
+DoS GoldenEye,BENIGN,0.22846761,False
+DoS GoldenEye,DoS GoldenEye,0.9997017,True
+DoS GoldenEye,DoS GoldenEye,0.99914944,True
+DoS GoldenEye,DoS GoldenEye,0.9991917,True
+DoS GoldenEye,DoS GoldenEye,0.99877316,True
+DoS GoldenEye,DoS GoldenEye,0.99992824,True
+DoS GoldenEye,DoS GoldenEye,0.9999095,True
+DoS GoldenEye,DoS GoldenEye,0.99983144,True
+DoS GoldenEye,DoS GoldenEye,0.99989057,True
+DoS GoldenEye,DoS GoldenEye,0.9998771,True
+Heartbleed,Heartbleed,0.98791575,True
+Heartbleed,Heartbleed,0.9873511,True
+Heartbleed,Heartbleed,0.98750186,True
+Heartbleed,Heartbleed,0.9874512,True
+Heartbleed,Heartbleed,0.97628504,True
+Heartbleed,Heartbleed,0.9868367,True
+Heartbleed,Heartbleed,0.98264796,True
+Heartbleed,Heartbleed,0.9875,True
+Heartbleed,Heartbleed,0.9865264,True
+Heartbleed,DoS Hulk,0.95637304,True
+Heartbleed,Heartbleed,0.9873663,True

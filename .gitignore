@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+data/raw/
+data/processed/
+*.joblib
+*.pt
+*.pcap
+*.parquet
+reports/pilot/
