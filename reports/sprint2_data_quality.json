@@ -1,0 +1,272 @@
+{
+  "generated_utc": "2026-11-23T09:20:43.038406+00:00",
+  "status": "audit_only_no_training",
+  "total_rows": 2922955,
+  "files": [
+    {
+      "dataset": "CIC-IDS2017",
+      "path": "data\\raw\\CIC-IDS2017\\MachineLearningCVE\\Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+      "bytes": 77123859,
+      "columns": 79,
+      "schema": {
+        "available": 60,
+        "expected": 60,
+        "missing": [],
+        "duplicate_columns": [],
+        "label_present": true
+      },
+      "rows": 225745,
+      "missing_cells_selected_features": 4,
+      "infinite_cells_selected_features": 64,
+      "non_numeric_cells_selected_features": 0,
+      "label_counts": {
+        "BENIGN": 97718,
+        "DDoS": 128027
+      },
+      "unknown_labels": {},
+      "notes": [
+        "CIC CSV lacks timestamp/IP; no temporal/group split possible with this version",
+        "Duplicate flow audit intentionally not performed: needs a defined key and substantial resources"
+      ]
+    },
+    {
+      "dataset": "CIC-IDS2017",
+      "path": "data\\raw\\CIC-IDS2017\\MachineLearningCVE\\Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+      "bytes": 76906168,
+      "columns": 79,
+      "schema": {
+        "available": 60,
+        "expected": 60,
+        "missing": [],
+        "duplicate_columns": [],
+        "label_present": true
+      },
+      "rows": 286467,
+      "missing_cells_selected_features": 15,
+      "infinite_cells_selected_features": 727,
+      "non_numeric_cells_selected_features": 0,
+      "label_counts": {
+        "BENIGN": 127537,
+        "PortScan": 158930
+      },
+      "unknown_labels": {},
+      "notes": [
+        "CIC CSV lacks timestamp/IP; no temporal/group split possible with this version",
+        "Duplicate flow audit intentionally not performed: needs a defined key and substantial resources"
+      ]
+    },
+    {
+      "dataset": "CIC-IDS2017",
+      "path": "data\\raw\\CIC-IDS2017\\MachineLearningCVE\\Friday-WorkingHours-Morning.pcap_ISCX.csv",
+      "bytes": 58316725,
+      "columns": 79,
+      "schema": {
+        "available": 60,
+        "expected": 60,
+        "missing": [],
+        "duplicate_columns": [],
+        "label_present": true
+      },
+      "rows": 191033,
+      "missing_cells_selected_features": 28,
+      "infinite_cells_selected_features": 216,
+      "non_numeric_cells_selected_features": 0,
+      "label_counts": {
+        "BENIGN": 189067,
+        "Bot": 1966
+      },
+      "unknown_labels": {},
+      "notes": [
+        "CIC CSV lacks timestamp/IP; no temporal/group split possible with this version",
+        "Duplicate flow audit intentionally not performed: needs a defined key and substantial resources"
+      ]
+    },
+    {
+      "dataset": "CIC-IDS2017",
+      "path": "data\\raw\\CIC-IDS2017\\MachineLearningCVE\\Monday-WorkingHours.pcap_ISCX.csv",
+      "bytes": 176927918,
+      "columns": 79,
+      "schema": {
+        "available": 60,
+        "expected": 60,
+        "missing": [],
+        "duplicate_columns": [],
+        "label_present": true
+      },
+      "rows": 529918,
+      "missing_cells_selected_features": 64,
+      "infinite_cells_selected_features": 810,
+      "non_numeric_cells_selected_features": 0,
+      "label_counts": {
+        "BENIGN": 529918
+      },
+      "unknown_labels": {},
+      "notes": [
+        "CIC CSV lacks timestamp/IP; no temporal/group split possible with this version",
+        "Duplicate flow audit intentionally not performed: needs a defined key and substantial resources"
+      ]
+    },
+    {
+      "dataset": "CIC-IDS2017",
+      "path": "data\\raw\\CIC-IDS2017\\MachineLearningCVE\\Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv",
+      "bytes": 83102436,
+      "columns": 79,
+      "schema": {
+        "available": 60,
+        "expected": 60,
+        "missing": [],
+        "duplicate_columns": [],
+        "label_present": true
+      },
+      "rows": 288602,
+      "missing_cells_selected_features": 18,
+      "infinite_cells_selected_features": 396,
+      "non_numeric_cells_selected_features": 0,
+      "label_counts": {
+        "BENIGN": 288566,
+        "Infiltration": 36
+      },
+      "unknown_labels": {},
+      "notes": [
+        "CIC CSV lacks timestamp/IP; no temporal/group split possible with this version",
+        "Duplicate flow audit intentionally not performed: needs a defined key and substantial resources"
+      ]
+    },
+    {
+      "dataset": "CIC-IDS2017",
+      "path": "data\\raw\\CIC-IDS2017\\MachineLearningCVE\\Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+      "bytes": 52023263,
+      "columns": 79,
+      "schema": {
+        "available": 60,
+        "expected": 60,
+        "missing": [],
+        "duplicate_columns": [],
+        "label_present": true
+      },
+      "rows": 170366,
+      "missing_cells_selected_features": 20,
+      "infinite_cells_selected_features": 250,
+      "non_numeric_cells_selected_features": 0,
+      "label_counts": {
+        "BENIGN": 168186,
+        "Web Attack - Brute Force": 1507,
+        "Web Attack - Sql Injection": 21,
+        "Web Attack - XSS": 652
+      },
+      "unknown_labels": {},
+      "notes": [
+        "CIC CSV lacks timestamp/IP; no temporal/group split possible with this version",
+        "Duplicate flow audit intentionally not performed: needs a defined key and substantial resources"
+      ]
+    },
+    {
+      "dataset": "CIC-IDS2017",
+      "path": "data\\raw\\CIC-IDS2017\\MachineLearningCVE\\Tuesday-WorkingHours.pcap_ISCX.csv",
+      "bytes": 135078995,
+      "columns": 79,
+      "schema": {
+        "available": 60,
+        "expected": 60,
+        "missing": [],
+        "duplicate_columns": [],
+        "label_present": true
+      },
+      "rows": 445909,
+      "missing_cells_selected_features": 201,
+      "infinite_cells_selected_features": 327,
+      "non_numeric_cells_selected_features": 0,
+      "label_counts": {
+        "BENIGN": 432074,
+        "FTP-Patator": 7938,
+        "SSH-Patator": 5897
+      },
+      "unknown_labels": {},
+      "notes": [
+        "CIC CSV lacks timestamp/IP; no temporal/group split possible with this version",
+        "Duplicate flow audit intentionally not performed: needs a defined key and substantial resources"
+      ]
+    },
+    {
+      "dataset": "CIC-IDS2017",
+      "path": "data\\raw\\CIC-IDS2017\\MachineLearningCVE\\Wednesday-workingHours.pcap_ISCX.csv",
+      "bytes": 225166395,
+      "columns": 79,
+      "schema": {
+        "available": 60,
+        "expected": 60,
+        "missing": [],
+        "duplicate_columns": [],
+        "label_present": true
+      },
+      "rows": 692703,
+      "missing_cells_selected_features": 1008,
+      "infinite_cells_selected_features": 1586,
+      "non_numeric_cells_selected_features": 0,
+      "label_counts": {
+        "BENIGN": 440031,
+        "DoS GoldenEye": 10293,
+        "DoS Hulk": 231073,
+        "DoS Slowhttptest": 5499,
+        "DoS slowloris": 5796,
+        "Heartbleed": 11
+      },
+      "unknown_labels": {},
+      "notes": [
+        "CIC CSV lacks timestamp/IP; no temporal/group split possible with this version",
+        "Duplicate flow audit intentionally not performed: needs a defined key and substantial resources"
+      ]
+    },
+    {
+      "dataset": "CTU-13",
+      "path": "data\\raw\\CTU-13\\CTU13-CSV-Dataset-main\\CTU13_Attack_Traffic.csv",
+      "bytes": 9341949,
+      "columns": 59,
+      "schema": {
+        "n_features": 57,
+        "label_present": true,
+        "has_host_time": false
+      },
+      "rows": 38898,
+      "missing_cells_selected_features": 0,
+      "infinite_cells_selected_features": 0,
+      "non_numeric_cells_selected_features": 0,
+      "label_counts": {
+        "1": 38898
+      },
+      "unknown_labels": {},
+      "notes": [
+        "CTU-13 is binary only; no claim of scenario split, C2 topology or beaconing labels",
+        "Duplicate flow audit intentionally not performed: needs a defined key and substantial resources"
+      ]
+    },
+    {
+      "dataset": "CTU-13",
+      "path": "data\\raw\\CTU-13\\CTU13-CSV-Dataset-main\\CTU13_Normal_Traffic.csv",
+      "bytes": 14065968,
+      "columns": 59,
+      "schema": {
+        "n_features": 57,
+        "label_present": true,
+        "has_host_time": false
+      },
+      "rows": 53314,
+      "missing_cells_selected_features": 0,
+      "infinite_cells_selected_features": 0,
+      "non_numeric_cells_selected_features": 0,
+      "label_counts": {
+        "0": 53314
+      },
+      "unknown_labels": {},
+      "notes": [
+        "CTU-13 is binary only; no claim of scenario split, C2 topology or beaconing labels",
+        "Duplicate flow audit intentionally not performed: needs a defined key and substantial resources"
+      ]
+    }
+  ],
+  "warnings": [
+    "No model fit or evaluation performed",
+    "This does not prove independent holdout evaluation",
+    "Missing/Inf calculated on selected features only, not all CSV columns"
+  ]
+}
