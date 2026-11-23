@@ -9,3 +9,5 @@ data/processed/
 *.pcap
 *.parquet
 reports/pilot/
+
+data/raw/

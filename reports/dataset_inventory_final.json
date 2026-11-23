@@ -1,0 +1,62 @@
+[
+  {
+    "dataset": "CIC-IDS2017",
+    "file": "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+    "path": "data/raw/CIC-IDS2017/MachineLearningCVE/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+    "size_bytes": 77123859
+  },
+  {
+    "dataset": "CIC-IDS2017",
+    "file": "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+    "path": "data/raw/CIC-IDS2017/MachineLearningCVE/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+    "size_bytes": 76906168
+  },
+  {
+    "dataset": "CIC-IDS2017",
+    "file": "Friday-WorkingHours-Morning.pcap_ISCX.csv",
+    "path": "data/raw/CIC-IDS2017/MachineLearningCVE/Friday-WorkingHours-Morning.pcap_ISCX.csv",
+    "size_bytes": 58316725
+  },
+  {
+    "dataset": "CIC-IDS2017",
+    "file": "Monday-WorkingHours.pcap_ISCX.csv",
+    "path": "data/raw/CIC-IDS2017/MachineLearningCVE/Monday-WorkingHours.pcap_ISCX.csv",
+    "size_bytes": 176927918
+  },
+  {
+    "dataset": "CIC-IDS2017",
+    "file": "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv",
+    "path": "data/raw/CIC-IDS2017/MachineLearningCVE/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv",
+    "size_bytes": 83102436
+  },
+  {
+    "dataset": "CIC-IDS2017",
+    "file": "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+    "path": "data/raw/CIC-IDS2017/MachineLearningCVE/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+    "size_bytes": 52023263
+  },
+  {
+    "dataset": "CIC-IDS2017",
+    "file": "Tuesday-WorkingHours.pcap_ISCX.csv",
+    "path": "data/raw/CIC-IDS2017/MachineLearningCVE/Tuesday-WorkingHours.pcap_ISCX.csv",
+    "size_bytes": 135078995
+  },
+  {
+    "dataset": "CIC-IDS2017",
+    "file": "Wednesday-workingHours.pcap_ISCX.csv",
+    "path": "data/raw/CIC-IDS2017/MachineLearningCVE/Wednesday-workingHours.pcap_ISCX.csv",
+    "size_bytes": 225166395
+  },
+  {
+    "dataset": "CTU-13",
+    "file": "CTU13_Attack_Traffic.csv",
+    "path": "data/raw/CTU-13/CTU13-CSV-Dataset-main/CTU13_Attack_Traffic.csv",
+    "size_bytes": 9341949
+  },
+  {
+    "dataset": "CTU-13",
+    "file": "CTU13_Normal_Traffic.csv",
+    "path": "data/raw/CTU-13/CTU13-CSV-Dataset-main/CTU13_Normal_Traffic.csv",
+    "size_bytes": 14065968
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "generated_utc": "2026-11-23T08:29:42.843406+00:00",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "python": "3.11.9",
+  "executable": "C:\\Projects\\NIDS\\.venv\\Scripts\\python.exe",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "pyarrow": "26.0.1",
+    "scikit-learn": "1.6.1",
+    "xgboost": "3.2.0",
+    "lightgbm": "4.7.0",
+    "networkx": "3.6.1",
+    "matplotlib": "3.11.2",
+    "torch": "2.15.0",
+    "joblib": "1.6.0",
+    "pytest": "9.2.0",
+    "nbformat": "5.11.1",
+    "jupyterlab": "4.6.6",
+    "streamlit": "1.67.0"
+  },
+  "git": {
+    "head": {
+      "status": "unavailable",
+      "detail": "[WinError 2] The system cannot find the file specified"
+    },
+    "branch": {
+      "status": "unavailable",
+      "detail": "[WinError 2] The system cannot find the file specified"
+    },
+    "status": {
+      "status": "unavailable",
+      "detail": "[WinError 2] The system cannot find the file specified"
+    },
+    "lfs_version": {
+      "status": "unavailable",
+      "detail": "[WinError 2] The system cannot find the file specified"
+    },
+    "lfs_files": {
+      "status": "unavailable",
+      "detail": "[WinError 2] The system cannot find the file specified"
+    }
+  },
+  "pip_check": {
+    "status": "ok",
+    "returncode": 0,
+    "stdout": "No broken requirements found.",
+    "stderr": ""
+  },
+  "artifacts": {
+    "models/final/model.pt": {
+      "exists": true,
+      "bytes": 486457,
+      "lfs_pointer_only": false
+    },
+    "models/final/preprocessing.joblib": {
+      "exists": true,
+      "bytes": 5702,
+      "lfs_pointer_only": false
+    },
+    "models/final/deployment_manifest.json": {
+      "exists": true,
+      "bytes": 2810
+    },
+    "data/demo/cic_pilot_sample.csv": {
+      "exists": true,
+      "bytes": 1300519
+    }
+  },
+  "datasets": {
+    "cic": {
+      "status": "missing",
+      "path": "C:\\Projects\\NIDS\\data\\raw\\CIC-IDS2017.zip",
+      "note": "Original archive not available locally"
+    },
+    "ctu": {
+      "status": "missing",
+      "path": "C:\\Projects\\NIDS\\data\\raw\\ctu-13-dataset.zip",
+      "note": "Original archive not available locally"
+    }
+  },
+  "notebook_artifacts": {
+    "cic_expanded_splits.parquet": [],
+    "experiment_manifest.json": [],
+    "feature_sets.json": [],
+    "validation_bias_grid.csv": [],
+    "pilot_test_metrics.json": [],
+    "baseline_test_metrics.csv": [],
+    "scenario_holdout_metrics.json": [],
+    "final_test_metrics.json": []
+  }
+}

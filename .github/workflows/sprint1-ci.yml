@@ -1,0 +1,35 @@
+name: Sprint 1 - Python smoke tests
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  windows-tests:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt -c constraints-windows.txt
+      - name: Check dependency consistency
+        run: python -m pip check
+      - name: Run unit tests
+        env:
+          PYTHONPATH: src
+        run: python -m pytest -q tests test_cic_flow_extractor.py --junitxml=reports/sprint1_pytest.xml
+      - name: Audit repo (without original dataset archives)
+        run: python scripts/sprint1_audit.py
+      - name: Upload smoke-test evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sprint1-windows-evidence
+          path: |
+            reports/sprint1_pytest.xml
+            reports/environment_audit.md
+            reports/environment_audit.json
+            reports/dataset_inventory.json
