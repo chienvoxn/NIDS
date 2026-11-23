@@ -11,3 +11,8 @@ data/processed/
 reports/pilot/
 
 data/raw/
+
+# Local generated reports
+reports/dataset_inventory.json
+reports/dependency_versions.txt
+reports/*pytest.xml
