@@ -1,0 +1,20 @@
+{
+  "captured": 75,
+  "unsupported": 0,
+  "queue_dropped": 0,
+  "reorder_dropped": 0,
+  "timer_ticks": 200,
+  "periodic_windows": 14,
+  "capture_complete": true,
+  "accepted_packets": 75,
+  "late_packets": 0,
+  "dropped_packets": 0,
+  "emitted_windows": 15,
+  "buffered_packets": 0,
+  "window_seconds": 5,
+  "stride_seconds": 1,
+  "cnn_enabled": false,
+  "verified_live": false,
+  "semantic_parity": false,
+  "feature_status": "metadata_only"
+}

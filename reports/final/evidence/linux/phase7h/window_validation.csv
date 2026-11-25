@@ -1,0 +1,16 @@
+window_start,packets,flows,hosts,packet_ok,bytes_ok,flow_detail_ok,host_detail_ok,flow_count_ok,host_count_ok,window_size_ok,stride_ok,ai_disabled
+2026-11-25T17:12:37+00:00,75,24,2,True,True,True,True,True,True,True,True,True
+2026-11-25T17:12:38+00:00,63,20,2,True,True,True,True,True,True,True,True,True
+2026-11-25T17:12:39+00:00,38,12,2,True,True,True,True,True,True,True,True,True
+2026-11-25T17:12:40+00:00,13,4,2,True,True,True,True,True,True,True,True,True
+2026-11-25T17:12:41+00:00,0,0,0,True,True,True,True,True,True,True,True,True
+2026-11-25T17:12:42+00:00,0,0,0,True,True,True,True,True,True,True,True,True
+2026-11-25T17:12:43+00:00,0,0,0,True,True,True,True,True,True,True,True,True
+2026-11-25T17:12:44+00:00,0,0,0,True,True,True,True,True,True,True,True,True
+2026-11-25T17:12:45+00:00,0,0,0,True,True,True,True,True,True,True,True,True
+2026-11-25T17:12:46+00:00,0,0,0,True,True,True,True,True,True,True,True,True
+2026-11-25T17:12:47+00:00,0,0,0,True,True,True,True,True,True,True,True,True
+2026-11-25T17:12:48+00:00,0,0,0,True,True,True,True,True,True,True,True,True
+2026-11-25T17:12:49+00:00,0,0,0,True,True,True,True,True,True,True,True,True
+2026-11-25T17:12:50+00:00,0,0,0,True,True,True,True,True,True,True,True,True
+2026-11-25T17:12:51+00:00,0,0,0,True,True,True,True,True,True,True,True,True
