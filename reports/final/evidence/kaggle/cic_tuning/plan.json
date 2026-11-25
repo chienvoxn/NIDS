@@ -1,0 +1,56 @@
+{
+  "trials": [
+    [
+      "T01",
+      32,
+      0.001,
+      0.1,
+      "none"
+    ],
+    [
+      "T02",
+      32,
+      0.001,
+      0.1,
+      "sqrt"
+    ],
+    [
+      "T03",
+      32,
+      0.001,
+      0.1,
+      "balanced"
+    ],
+    [
+      "T04",
+      64,
+      0.001,
+      0.1,
+      "sqrt"
+    ],
+    [
+      "T05",
+      32,
+      0.0005,
+      0.1,
+      "sqrt"
+    ],
+    [
+      "T06",
+      32,
+      0.001,
+      0.2,
+      "sqrt"
+    ]
+  ],
+  "epochs": 10,
+  "batch_size": 512,
+  "seed": 42,
+  "patience": 3,
+  "commit": "dfb84460072a0bcaeed01d9eec0e1ac0dd371531",
+  "split_sha256": {
+    "train": "597d8ec35dcebb218af51dc15302757fb81c8127a062b972903eb242ed84615e",
+    "validation": "0786e13f3cada384fe61077caed781ff30e262ab74bc16c46ac7df2c8444c89c",
+    "test": "3eacdb2b228737ecd8cc57f1c83acd7b5eda62ef73aa857cff462ac51e2e83c9"
+  }
+}

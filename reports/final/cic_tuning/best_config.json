@@ -1,0 +1,13 @@
+{
+  "Trial": "T01",
+  "Width": 32,
+  "LR": 0.001,
+  "Dropout": 0.1,
+  "Weight": "none",
+  "Accuracy": 0.9873117454944532,
+  "Precision": 0.9871537840944963,
+  "Recall": 0.9873117454944532,
+  "F1": 0.9870508429655755,
+  "BestEpoch": 4,
+  "TrainingSeconds": 416.62866022100025
+}

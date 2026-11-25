@@ -1,0 +1,2 @@
+Model,Validation Accuracy,Validation Precision,Validation Recall,Validation F1,Best epoch,Training seconds
+cnn_se_mhsa,0.9776752304010367,0.9854449389766723,0.9776752304010367,0.9804135019016066,7,595.6941777930006
