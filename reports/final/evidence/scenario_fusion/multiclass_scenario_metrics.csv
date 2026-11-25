@@ -1,0 +1,4 @@
+scenario,total_samples,attack_samples,correct_attack_type,missed_attacks,wrong_attack_type,attack_type_accuracy,false_positives,evaluation_mode,verified_live
+Bot,1293,293,114,179,0,0.3890784982935154,2,offline,False
+DoS_Hulk,2000,1000,996,4,0,0.996,2,offline,False
+PortScan,2000,1000,1000,0,0,1.0,2,offline,False
