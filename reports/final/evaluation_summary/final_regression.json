@@ -1,0 +1,11 @@
+{
+  "python": "3.11.18 (main, Nov 24 2026, 16:57:34) [Clang 23.1.3 ]",
+  "platform": "Linux-6.18.58.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "regression": {
+    "tests": 152,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 152
+  }
+}

@@ -36,6 +36,7 @@ ctu = pd.concat(
 )
 
 assert len(ctu) == 9
+ctu["metric_scope"] = "binary_detection"
 
 ctu.to_csv(
     out / "ctu_botnet_comparison.csv",
@@ -45,6 +46,32 @@ ctu.to_csv(
 # CIC comparison
 cic = pd.read_csv(
     root / "cic_final/model_summary.csv"
+)
+
+cg = json.loads(Path(
+    "outputs/final/cic_final_runs/gaussian/metrics.json"
+).read_text())
+
+cic = pd.concat([
+    cic,
+    pd.DataFrame([{
+        "Group": "Anomaly",
+        "Model": "Gaussian",
+        "accuracy": cg["test"]["accuracy"],
+        "precision": cg["test"]["precision"],
+        "recall": cg["test"]["recall"],
+        "f1_score": cg["test"]["f1_score"],
+        "FPR": cg["test"]["false_positive_rate"],
+        "ValidationF1": cg["validation"]["f1_score"]
+    }])
+], ignore_index=True)
+
+assert len(cic) == 9
+
+cic["metric_scope"] = cic.Model.map(
+    lambda x: "binary_detection"
+    if x == "Gaussian"
+    else "weighted_multiclass"
 )
 
 cic.to_csv(
