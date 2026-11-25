@@ -1,4 +1,4 @@
-﻿from pathlib import Path
+from pathlib import Path
 from time import perf_counter
 import argparse
 import json
@@ -47,7 +47,7 @@ def stratified_cap(df, cap):
     return pd.concat(parts, ignore_index=True)
 
 
-def load_data(kind, smoke):
+def load_data(kind, smoke, include_test=True):
 
     folder = ROOT / "data/processed/final" / kind
 
@@ -61,7 +61,7 @@ def load_data(kind, smoke):
 
     frames = [
         pd.read_parquet(folder / f"{name}.parquet")
-        for name in ["train", "validation", "test"]
+        for name in (["train", "validation", "test"] if include_test else ["train", "validation"])
     ]
 
     if smoke:

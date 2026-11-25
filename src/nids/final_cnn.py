@@ -1,4 +1,4 @@
-﻿from pathlib import Path
+from pathlib import Path
 from time import perf_counter
 import argparse
 import copy
@@ -136,22 +136,37 @@ def train_model(
         args.batch_size, False, args.seed
     )
 
-    test_loader = make_loader(
-        xs[2], ys[2],
-        args.batch_size, False, args.seed
-    )
+    test_loader = None
+
+    if not args.tune_only:
+        test_loader = make_loader(
+            xs[2], ys[2],
+            args.batch_size, False, args.seed
+        )
 
     labels = list(range(len(classes)))
 
     weights = None
 
-    if kind == "cic":
+    weight_mode = args.class_weight
+
+    if weight_mode == "auto":
+        weight_mode = (
+            "balanced" if kind == "cic" else "none"
+        )
+
+    if weight_mode != "none":
 
         weights = compute_class_weight(
             class_weight="balanced",
             classes=np.asarray(labels),
             y=ys[0]
         )
+
+        if weight_mode == "sqrt":
+            weights = np.sqrt(weights)
+
+        weights = weights / weights.mean()
 
         weights = torch.tensor(
             weights,
@@ -176,6 +191,12 @@ def train_model(
         mode="max",
         factor=0.5,
         patience=2
+    )
+
+    use_amp = args.amp and device.type == "cuda"
+
+    amp_scaler = torch.cuda.amp.GradScaler(
+        enabled=use_amp
     )
 
     best_f1 = -1.0
@@ -203,19 +224,26 @@ def train_model(
 
             optimizer.zero_grad(set_to_none=True)
 
-            logits = model(x)
-            loss = criterion(logits, y)
+            with torch.autocast(
+                device_type=device.type,
+                dtype=torch.float16,
+                enabled=use_amp
+            ):
+                logits = model(x)
+                loss = criterion(logits, y)
 
             if not torch.isfinite(loss):
                 raise RuntimeError("Non-finite training loss")
 
-            loss.backward()
+            amp_scaler.scale(loss).backward()
+            amp_scaler.unscale_(optimizer)
 
             torch.nn.utils.clip_grad_norm_(
                 model.parameters(), 5.0
             )
 
-            optimizer.step()
+            amp_scaler.step(optimizer)
+            amp_scaler.update()
 
             total_loss += loss.item() * len(y)
             total_rows += len(y)
@@ -265,6 +293,16 @@ def train_model(
                 for k, v in model.state_dict().items()
             }
 
+            torch.save(
+                best_state,
+                out / f"{variant}_best_state.pt"
+            )
+
+            pd.DataFrame(history).to_csv(
+                out / f"{variant}_history.csv",
+                index=False
+            )
+
             stale = 0
 
         else:
@@ -289,6 +327,21 @@ def train_model(
     validation_metrics = evaluate(
         yv, pv, kind, labels
     )
+
+    if args.tune_only:
+
+        pd.DataFrame(history).to_csv(
+            out / f"{variant}_history.csv",
+            index=False
+        )
+
+        return {
+            "variant": variant,
+            "configuration": config,
+            "best_epoch": best_epoch,
+            "validation": validation_metrics,
+            "training_seconds": training_seconds
+        }
 
     if device.type == "cuda":
         torch.cuda.synchronize()
@@ -370,11 +423,21 @@ def run(kind, args, device):
 
     profile = "smoke" if args.smoke else "full"
 
-    out = ROOT / "outputs/final" / profile / kind
-    out.mkdir(parents=True, exist_ok=True)
+    if args.tune_only:
+        profile = "tuning"
+        out = (
+            ROOT / "outputs/final/tuning"
+            / kind / args.run_id
+        )
+        out.mkdir(parents=True, exist_ok=False)
+    else:
+        out = ROOT / "outputs/final" / profile / kind
+        out.mkdir(parents=True, exist_ok=True)
 
     xs, ys, prep, manifest = load_data(
-        kind, args.smoke
+        kind,
+        args.smoke,
+        include_test=not args.tune_only
     )
 
     classes = prep["label_encoder"].classes_.tolist()
@@ -411,6 +474,33 @@ def run(kind, args, device):
         )
 
         report["models"][variant] = result
+
+        if args.tune_only:
+
+            m = result["validation"]
+
+            rows.append({
+                "Model": variant,
+                "Validation Accuracy": m["accuracy"],
+                "Validation Precision": m["precision"],
+                "Validation Recall": m["recall"],
+                "Validation F1": m["f1_score"],
+                "Best epoch": result["best_epoch"],
+                "Training seconds":
+                    result["training_seconds"]
+            })
+
+            pd.DataFrame(rows).to_csv(
+                out / "tuning_metrics.csv",
+                index=False
+            )
+
+            (out / "tuning_metrics.json").write_text(
+                json.dumps(report, indent=2),
+                encoding="utf-8"
+            )
+
+            continue
 
         m = result["test"]
 
@@ -499,7 +589,39 @@ def main():
         default="auto"
     )
 
+    parser.add_argument(
+        "--class-weight",
+        choices=["auto", "none", "sqrt", "balanced"],
+        default="auto"
+    )
+
+    parser.add_argument(
+        "--amp", action="store_true"
+    )
+
+    parser.add_argument(
+        "--tune-only", action="store_true"
+    )
+
+    parser.add_argument(
+        "--run-id", default=None
+    )
+
     args = parser.parse_args()
+
+    if args.tune_only and not args.run_id:
+        parser.error("--tune-only requires --run-id")
+
+    if args.run_id and (
+        not args.run_id.replace("-", "").replace("_", "").isalnum()
+    ):
+        parser.error("Invalid run ID")
+
+    if args.epochs < 1 or args.batch_size < 1:
+        parser.error("Epochs and batch size must be positive")
+
+    if args.width < 4 or args.width % 4:
+        parser.error("Width must be divisible by 4")
 
     if args.device == "auto":
         device = torch.device(
