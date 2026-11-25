@@ -1,0 +1,17 @@
+{
+  "linux_capture": true,
+  "live_pipeline_complete": true,
+  "captured_packets": 158,
+  "processed_flows": 15,
+  "matched_ground_truth": 15,
+  "cnn_false_positives": 0,
+  "gaussian_anomalies": 8,
+  "mean_latency_ms": 105.24358100010431,
+  "latency_scope": "queue_to_fused_prediction",
+  "topology_cases": 4,
+  "topology_correct": 4,
+  "offline_attack_scenarios": 3,
+  "verified_live_attack_detection": false,
+  "verified_live_botnet": false,
+  "semantic_parity": false
+}

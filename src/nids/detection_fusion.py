@@ -1,5 +1,6 @@
 """Experimental fusion of independent network detection signals."""
 
+from nids.topology_detection import classify_topology
 from collections import deque
 import math
 
@@ -101,7 +102,49 @@ class DetectionFusion:
                 (True, True): "corroborated_signal"
             }[(cnn, gaussian)]
 
+
+            undirected = graph.to_undirected()
+            undirected.remove_edges_from(
+                [(u, v) for u, v in undirected.edges if u == v]
+            )
+
+            degrees = [
+                degree for _, degree in undirected.degree()
+            ]
+
+            topology = classify_topology(
+                undirected.number_of_nodes(),
+                undirected.number_of_edges(),
+                max(degrees, default=0),
+                sum(degrees) / max(len(degrees), 1)
+            )
+
+            beaconing_candidate = bool(
+                cv is not None
+                and math.isfinite(cv)
+                and iat is not None
+                and iat > 0
+                and cv <= 0.2
+                and graph[src][dst]["count"] >= 5
+            )
+
+            cnn_bot_signal = (
+                cnn
+                and str(prediction.get("predicted", "")).lower() == "bot"
+            )
+
+            if cnn_bot_signal:
+                botnet_status = "CNN_BOT_SIGNAL"
+            elif beaconing_candidate:
+                botnet_status = "PERIODIC_BEHAVIOR_CANDIDATE"
+            else:
+                botnet_status = "NO_BOTNET_SIGNAL"
+
             extra.append({
+                "communication_topology": topology,
+                "beaconing_candidate": beaconing_candidate,
+                "cnn_bot_signal": cnn_bot_signal,
+                "botnet_status": botnet_status,
                 "fusion_status": status,
                 "history_flows": len(recent),
                 "graph_nodes": graph.number_of_nodes(),

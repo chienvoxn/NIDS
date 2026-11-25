@@ -1,0 +1,4 @@
+scenario,attack_samples,correct_attack_type,attack_type_recall,evaluation_mode
+Bot,293,114,0.3890784982935154,offline
+DoS_Hulk,1000,996,0.996,offline
+PortScan,1000,1000,1.0,offline

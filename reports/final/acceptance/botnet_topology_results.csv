@@ -1,0 +1,5 @@
+topology,nodes,edges,density,max_degree,mean_degree,clustering,diameter,ground_truth_botnet,source,expected_topology,predicted_topology,topology_match,verified_botnet
+centralized_star,13,12,0.15384615384615385,12,1.8461538461538463,0.0,2,False,synthetic_topology_lab,CENTRALIZED,CENTRALIZED,True,False
+p2p_cycle,13,13,0.16666666666666666,2,2.0,0.0,6,False,synthetic_topology_lab,P2P,P2P,True,False
+p2p_mesh,13,26,0.3333333333333333,6,4.0,0.4538461538461538,4,False,synthetic_topology_lab,P2P,P2P,True,False
+benign_hub,13,12,0.15384615384615385,12,1.8461538461538463,0.0,2,False,synthetic_topology_lab,CENTRALIZED,CENTRALIZED,True,False

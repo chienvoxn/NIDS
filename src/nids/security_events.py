@@ -50,6 +50,11 @@ def build_event(row, mode="shadow"):
         "pair_connections": row.get("pair_connections"),
         "pair_iat_cv": row.get("pair_iat_cv"),
 
+        "communication_topology": row.get("communication_topology"),
+        "beaconing_candidate": row.get("beaconing_candidate"),
+        "cnn_bot_signal": row.get("cnn_bot_signal"),
+        "botnet_status": row.get("botnet_status"),
+
         "mode": mode,
         "verified": False,
         "official_alert": False,
