@@ -1,0 +1,3 @@
+session,packets,flows,during_capture,cnn_attack_predictions,gaussian_anomalies,mean,median,p95,max,verified_live
+session1_validation.json,75,12,6,0,3,95.40569550002449,122.24627850036995,173.11527659985578,234.63488199922722,False
+validation.json,76,12,6,0,4,58.71684208303426,74.32323449984324,85.50126389973228,98.91685399998096,False

@@ -1,0 +1,14 @@
+{
+  "ctu_models": 9,
+  "cic_models": 8,
+  "scenario_results": 12,
+  "fusion_sessions": 2,
+  "captured_packets": 151,
+  "processed_flows": 24,
+  "predictions_during_capture": 12,
+  "gaussian_anomalies": 7,
+  "cnn_attack_predictions": 0,
+  "semantic_parity": false,
+  "verified_live_attack_detection": false,
+  "retrained_models": false
+}
