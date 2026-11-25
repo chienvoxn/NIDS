@@ -12,12 +12,13 @@ from nids.stream_detection import process_batch, PROVISIONAL
 
 class LiveShadowWorker:
 
-    def __init__(self, engine, out, capacity=512, batch_size=32):
+    def __init__(self, engine, out, capacity=512, batch_size=32, fusion=None):
 
         if capacity < 1 or not 1 <= batch_size <= 512:
             raise ValueError("Invalid worker limits")
 
         self.engine = engine
+        self.fusion = fusion
         self.out = Path(out)
         self.batch_size = batch_size
         self.queue = queue.Queue(maxsize=capacity)
@@ -117,6 +118,9 @@ class LiveShadowWorker:
                         mode="shadow",
                         batch_size=self.batch_size
                     )
+
+                    if self.fusion is not None:
+                        result = self.fusion.enrich(frame, result)
 
                     done = time.monotonic()
 

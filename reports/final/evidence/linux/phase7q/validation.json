@@ -1,0 +1,45 @@
+{
+  "checks": {
+    "capture_complete": true,
+    "pipeline_complete": true,
+    "nonempty_capture": true,
+    "all_components_enabled": true,
+    "flow_accounting": true,
+    "unique_flow_ids": true,
+    "inference_during_capture": true,
+    "confidence_valid": true,
+    "gaussian_scores_valid": true,
+    "gaussian_threshold": true,
+    "gaussian_decision": true,
+    "fusion_decision": true,
+    "graph_evidence": true,
+    "bounded_history": true,
+    "no_application_drops": true,
+    "no_inference_drops": true,
+    "no_worker_errors": true,
+    "valid_latency": true,
+    "correct_model": true,
+    "shadow_status": true,
+    "no_official_alerts": true,
+    "unverified_status": true
+  },
+  "passed": 22,
+  "total": 22,
+  "captured_packets": 76,
+  "flows": 12,
+  "predictions_during_capture": 6,
+  "cnn_attack_predictions": 0,
+  "gaussian_anomalies": 4,
+  "fusion_counts": {
+    "no_model_signal": 8,
+    "gaussian_signal": 4
+  },
+  "latency_ms": {
+    "mean": 58.71684208303426,
+    "median": 74.32323449984324,
+    "p95": 85.50126389973228,
+    "max": 98.91685399998096
+  },
+  "verified_live": false,
+  "semantic_parity": false
+}

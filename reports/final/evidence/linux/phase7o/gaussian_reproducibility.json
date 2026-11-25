@@ -1,0 +1,54 @@
+[
+  {
+    "dataset": "cic",
+    "threshold": 920.5196377825823,
+    "artifact_sha256": "21d1b48b734a4143c1c051779dc4435a60f45169205a7581d2279250269c85ce",
+    "expected_confusion_matrix": [
+      [
+        311955,
+        2413
+      ],
+      [
+        58143,
+        5634
+      ]
+    ],
+    "actual_confusion_matrix": [
+      [
+        311955,
+        2413
+      ],
+      [
+        58143,
+        5634
+      ]
+    ],
+    "matches_report": true
+  },
+  {
+    "dataset": "ctu",
+    "threshold": 767.0090685617553,
+    "artifact_sha256": "757d23260a7cdd342b2c738500c66de9d1888e988d7289eb9dca9d24c9d36ce6",
+    "expected_confusion_matrix": [
+      [
+        7750,
+        46
+      ],
+      [
+        4337,
+        275
+      ]
+    ],
+    "actual_confusion_matrix": [
+      [
+        7750,
+        46
+      ],
+      [
+        4337,
+        275
+      ]
+    ],
+    "matches_report": true
+  }
+]
