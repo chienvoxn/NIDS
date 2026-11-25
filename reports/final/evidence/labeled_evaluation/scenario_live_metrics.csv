@@ -1,0 +1,4 @@
+scenario,matched_flows,cnn_correct,cnn_false_positives,cnn_benign_accuracy,gaussian_anomalies,mean_latency_ms,p95_latency_ms
+BENIGN,5,5,0,1.0,2,182.51586599981238,531.597884000439
+CONNECTION_PATTERN,5,5,0,1.0,5,78.84958120048395,102.53730720069143
+PERIODIC_PATTERN,5,5,0,1.0,1,54.36529580001661,77.87796759948833

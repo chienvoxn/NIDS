@@ -1,0 +1,67 @@
+CAPTURE READY
+EXPERIMENTAL SECURITY EVENT: {'timestamp': '2026-11-25T18:33:34.105639+00:00', 'source_ip': '10.203.0.2', 'destination_ip': '10.203.0.1', 'source_port': 49068, 'destination_port': 18090, 'protocol': 6, 'attack_type': 'ANOMALY', 'cnn_confidence': 0.9999955892562866, 'gaussian_score': 929.0767220241673, 'gaussian_threshold': 920.5196377825823, 'detector': 'GAUSSIAN', 'severity': 'LOW', 'graph_nodes': 2, 'graph_edges': 1, 'pair_connections': 1, 'pair_iat_cv': None, 'mode': 'shadow', 'verified': False, 'official_alert': False, 'event_status': 'experimental_detection'}
+EXPERIMENTAL SECURITY EVENT: {'timestamp': '2026-11-25T18:33:37.797836+00:00', 'source_ip': '10.203.0.2', 'destination_ip': '10.203.0.1', 'source_port': 41378, 'destination_port': 18090, 'protocol': 6, 'attack_type': 'ANOMALY', 'cnn_confidence': 0.9999978542327881, 'gaussian_score': 929.0401153459175, 'gaussian_threshold': 920.5196377825823, 'detector': 'GAUSSIAN', 'severity': 'LOW', 'graph_nodes': 2, 'graph_edges': 1, 'pair_connections': 5, 'pair_iat_cv': 0.016130903359170515, 'mode': 'shadow', 'verified': False, 'official_alert': False, 'event_status': 'experimental_detection'}
+EXPERIMENTAL SECURITY EVENT: {'timestamp': '2026-11-25T18:33:38.972943+00:00', 'source_ip': '10.203.0.2', 'destination_ip': '10.203.0.1', 'source_port': 41392, 'destination_port': 18090, 'protocol': 6, 'attack_type': 'ANOMALY', 'cnn_confidence': 0.999995231628418, 'gaussian_score': 929.0735100841775, 'gaussian_threshold': 920.5196377825823, 'detector': 'GAUSSIAN', 'severity': 'LOW', 'graph_nodes': 2, 'graph_edges': 1, 'pair_connections': 6, 'pair_iat_cv': 0.015497820871414809, 'mode': 'shadow', 'verified': False, 'official_alert': False, 'event_status': 'experimental_detection'}
+EXPERIMENTAL SECURITY EVENT: {'timestamp': '2026-11-25T18:33:39.274737+00:00', 'source_ip': '10.203.0.2', 'destination_ip': '10.203.0.1', 'source_port': 41396, 'destination_port': 18090, 'protocol': 6, 'attack_type': 'ANOMALY', 'cnn_confidence': 0.9999955892562866, 'gaussian_score': 929.0739698268638, 'gaussian_threshold': 920.5196377825823, 'detector': 'GAUSSIAN', 'severity': 'LOW', 'graph_nodes': 2, 'graph_edges': 1, 'pair_connections': 7, 'pair_iat_cv': 0.29554533681867456, 'mode': 'shadow', 'verified': False, 'official_alert': False, 'event_status': 'experimental_detection'}
+EXPERIMENTAL SECURITY EVENT: {'timestamp': '2026-11-25T18:33:40.027914+00:00', 'source_ip': '10.203.0.2', 'destination_ip': '10.203.0.1', 'source_port': 41408, 'destination_port': 18090, 'protocol': 6, 'attack_type': 'ANOMALY', 'cnn_confidence': 0.9999902248382568, 'gaussian_score': 929.045917215306, 'gaussian_threshold': 920.5196377825823, 'detector': 'GAUSSIAN', 'severity': 'LOW', 'graph_nodes': 2, 'graph_edges': 1, 'pair_connections': 8, 'pair_iat_cv': 0.39532075503037056, 'mode': 'shadow', 'verified': False, 'official_alert': False, 'event_status': 'experimental_detection'}
+EXPERIMENTAL SECURITY EVENT: {'timestamp': '2026-11-25T18:33:40.027914+00:00', 'source_ip': '10.203.0.2', 'destination_ip': '10.203.0.1', 'source_port': 41414, 'destination_port': 18090, 'protocol': 6, 'attack_type': 'ANOMALY', 'cnn_confidence': 0.9999988079071045, 'gaussian_score': 929.0355820126, 'gaussian_threshold': 920.5196377825823, 'detector': 'GAUSSIAN', 'severity': 'LOW', 'graph_nodes': 2, 'graph_edges': 1, 'pair_connections': 9, 'pair_iat_cv': 0.4603488956282488, 'mode': 'shadow', 'verified': False, 'official_alert': False, 'event_status': 'experimental_detection'}
+EXPERIMENTAL SECURITY EVENT: {'timestamp': '2026-11-25T18:33:40.027914+00:00', 'source_ip': '10.203.0.2', 'destination_ip': '10.203.0.1', 'source_port': 41428, 'destination_port': 18090, 'protocol': 6, 'attack_type': 'ANOMALY', 'cnn_confidence': 0.999998927116394, 'gaussian_score': 929.0340417198676, 'gaussian_threshold': 920.5196377825823, 'detector': 'GAUSSIAN', 'severity': 'LOW', 'graph_nodes': 2, 'graph_edges': 1, 'pair_connections': 10, 'pair_iat_cv': 0.5062867352428833, 'mode': 'shadow', 'verified': False, 'official_alert': False, 'event_status': 'experimental_detection'}
+EXPERIMENTAL SECURITY EVENT: {'timestamp': '2026-11-25T18:33:43.813899+00:00', 'source_ip': '10.203.0.2', 'destination_ip': '10.203.0.1', 'source_port': 41482, 'destination_port': 18090, 'protocol': 6, 'attack_type': 'ANOMALY', 'cnn_confidence': 0.9999971389770508, 'gaussian_score': 929.0412399382383, 'gaussian_threshold': 920.5196377825823, 'detector': 'GAUSSIAN', 'severity': 'LOW', 'graph_nodes': 2, 'graph_edges': 1, 'pair_connections': 15, 'pair_iat_cv': 0.44904971365088114, 'mode': 'shadow', 'verified': False, 'official_alert': False, 'event_status': 'experimental_detection'}
+{
+  "captured": 158,
+  "unsupported": 0,
+  "rows": 15,
+  "cnn_enabled": true,
+  "mode": "shadow",
+  "verified_live": false,
+  "semantic_parity": false,
+  "packet_triggered_rows": 13,
+  "flush_rows": 0,
+  "timer_ticks": 100,
+  "periodic_rows": 2,
+  "final_expiration_rows": 0,
+  "capture_complete": true,
+  "capture_started_at_epoch": 1795631611.2460532,
+  "capture_stopped_at_epoch": 1795631636.2933817,
+  "dropped": 0,
+  "invalidated": 0,
+  "feature_status": "provisional_not_cnn_ready",
+  "drop_reasons": {
+    "nonfinite_timestamp": 0,
+    "late_timestamp": 0,
+    "flow_capacity": 0,
+    "global_capacity": 0
+  },
+  "max_lateness_seconds": 0.0,
+  "shadow_submitted": 15,
+  "shadow_dropped": 0,
+  "shadow_processed": 15,
+  "shadow_attack_predictions": 0,
+  "shadow_unprocessed": 0,
+  "shadow_error": null,
+  "shadow_complete": true,
+  "official_alerts": 0,
+  "gaussian_enabled": true,
+  "gaussian_threshold": 920.5196377825823,
+  "gaussian_sha256": "21d1b48b734a4143c1c051779dc4435a60f45169205a7581d2279250269c85ce",
+  "botnet_metadata_enabled": true,
+  "fusion_enabled": true,
+  "verified_botnet": false,
+  "latency_scope": "queue_to_fused_prediction",
+  "model": {
+    "variant": "cnn_mhsa",
+    "dataset": "cic",
+    "profile": "full",
+    "seed": 42,
+    "best_epoch": 14,
+    "validation_f1": 0.9966771919955855,
+    "split_sha256": {
+      "train": "597d8ec35dcebb218af51dc15302757fb81c8127a062b972903eb242ed84615e",
+      "validation": "0786e13f3cada384fe61077caed781ff30e262ab74bc16c46ac7df2c8444c89c",
+      "test": "3eacdb2b228737ecd8cc57f1c83acd7b5eda62ef73aa857cff462ac51e2e83c9"
+    }
+  },
+  "checkpoint_sha256": "1a08c6242942aca3680849412c2d6c63c4e9e276752addf2f6699526817fecfb",
+  "pipeline_complete": true
+}
+Saved: /home/nids/nids_lab/labeled_evaluation/session.7gKX7G/1795631611189141620 ; experimental shadow inference only

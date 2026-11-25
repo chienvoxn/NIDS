@@ -1,0 +1,167 @@
+[
+  {
+    "scenario": "BENIGN",
+    "ground_truth_attack": false,
+    "source_ip": "10.203.0.2",
+    "source_port": 49068,
+    "destination_ip": "10.203.0.1",
+    "destination_port": 18090,
+    "started_at_epoch": 1795631612.6902223,
+    "completed_at_epoch": 1795631612.6928976,
+    "success": true
+  },
+  {
+    "scenario": "BENIGN",
+    "ground_truth_attack": false,
+    "source_ip": "10.203.0.2",
+    "source_port": 49078,
+    "destination_ip": "10.203.0.1",
+    "destination_port": 18090,
+    "started_at_epoch": 1795631613.6958418,
+    "completed_at_epoch": 1795631613.696998,
+    "success": true
+  },
+  {
+    "scenario": "BENIGN",
+    "ground_truth_attack": false,
+    "source_ip": "10.203.0.2",
+    "source_port": 49084,
+    "destination_ip": "10.203.0.1",
+    "destination_port": 18090,
+    "started_at_epoch": 1795631614.7386835,
+    "completed_at_epoch": 1795631614.739303,
+    "success": true
+  },
+  {
+    "scenario": "BENIGN",
+    "ground_truth_attack": false,
+    "source_ip": "10.203.0.2",
+    "source_port": 41362,
+    "destination_ip": "10.203.0.1",
+    "destination_port": 18090,
+    "started_at_epoch": 1795631615.7408128,
+    "completed_at_epoch": 1795631615.7412193,
+    "success": true
+  },
+  {
+    "scenario": "BENIGN",
+    "ground_truth_attack": false,
+    "source_ip": "10.203.0.2",
+    "source_port": 41378,
+    "destination_ip": "10.203.0.1",
+    "destination_port": 18090,
+    "started_at_epoch": 1795631616.7425091,
+    "completed_at_epoch": 1795631616.742844,
+    "success": true
+  },
+  {
+    "scenario": "CONNECTION_PATTERN",
+    "ground_truth_attack": false,
+    "source_ip": "10.203.0.2",
+    "source_port": 41392,
+    "destination_ip": "10.203.0.1",
+    "destination_port": 18090,
+    "started_at_epoch": 1795631617.7452633,
+    "completed_at_epoch": 1795631617.7468247,
+    "success": true
+  },
+  {
+    "scenario": "CONNECTION_PATTERN",
+    "ground_truth_attack": false,
+    "source_ip": "10.203.0.2",
+    "source_port": 41396,
+    "destination_ip": "10.203.0.1",
+    "destination_port": 18090,
+    "started_at_epoch": 1795631618.0511954,
+    "completed_at_epoch": 1795631618.0516255,
+    "success": true
+  },
+  {
+    "scenario": "CONNECTION_PATTERN",
+    "ground_truth_attack": false,
+    "source_ip": "10.203.0.2",
+    "source_port": 41408,
+    "destination_ip": "10.203.0.1",
+    "destination_port": 18090,
+    "started_at_epoch": 1795631618.3525877,
+    "completed_at_epoch": 1795631618.3528554,
+    "success": true
+  },
+  {
+    "scenario": "CONNECTION_PATTERN",
+    "ground_truth_attack": false,
+    "source_ip": "10.203.0.2",
+    "source_port": 41414,
+    "destination_ip": "10.203.0.1",
+    "destination_port": 18090,
+    "started_at_epoch": 1795631618.654075,
+    "completed_at_epoch": 1795631618.654304,
+    "success": true
+  },
+  {
+    "scenario": "CONNECTION_PATTERN",
+    "ground_truth_attack": false,
+    "source_ip": "10.203.0.2",
+    "source_port": 41428,
+    "destination_ip": "10.203.0.1",
+    "destination_port": 18090,
+    "started_at_epoch": 1795631618.9554749,
+    "completed_at_epoch": 1795631618.9558134,
+    "success": true
+  },
+  {
+    "scenario": "PERIODIC_PATTERN",
+    "ground_truth_attack": false,
+    "source_ip": "10.203.0.2",
+    "source_port": 41430,
+    "destination_ip": "10.203.0.1",
+    "destination_port": 18090,
+    "started_at_epoch": 1795631619.2570071,
+    "completed_at_epoch": 1795631619.257248,
+    "success": true
+  },
+  {
+    "scenario": "PERIODIC_PATTERN",
+    "ground_truth_attack": false,
+    "source_ip": "10.203.0.2",
+    "source_port": 41442,
+    "destination_ip": "10.203.0.1",
+    "destination_port": 18090,
+    "started_at_epoch": 1795631619.958347,
+    "completed_at_epoch": 1795631619.9586651,
+    "success": true
+  },
+  {
+    "scenario": "PERIODIC_PATTERN",
+    "ground_truth_attack": false,
+    "source_ip": "10.203.0.2",
+    "source_port": 41458,
+    "destination_ip": "10.203.0.1",
+    "destination_port": 18090,
+    "started_at_epoch": 1795631620.6600747,
+    "completed_at_epoch": 1795631620.6603947,
+    "success": true
+  },
+  {
+    "scenario": "PERIODIC_PATTERN",
+    "ground_truth_attack": false,
+    "source_ip": "10.203.0.2",
+    "source_port": 41468,
+    "destination_ip": "10.203.0.1",
+    "destination_port": 18090,
+    "started_at_epoch": 1795631621.361622,
+    "completed_at_epoch": 1795631621.36185,
+    "success": true
+  },
+  {
+    "scenario": "PERIODIC_PATTERN",
+    "ground_truth_attack": false,
+    "source_ip": "10.203.0.2",
+    "source_port": 41482,
+    "destination_ip": "10.203.0.1",
+    "destination_port": 18090,
+    "started_at_epoch": 1795631622.063318,
+    "completed_at_epoch": 1795631622.063615,
+    "success": true
+  }
+]

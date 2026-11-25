@@ -1,0 +1,11 @@
+{
+  "expected_sessions": 15,
+  "predicted_flows": 15,
+  "matched_flows": 15,
+  "unmatched_truth": 0,
+  "unmatched_predictions": 0,
+  "cnn_false_positives": 0,
+  "gaussian_anomalies": 8,
+  "verified_live_attack_detection": false,
+  "semantic_parity": false
+}
