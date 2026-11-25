@@ -29,7 +29,7 @@ def process_batch(engine, frame, mode='replay', batch_size=32, offset=0):
     out['batch_processing_ms'] = elapsed
     out['model_seed'] = engine.metadata['seed']
     out['model_dataset'] = engine.metadata['dataset']
-    out['model_variant'] = 'cnn_se_mhsa'
+    out['model_variant'] = engine.metadata['variant']
     out['mode'] = mode
     out['alert_status'] = ['replay_alert' if x else 'normal' for x in out['is_attack']] if mode == 'replay' else 'shadow_only_unverified'
     # Capture timestamps are not available in the training CSV. Do not fabricate them.

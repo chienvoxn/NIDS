@@ -2,13 +2,14 @@ import pandas as pd
 import pytest
 from nids.stream_detection import process_batch, PROVISIONAL
 class Engine:
-    metadata={'seed':42,'dataset':'cic'}
+    metadata={'seed':42,'dataset':'cic','variant':'cnn_mhsa'}
     def predict(self,frame,batch_size):
         return pd.DataFrame({'predicted':['Bot']*len(frame),'confidence':[.9]*len(frame),'is_attack':[True]*len(frame)})
 
 def test_replay():
     r=process_batch(Engine(),pd.DataFrame({'x':[1,2]}),offset=32)
     assert list(r.flow_row)==[33,34] and r.alert_status.eq('replay_alert').all()
+    assert r.model_variant.eq('cnn_mhsa').all()
     assert 'source_ip' not in r and r.batch_processing_ms.ge(0).all()
 
 def test_gate():

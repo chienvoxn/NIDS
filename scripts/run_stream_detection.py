@@ -45,10 +45,10 @@ def main():
     if not (1<=a.batch_size<=512 and 1<=a.seconds<=300 and 1<=a.max_rows<=100000 and 0<=a.delay<=2): p.error('Invalid limits')
     if a.mode=='shadow' and not a.ack_unverified: p.error('Shadow requires --ack-unverified; not verified live detection')
     from nids.demo_engine import DemoEngine
-    engine=DemoEngine('outputs/final/cic_final_runs/seed_42','cic','full')
+    engine=DemoEngine('outputs/final/cic_final_runs/seed_42','cic','full',variant='cnn_mhsa')
     if engine.metadata['seed']!=42: raise ValueError('Expected seed 42')
     out=a.out/datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ'); out.mkdir(parents=True,exist_ok=False)
-    stats={'mode':a.mode,'verified_live':False,'rows':0,'attack_predictions':0,'replay_alerts':0,'complete':False,'model':engine.metadata,'source':str(a.csv),'checkpoint_sha256':hashlib.sha256((engine.directory/'cnn_se_mhsa.pt').read_bytes()).hexdigest()}
+    stats={'mode':a.mode,'verified_live':False,'rows':0,'attack_predictions':0,'replay_alerts':0,'complete':False,'model':engine.metadata,'source':str(a.csv),'checkpoint_sha256':hashlib.sha256(engine.checkpoint_path.read_bytes()).hexdigest()}
     try:
         batches=(pd.read_csv(a.csv,chunksize=a.batch_size,nrows=a.max_rows) if a.mode=='replay' else tail_batches(a.csv,a.batch_size,a.seconds,a.max_rows))
         with (out/'predictions.jsonl').open('w',encoding='utf-8') as pred, (out/'replay_alerts.jsonl').open('w',encoding='utf-8') as alerts:

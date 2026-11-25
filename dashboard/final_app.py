@@ -20,7 +20,7 @@ st.markdown('''<style>
 [data-testid="stMetricValue"] {color:#38bdf8} h1,h2,h3 {letter-spacing:-.025em}
 </style>''',unsafe_allow_html=True)
 st.title('🛡️ NIDS Security Center')
-st.caption('CNN + SE + MHSA  /  Flow CSV  /  CPU  /  Authorized lab')
+st.caption('CNN + MHSA (primary)  /  Flow CSV  /  CPU  /  Authorized lab')
 mode=st.sidebar.radio('Chức năng',['CSV Detection','Attack Scenario Replay','Botnet Topology','Stream Monitoring'])
 st.sidebar.caption('Không lưu PCAP • Không dùng GeneratedLabelledFlows')
 
@@ -93,12 +93,12 @@ if mode=='Botnet Topology':
 registry=json.loads((ROOT/'configs/demo_models.json').read_text(encoding='utf-8'))
 name=st.sidebar.selectbox('Model',list(registry)); cfg=registry[name]
 @st.cache_resource
-def load_engine(path,dataset,profile,revision): return DemoEngine(path,dataset,profile)
+def load_engine(path,dataset,profile,variant,revision): return DemoEngine(path,dataset,profile,variant=variant)
 try:
-    folder=ROOT/cfg['directory']; required=[folder/'cnn_preprocessing.joblib',folder/('cnn_metrics.json' if cfg['profile']=='full' else 'tuning_metrics.json'),folder/('cnn_se_mhsa.pt' if cfg['profile']=='full' else 'cnn_se_mhsa_best_state.pt')]
+    folder=ROOT/cfg['directory']; variant=cfg['variant']; required=[folder/'cnn_preprocessing.joblib',folder/('cnn_metrics.json' if cfg['profile']=='full' else 'tuning_metrics.json'),folder/(f'{variant}.pt' if cfg['profile']=='full' else f'{variant}_best_state.pt')]
     if not all(x.is_file() for x in required): st.info('Model artifacts not available yet.'); st.stop()
     revision=tuple((x.stat().st_mtime_ns,x.stat().st_size) for x in required)
-    engine=load_engine(str(folder),cfg['dataset'],cfg['profile'],revision)
+    engine=load_engine(str(folder),cfg['dataset'],cfg['profile'],variant,revision)
     st.header(mode)
     if cfg['profile']=='tuning': st.warning('Checkpoint tạm thời, chọn bằng validation.')
     with st.expander('Model metadata / feature order'): st.json(engine.metadata); st.write(engine.features)

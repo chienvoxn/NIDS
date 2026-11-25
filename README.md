@@ -1,5 +1,37 @@
 # SE-AT-CNN NIDS — implementation starter
 
+
+## Current primary model
+
+The primary deployment model is **CNN + MHSA**
+(Multi-Scale Residual CNN with Multi-Head Self-Attention).
+
+- CIC deployment seed: 42.
+- CIC completed experiment seeds: 42 and 43.
+- Checkpoint: outputs/final/cic_final_runs/seed_42/cnn_mhsa.pt.
+- Features: 60.
+- Classes: 15.
+- Model parameters: 40,624.
+- Mean weighted F1: 99.2559%.
+
+See [Official model selection](reports/final/MODEL_SELECTION.md).
+
+### Launch the current dashboard
+
+```powershell
+$env:PYTHONPATH = "src"
+python -m streamlit run dashboard/final_app.py
+```
+
+The previous CNN + SE + MHSA architecture and its
+artifacts are retained for ablation and comparison.
+
+The current dashboard supports offline CSV detection
+and replay. Verified live AI detection remains disabled
+pending independent feature compatibility validation.
+
+
+
 This repository is an **auditable working starter**, not a claim that the whole research project or Linux realtime deployment is complete.
 
 ## Current data facts

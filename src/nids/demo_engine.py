@@ -9,17 +9,26 @@ from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import StandardScaler
 from nids.sprint3_residual import MultiScaleResidualCNN
 
-VARIANT='cnn_se_mhsa'
+VARIANTS = {
+    'cnn': (False, False),
+    'cnn_se': (True, False),
+    'cnn_mhsa': (False, True),
+    'cnn_se_mhsa': (True, True),
+}
 
 class DemoEngine:
-    def __init__(self, directory, dataset, profile):
+    def __init__(self, directory, dataset, profile, variant='cnn_se_mhsa'):
+        if variant not in VARIANTS:
+            raise ValueError('Unsupported variant')
+        self.variant = variant
+        se, mhsa = VARIANTS[variant]
         self.directory=Path(directory)
         self.dataset=dataset
         self.profile=profile
         if dataset not in ('cic','ctu') or profile not in ('full','tuning'):
             raise ValueError('Unsupported dataset/profile')
         report=json.loads((self.directory/('cnn_metrics.json' if profile=='full' else 'tuning_metrics.json')).read_text(encoding='utf-8'))
-        if report['dataset']!=dataset or report['profile']!=profile or VARIANT not in report['models']:
+        if report['dataset']!=dataset or report['profile']!=profile or variant not in report['models']:
             raise ValueError('Report dataset/profile/variant mismatch')
         self.features=list(report['features']); self.labels=list(report['classes'])
         dims=(60,15) if dataset=='cic' else (57,2)
@@ -41,20 +50,22 @@ class DemoEngine:
             raise ValueError('Invalid preprocessing statistics')
         if hasattr(imp,'feature_names_in_') and list(imp.feature_names_in_)!=self.features:
             raise ValueError('Imputer feature order mismatch')
-        args=report['arguments']; row=report['models'][VARIANT]
-        cfg=dict(n_features=dims[0],n_classes=dims[1],width=args['width'],heads=4,blocks=2,dropout=args['dropout'],residual=True,se=True,mhsa=True)
-        if row['configuration']!={'se':True,'mhsa':True}: raise ValueError('Variant configuration mismatch')
+        args=report['arguments']; row=report['models'][variant]
+        cfg=dict(n_features=dims[0],n_classes=dims[1],width=args['width'],heads=4,blocks=2,dropout=args['dropout'],residual=True,se=se,mhsa=mhsa)
+        if row['configuration']!={'se':se,'mhsa':mhsa}: raise ValueError('Variant configuration mismatch')
         if profile=='full':
-            ckpt=torch.load(self.directory/f'{VARIANT}.pt',map_location='cpu',weights_only=True)
-            for k,v in {**cfg,'dataset':dataset,'variant':VARIANT,'classes':self.labels,'seed':args['seed'],'best_epoch':row['best_epoch']}.items():
+            self.checkpoint_path=self.directory/f'{variant}.pt'
+            ckpt=torch.load(self.checkpoint_path,map_location='cpu',weights_only=True)
+            for k,v in {**cfg,'dataset':dataset,'variant':variant,'classes':self.labels,'seed':args['seed'],'best_epoch':row['best_epoch']}.items():
                 if ckpt[k]!=v: raise ValueError(f'Checkpoint mismatch: {k}')
             state=ckpt['state_dict']
         else:
             if not args['tune_only']: raise ValueError('Expected tuning-only report')
-            state=torch.load(self.directory/f'{VARIANT}_best_state.pt',map_location='cpu',weights_only=True)
+            self.checkpoint_path=self.directory/f'{variant}_best_state.pt'
+            state=torch.load(self.checkpoint_path,map_location='cpu',weights_only=True)
         self.model=MultiScaleResidualCNN(**cfg)
         self.model.load_state_dict(state,strict=True); self.model.eval()
-        self.metadata={'dataset':dataset,'profile':profile,'seed':args['seed'],'best_epoch':row['best_epoch'],'validation_f1':row['validation']['f1_score'],'split_sha256':report['split_sha256']}
+        self.metadata={'variant':variant,'dataset':dataset,'profile':profile,'seed':args['seed'],'best_epoch':row['best_epoch'],'validation_f1':row['validation']['f1_score'],'split_sha256':report['split_sha256']}
     def predict(self, frame, batch_size=128):
         frame=frame.copy(); frame.columns=frame.columns.astype(str).str.strip()
         if frame.columns.duplicated().any() or frame.empty: raise ValueError('Empty data or duplicate columns')

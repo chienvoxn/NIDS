@@ -1,5 +1,38 @@
 {
-  "CIC provisional T01": {"directory":"outputs/final/tuning/cic/T01","dataset":"cic","profile":"tuning"},
-  "CTU final seed 42": {"directory":"outputs/final/ctu_final_runs/seed_42","dataset":"ctu","profile":"full"},
-  "CIC final seed 42": {"directory":"outputs/final/cic_final_runs/seed_42","dataset":"cic","profile":"full"}
+  "CIC CNN + MHSA seed 42": {
+    "directory": "outputs/final/cic_final_runs/seed_42",
+    "dataset": "cic",
+    "profile": "full",
+    "variant": "cnn_mhsa"
+  },
+  "CIC CNN + MHSA seed 43": {
+    "directory": "outputs/final/cic_final_runs/seed_43",
+    "dataset": "cic",
+    "profile": "full",
+    "variant": "cnn_mhsa"
+  },
+  "CTU CNN + MHSA seed 42": {
+    "directory": "outputs/final/ctu_final_runs/seed_42",
+    "dataset": "ctu",
+    "profile": "full",
+    "variant": "cnn_mhsa"
+  },
+  "CIC provisional T01": {
+    "directory": "outputs/final/tuning/cic/T01",
+    "dataset": "cic",
+    "profile": "tuning",
+    "variant": "cnn_se_mhsa"
+  },
+  "CTU final seed 42": {
+    "directory": "outputs/final/ctu_final_runs/seed_42",
+    "dataset": "ctu",
+    "profile": "full",
+    "variant": "cnn_se_mhsa"
+  },
+  "CIC final seed 42": {
+    "directory": "outputs/final/cic_final_runs/seed_42",
+    "dataset": "cic",
+    "profile": "full",
+    "variant": "cnn_se_mhsa"
+  }
 }
