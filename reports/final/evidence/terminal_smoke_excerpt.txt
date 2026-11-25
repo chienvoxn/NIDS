@@ -1,0 +1,142 @@
+=== CTU / smoke ===
+Train: 15000
+Validation: 5000
+Test: 5000
+Classes: ['0', '1']
+Training: Random Forest
+Random Forest F1-score: 0.991678
+Training: XGBoost
+XGBoost F1-score: 0.989724
+Training: LightGBM
+LightGBM F1-score: 0.992445
+Training: KNN
+KNN F1-score: 0.984906
+
+BASELINE RESULTS
+        Model  Accuracy  Precision   Recall  F1-score      FPR  Validation F1  Training rows  Training seconds
+Random Forest    0.9938   0.989288 0.994080  0.991678 0.006365       0.991948          15000          0.140079
+      XGBoost    0.9924   0.994565 0.984930  0.989724 0.003183       0.989183          15000          0.499597
+     LightGBM    0.9944   0.995130 0.989774  0.992445 0.002864       0.990003          15000          0.118360
+          KNN    0.9888   0.986501 0.983315  0.984906 0.007957       0.983571          15000          0.002329
+
+GAUSSIAN RESULTS
+{
+  "accuracy": 0.6502,
+  "precision": 0.8609271523178808,
+  "recall": 0.06996770721205597,
+  "f1_score": 0.1294176207068193,
+  "f1_average": "binary",
+  "confusion_matrix": [
+    [
+      3121,
+      21
+    ],
+    [
+      1728,
+      130
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.6436378634770056,
+      "recall": 0.9933163590070019,
+      "f1-score": 0.7811287698660994,
+      "support": 3142.0
+    },
+    "1": {
+      "precision": 0.8609271523178808,
+      "recall": 0.06996770721205597,
+      "f1-score": 0.1294176207068193,
+      "support": 1858.0
+    },
+    "accuracy": 0.6502,
+    "macro avg": {
+      "precision": 0.7522825078974431,
+      "recall": 0.531642033109529,
+      "f1-score": 0.4552731952864593,
+      "support": 5000.0
+    },
+    "weighted avg": {
+      "precision": 0.7243825632102747,
+      "recall": 0.6502,
+      "f1-score": 0.5389529068385109,
+      "support": 5000.0
+    }
+  },
+  "false_positive_rate": 0.00668364099299809,
+  "detection_rate": 0.06996770721205597
+}
+
+Saved: C:\Users\Administrator\Desktop\ATTT\NIDS\outputs\final\smoke\ctu
+
+=== CIC / smoke ===
+Train: 15003
+Validation: 5003
+Test: 5003
+Classes: ['BENIGN', 'Bot', 'DDoS', 'DoS GoldenEye', 'DoS Hulk', 'DoS Slowhttptest', 'DoS slowloris', 'FTP-Patator', 'Heartbleed', 'Infiltration', 'PortScan', 'SSH-Patator', 'Web Attack - Brute Force', 'Web Attack - Sql Injection', 'Web Attack - XSS']
+Training: Random Forest
+Random Forest F1-score: 0.994003
+Training: XGBoost
+XGBoost F1-score: 0.984336
+Training: LightGBM
+LightGBM F1-score: 0.99284
+Training: KNN
+KNN F1-score: 0.98546
+
+BASELINE RESULTS
+        Model  Accuracy  Precision   Recall  F1-score      FPR  Validation F1  Training rows  Training seconds
+Random Forest  0.994803   0.994014 0.994803  0.994003 0.000962       0.994493          15003          0.257999
+      XGBoost  0.979212   0.990543 0.979212  0.984336 0.021891       0.986096          15003          0.852794
+     LightGBM  0.992604   0.993460 0.992604  0.992840 0.005292       0.992993          15003          0.920007
+          KNN  0.986208   0.985410 0.986208  0.985460 0.007698       0.987674          15003          0.002767
+
+GAUSSIAN RESULTS
+{
+  "accuracy": 0.8408954627223666,
+  "precision": 0.6953125,
+  "recall": 0.10520094562647754,
+  "f1_score": 0.18275154004106775,
+  "f1_average": "binary",
+  "confusion_matrix": [
+    [
+      4118,
+      39
+    ],
+    [
+      757,
+      89
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.8447179487179487,
+      "recall": 0.9906182343035843,
+      "f1-score": 0.9118689105403012,
+      "support": 4157.0
+    },
+    "1": {
+      "precision": 0.6953125,
+      "recall": 0.10520094562647754,
+      "f1-score": 0.18275154004106775,
+      "support": 846.0
+    },
+    "accuracy": 0.8408954627223666,
+    "macro avg": {
+      "precision": 0.7700152243589744,
+      "recall": 0.5479095899650309,
+      "f1-score": 0.5473102252906845,
+      "support": 5003.0
+    },
+    "weighted avg": {
+      "precision": 0.8194537053408979,
+      "recall": 0.8408954627223666,
+      "f1-score": 0.7885762270619179,
+      "support": 5003.0
+    }
+  },
+  "false_positive_rate": 0.009381765696415684,
+  "detection_rate": 0.10520094562647754
+}
+
+Saved: C:\Users\Administrator\Desktop\ATTT\NIDS\outputs\final\smoke\cic
+(.venv) PS C:\Users\Administrator\Desktop\ATTT\NIDS>

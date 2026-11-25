@@ -16,3 +16,8 @@ data/raw/
 reports/dataset_inventory.json
 reports/dependency_versions.txt
 reports/*pytest.xml
+
+# NIDS local experiment artifacts
+/outputs/final/
+/data/processed/final/
+/data/raw/

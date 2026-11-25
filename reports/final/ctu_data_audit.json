@@ -1,0 +1,105 @@
+{
+  "dataset": "ctu",
+  "seed": 42,
+  "original_rows": 92212,
+  "features": [
+    "Flow Duration",
+    "Tot Fwd Pkts",
+    "Tot Bwd Pkts",
+    "TotLen Fwd Pkts",
+    "TotLen Bwd Pkts",
+    "Fwd Pkt Len Max",
+    "Fwd Pkt Len Min",
+    "Fwd Pkt Len Mean",
+    "Fwd Pkt Len Std",
+    "Bwd Pkt Len Max",
+    "Bwd Pkt Len Min",
+    "Bwd Pkt Len Mean",
+    "Bwd Pkt Len Std",
+    "Flow Byts/s",
+    "Flow Pkts/s",
+    "Flow IAT Mean",
+    "Flow IAT Std",
+    "Flow IAT Max",
+    "Flow IAT Min",
+    "Fwd IAT Tot",
+    "Fwd IAT Mean",
+    "Fwd IAT Std",
+    "Fwd IAT Max",
+    "Fwd IAT Min",
+    "Bwd IAT Tot",
+    "Bwd IAT Mean",
+    "Bwd IAT Std",
+    "Bwd IAT Max",
+    "Bwd IAT Min",
+    "Bwd PSH Flags",
+    "Fwd Header Len",
+    "Bwd Header Len",
+    "Fwd Pkts/s",
+    "Bwd Pkts/s",
+    "Pkt Len Min",
+    "Pkt Len Max",
+    "Pkt Len Mean",
+    "Pkt Len Std",
+    "Pkt Len Var",
+    "FIN Flag Cnt",
+    "SYN Flag Cnt",
+    "RST Flag Cnt",
+    "ACK Flag Cnt",
+    "Down/Up Ratio",
+    "Pkt Size Avg",
+    "Fwd Seg Size Avg",
+    "Bwd Seg Size Avg",
+    "Init Bwd Win Byts",
+    "Fwd Act Data Pkts",
+    "Active Mean",
+    "Active Std",
+    "Active Max",
+    "Active Min",
+    "Idle Mean",
+    "Idle Std",
+    "Idle Max",
+    "Idle Min"
+  ],
+  "n_features": 57,
+  "original_class_counts": {
+    "0": 53314,
+    "1": 38898
+  },
+  "missing_values": 0,
+  "infinite_values": 0,
+  "conflicting_groups": 1,
+  "conflicting_rows_removed": 2,
+  "duplicate_rows_removed": 9491,
+  "clean_rows": 82719,
+  "split_sizes": {
+    "train": 57903,
+    "validation": 12408,
+    "test": 12408
+  },
+  "split_class_counts": {
+    "train": {
+      "0": 36378,
+      "1": 21525
+    },
+    "validation": {
+      "0": 7796,
+      "1": 4612
+    },
+    "test": {
+      "0": 7796,
+      "1": 4612
+    }
+  },
+  "source_sha256": {
+    "CTU13_Normal_Traffic.csv": "2a326a3ed812d90de30783bb5adb8f2899e25b6884b9435399c04d8f72dc1adb",
+    "CTU13_Attack_Traffic.csv": "518b82ddb67e20d53500b3a1719e512d2538d7a11a714078ea89f397804dd3d3"
+  },
+  "split_sha256": {
+    "train": "c943594384d9ac354f1d95b2e9513184d83c45ba063f6ed86988d735ca19ef77",
+    "validation": "4b40f6261bc41a6b80344d54b98d6b7ddca921c5d8933d80bd064bd9ce7ccef9",
+    "test": "f731e8b1e993a6d547e7219f2855d7c02438556943fcd8f31db6d0d397496c8f"
+  },
+  "preprocessing_note": "NaN retained for train-only median imputation.",
+  "evaluation_note": "Internal stratified split after hash-based feature deduplication; not an independent temporal, host or cross-scenario holdout."
+}
