@@ -1,0 +1,151 @@
+{
+  "dataset": "ctu",
+  "profile": "tuning",
+  "device": "cuda",
+  "classes": [
+    "0",
+    "1"
+  ],
+  "features": [
+    "Flow Duration",
+    "Tot Fwd Pkts",
+    "Tot Bwd Pkts",
+    "TotLen Fwd Pkts",
+    "TotLen Bwd Pkts",
+    "Fwd Pkt Len Max",
+    "Fwd Pkt Len Min",
+    "Fwd Pkt Len Mean",
+    "Fwd Pkt Len Std",
+    "Bwd Pkt Len Max",
+    "Bwd Pkt Len Min",
+    "Bwd Pkt Len Mean",
+    "Bwd Pkt Len Std",
+    "Flow Byts/s",
+    "Flow Pkts/s",
+    "Flow IAT Mean",
+    "Flow IAT Std",
+    "Flow IAT Max",
+    "Flow IAT Min",
+    "Fwd IAT Tot",
+    "Fwd IAT Mean",
+    "Fwd IAT Std",
+    "Fwd IAT Max",
+    "Fwd IAT Min",
+    "Bwd IAT Tot",
+    "Bwd IAT Mean",
+    "Bwd IAT Std",
+    "Bwd IAT Max",
+    "Bwd IAT Min",
+    "Bwd PSH Flags",
+    "Fwd Header Len",
+    "Bwd Header Len",
+    "Fwd Pkts/s",
+    "Bwd Pkts/s",
+    "Pkt Len Min",
+    "Pkt Len Max",
+    "Pkt Len Mean",
+    "Pkt Len Std",
+    "Pkt Len Var",
+    "FIN Flag Cnt",
+    "SYN Flag Cnt",
+    "RST Flag Cnt",
+    "ACK Flag Cnt",
+    "Down/Up Ratio",
+    "Pkt Size Avg",
+    "Fwd Seg Size Avg",
+    "Bwd Seg Size Avg",
+    "Init Bwd Win Byts",
+    "Fwd Act Data Pkts",
+    "Active Mean",
+    "Active Std",
+    "Active Max",
+    "Active Min",
+    "Idle Mean",
+    "Idle Std",
+    "Idle Max",
+    "Idle Min"
+  ],
+  "split_sha256": {
+    "train": "c943594384d9ac354f1d95b2e9513184d83c45ba063f6ed86988d735ca19ef77",
+    "validation": "4b40f6261bc41a6b80344d54b98d6b7ddca921c5d8933d80bd064bd9ce7ccef9",
+    "test": "f731e8b1e993a6d547e7219f2855d7c02438556943fcd8f31db6d0d397496c8f"
+  },
+  "arguments": {
+    "dataset": "ctu",
+    "variants": [
+      "cnn_se_mhsa"
+    ],
+    "smoke": false,
+    "epochs": 15,
+    "batch_size": 512,
+    "width": 64,
+    "lr": 0.001,
+    "dropout": 0.1,
+    "patience": 5,
+    "seed": 42,
+    "device": "cuda",
+    "class_weight": "sqrt",
+    "amp": true,
+    "tune_only": true,
+    "run_id": "T04"
+  },
+  "split_sizes": {
+    "train": 57903,
+    "validation": 12408
+  },
+  "models": {
+    "cnn_se_mhsa": {
+      "variant": "cnn_se_mhsa",
+      "configuration": {
+        "se": true,
+        "mhsa": true
+      },
+      "best_epoch": 14,
+      "validation": {
+        "accuracy": 0.9881528046421664,
+        "precision": 0.9847991313789359,
+        "recall": 0.983304423243712,
+        "f1_score": 0.9840512097211674,
+        "f1_average": "binary",
+        "confusion_matrix": [
+          [
+            7726,
+            70
+          ],
+          [
+            77,
+            4535
+          ]
+        ],
+        "classification_report": {
+          "0": {
+            "precision": 0.9901320005126234,
+            "recall": 0.9910210364289379,
+            "f1-score": 0.9905763189948074,
+            "support": 7796.0
+          },
+          "1": {
+            "precision": 0.9847991313789359,
+            "recall": 0.983304423243712,
+            "f1-score": 0.9840512097211674,
+            "support": 4612.0
+          },
+          "accuracy": 0.9881528046421664,
+          "macro avg": {
+            "precision": 0.9874655659457796,
+            "recall": 0.987162729836325,
+            "f1-score": 0.9873137643579875,
+            "support": 12408.0
+          },
+          "weighted avg": {
+            "precision": 0.9881497960925262,
+            "recall": 0.9881528046421664,
+            "f1-score": 0.9881509640649212,
+            "support": 12408.0
+          }
+        }
+      },
+      "training_seconds": 44.14448254399997
+    }
+  }
+}

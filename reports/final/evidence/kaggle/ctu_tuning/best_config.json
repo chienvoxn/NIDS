@@ -1,0 +1,13 @@
+{
+  "Trial": "T01",
+  "Width": 32,
+  "Learning Rate": 0.001,
+  "Dropout": 0.1,
+  "Class Weight": "none",
+  "Accuracy": 0.9885557704706641,
+  "Precision": 0.9884178321678322,
+  "Recall": 0.980702515177797,
+  "F1-score": 0.9845450587723117,
+  "Best Epoch": 15,
+  "Training Seconds": 30.046888705999947
+}
