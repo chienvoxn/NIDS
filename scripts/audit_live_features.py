@@ -15,9 +15,41 @@ def compare(candidate,reference,features,rtol=1e-6,atol=1e-6):
     for name in features:
         x=pd.to_numeric(a[name],errors='raise').to_numpy(dtype=float)
         y=pd.to_numeric(b[name],errors='raise').to_numpy(dtype=float)
-        finite=np.isfinite(x)&np.isfinite(y)
-        equal=finite & np.isclose(x,y,rtol=rtol,atol=atol)
-        rows.append(dict(feature=name,matched_rows=len(x),finite_pairs=int(finite.sum()),within_tolerance=int(equal.sum()),max_abs_error=float(np.max(np.abs(x[finite]-y[finite]))) if finite.any() else None))
+        finite = np.isfinite(x) & np.isfinite(y)
+
+        equal = finite & np.isclose(
+            x, y, rtol=rtol, atol=atol
+        )
+
+        both_nan = np.isnan(x) & np.isnan(y)
+        both_posinf = np.isposinf(x) & np.isposinf(y)
+        both_neginf = np.isneginf(x) & np.isneginf(y)
+
+        matched = (
+            equal
+            | both_nan
+            | both_posinf
+            | both_neginf
+        )
+
+        rows.append(dict(
+            feature=name,
+            matched_rows=len(x),
+            finite_pairs=int(finite.sum()),
+            within_tolerance=int(equal.sum()),
+            finite_mismatches=int((finite & ~equal).sum()),
+            matching_nan=int(both_nan.sum()),
+            matching_posinf=int(both_posinf.sum()),
+            matching_neginf=int(both_neginf.sum()),
+            nonfinite_mismatches=int((~finite & ~matched).sum()),
+            total_matches=int(matched.sum()),
+            total_mismatches=int((~matched).sum()),
+            match_rate=float(matched.mean()),
+            all_values_match=bool(matched.all()),
+            max_abs_error=float(
+                np.max(np.abs(x[finite] - y[finite]))
+            ) if finite.any() else None
+        ))
     return pd.DataFrame(rows)
 
 def main():
