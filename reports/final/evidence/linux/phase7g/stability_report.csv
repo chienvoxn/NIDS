@@ -1,0 +1,6 @@
+run,captured,included,unsupported,flows,timer_ticks,periodic_rows,dropped,late_drops,invalidated,max_lateness_ms,packet_accounting,result
+run_1,77,77,0,12,60,2,0,0,0,0.0,True,PASS
+run_2,78,78,0,12,60,2,0,0,0,0.0,True,PASS
+run_3,75,75,0,12,60,2,0,0,0,0.0,True,PASS
+run_4,75,75,0,12,60,2,0,0,0,0.0,True,PASS
+run_5,75,75,0,12,60,2,0,0,0,0.0,True,PASS

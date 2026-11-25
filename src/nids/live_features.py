@@ -14,6 +14,13 @@ class LiveFeatures:
         self.max_flows,self.max_packets,self.max_per_flow=max_flows,max_packets,max_per_flow
         self.active={}; self.buffered=0; self.clock=-math.inf
         self.dropped=0; self.invalidated=0
+        self.drop_reasons = {
+            'nonfinite_timestamp': 0,
+            'late_timestamp': 0,
+            'flow_capacity': 0,
+            'global_capacity': 0
+        }
+        self.max_lateness_seconds = 0.0
         if not math.isfinite(fin_grace) or fin_grace <= 0:
             raise ValueError('fin_grace must be positive')
         self.fin_grace = fin_grace
@@ -40,16 +47,32 @@ class LiveFeatures:
                 rows.append(self._close(k,'idle' if t-f.last_t>=self.idle else 'max_age'))
         return rows
     def add(self,p):
-        if not math.isfinite(p.t) or p.t<self.clock:
-            self.dropped+=1; return []
+        if not math.isfinite(p.t):
+            self.dropped += 1
+            self.drop_reasons['nonfinite_timestamp'] += 1
+            return []
+
+        if p.t < self.clock:
+            self.dropped += 1
+            self.drop_reasons['late_timestamp'] += 1
+            self.max_lateness_seconds = max(
+                self.max_lateness_seconds,
+                self.clock - p.t
+            )
+            return []
         rows=self.advance(p.t)
         key=(p.proto,*sorted(((p.src,p.sport),(p.dst,p.dport))))
         f=self.active.get(key)
         if f is not None and (len(f.all_packets)>=self.max_per_flow or self.buffered>=self.max_packets):
-            self._close(key,'capacity',False); self.dropped+=1; return rows
+            self._close(key,'capacity',False)
+            self.dropped += 1
+            self.drop_reasons['flow_capacity'] += 1
+            return rows
         if f is None:
             if len(self.active)>=self.max_flows or self.buffered>=self.max_packets:
-                self.dropped+=1; return rows
+                self.dropped += 1
+                self.drop_reasons['global_capacity'] += 1
+                return rows
             f=self.factory(p,p.t); self.active[key]=f
         f.add(p); self.buffered+=1
         if p.proto==6 and p.flags & 4:

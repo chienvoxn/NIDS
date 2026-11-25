@@ -1,5 +1,5 @@
 """Passive Linux capture into provisional feature CSV; never invokes CNN."""
-import argparse,csv,json,platform,time
+import argparse,csv,json,platform,time,threading
 from pathlib import Path
 from nids.live_features import LiveFeatures,ordered_row
 
@@ -12,11 +12,13 @@ def main():
     p.add_argument('--out',default='outputs/live_features')
     a=p.parse_args()
     if platform.system()!='Linux' or not 1<=a.seconds<=300 or not 1<=a.max_packets<=100000: p.error('Linux and bounded capture required')
-    from scapy.all import sniff,IP
+    from scapy.all import AsyncSniffer,IP
     from nids.cic_flow_extractor import parse_packet
     report=json.loads(Path(a.metrics).read_text(encoding='utf-8'))
     if report['dataset']!='cic': raise ValueError('CIC report required')
     features=report['features']; monitor=LiveFeatures()
+    lock=threading.Lock()
+    ready=threading.Event()
     out=Path(a.out)/str(time.time_ns()); out.mkdir(parents=True,exist_ok=False)
     meta=['source_ip','destination_ip','source_port','destination_port','protocol','start_time','end_time','close_reason','feature_status']
     stats={'captured':0,'unsupported':0,'rows':0,'cnn_enabled':False}
@@ -27,7 +29,7 @@ def main():
                 writer.writerow({**{k:row[k] for k in meta},**ordered_row(row,features)})
                 stats['rows']+=1
             f.flush()
-        def receive(pkt):
+        def receive_unlocked(pkt):
             stats['captured']+=1
             # Adapt IPv4 bytes in RAM to existing Ethernet parser; no packet files.
             if IP not in pkt:
@@ -35,13 +37,85 @@ def main():
             info=parse_packet(float(pkt.time),b'\x00'*12+b'\x08\x00'+bytes(pkt[IP]))
             if info is None:
                 stats['unsupported']+=1; return
-            emit(monitor.add(info))
+            rows = monitor.add(info)
+            stats['packet_triggered_rows'] += len(rows)
+            emit(rows)
+        def receive(pkt):
+            with lock:
+                receive_unlocked(pkt)
+
+        stats['packet_triggered_rows'] = 0
+        stats['flush_rows'] = 0
+        stats['timer_ticks'] = 0
+        stats['periodic_rows'] = 0
+        stats['final_expiration_rows'] = 0
+        stats['capture_complete'] = False
+
+        sniffer=AsyncSniffer(
+            iface=a.iface,
+            store=False,
+            prn=receive,
+            count=a.max_packets,
+            started_callback=ready.set
+        )
+
         try:
-            sniff(iface=a.iface,store=False,prn=receive,timeout=a.seconds,count=a.max_packets)
-            emit(monitor.advance(max(monitor.clock,time.time())))
+            sniffer.start()
+
+            if not ready.wait(timeout=5):
+                if not sniffer.running:
+                    sniffer.join()
+                raise RuntimeError('Capture startup timeout')
+
+            deadline=time.monotonic()+a.seconds
+
+            while sniffer.running:
+                remaining=deadline-time.monotonic()
+                if remaining<=0:
+                    break
+
+                time.sleep(min(0.25,remaining))
+
+                with lock:
+                    cutoff=time.time()-0.5
+
+                    stats['timer_ticks']+=1
+
+                    if cutoff>=monitor.clock:
+                        rows=monitor.advance(cutoff)
+                        stats['periodic_rows']+=len(rows)
+                        emit(rows)
+
+            if sniffer.running:
+                sniffer.stop()
+
+            sniffer.join()
+
+            with lock:
+                rows=monitor.advance(
+                    max(monitor.clock,time.time())
+                )
+                stats['final_expiration_rows']+=len(rows)
+                emit(rows)
+
+            stats['capture_complete']=True
         finally:
-            emit(monitor.flush())
+            if sniffer.running:
+                sniffer.stop()
+
+            sniffer.join()
+
+            with lock:
+                rows = monitor.flush()
+                stats['flush_rows'] += len(rows)
+                emit(rows)
             stats.update(dropped=monitor.dropped,invalidated=monitor.invalidated,feature_status='provisional_not_cnn_ready')
+            stats['drop_reasons'] = dict(
+                monitor.drop_reasons
+            )
+            stats['max_lateness_seconds'] = (
+                monitor.max_lateness_seconds
+            )
             (out/'summary.json').write_text(json.dumps(stats,indent=2),encoding='utf-8')
     print('Saved:',out,'; no CNN predictions')
 if __name__=='__main__': main()

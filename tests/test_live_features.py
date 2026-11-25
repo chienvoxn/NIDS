@@ -102,3 +102,49 @@ def test_rst_cleans_fin_tracking():
     assert not m.fin_seen
     assert not m.fin_complete
     assert m.buffered == 0
+
+
+def test_late_timestamp_diagnostics():
+    m = LiveFeatures(FakeFlow)
+
+    m.add(packet(10))
+    m.advance(12)
+
+    assert not m.add(packet(11))
+
+    assert m.dropped == 1
+    assert m.drop_reasons['late_timestamp'] == 1
+    assert m.max_lateness_seconds == 1.0
+
+
+def test_nonfinite_timestamp_diagnostics():
+    m = LiveFeatures(FakeFlow)
+
+    assert not m.add(packet(float('nan')))
+
+    assert m.dropped == 1
+    assert m.drop_reasons['nonfinite_timestamp'] == 1
+
+
+def test_flow_capacity_diagnostics():
+    m = LiveFeatures(FakeFlow, max_per_flow=1)
+
+    m.add(packet(1))
+    m.add(packet(2))
+
+    assert m.dropped == 1
+    assert m.invalidated == 1
+    assert m.drop_reasons['flow_capacity'] == 1
+
+
+def test_global_capacity_diagnostics():
+    m = LiveFeatures(FakeFlow, max_flows=1)
+
+    m.add(packet(1))
+
+    p = packet(2)
+    p.sport = 9999
+    m.add(p)
+
+    assert m.dropped == 1
+    assert m.drop_reasons['global_capacity'] == 1
