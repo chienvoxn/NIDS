@@ -1,0 +1,4 @@
+scenario,samples,cnn_detected,cnn_missed,experimental_events,mode,verified_live
+PortScan,10,10,0,10,saved_prediction_replay,False
+DoS_Hulk,10,10,0,10,saved_prediction_replay,False
+Bot,10,3,7,3,saved_prediction_replay,False

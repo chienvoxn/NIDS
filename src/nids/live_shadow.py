@@ -122,6 +122,19 @@ class LiveShadowWorker:
                     if self.fusion is not None:
                         result = self.fusion.enrich(frame, result)
 
+                        from nids.security_events import build_event
+
+                        for event_row in result.to_dict("records"):
+
+                            event = build_event(event_row, mode="shadow")
+
+                            if event is not None:
+                                print(
+                                    "EXPERIMENTAL SECURITY EVENT:",
+                                    event,
+                                    flush=True
+                                )
+
                     done = time.monotonic()
 
                     result["flow_row"] = [
