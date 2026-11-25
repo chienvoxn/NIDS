@@ -3,7 +3,7 @@ import math
 
 class LiveFeatures:
     def __init__(self, flow_factory=None, idle=120., max_age=120., max_flows=2048,
-                 max_packets=100000, max_per_flow=4096):
+                 max_packets=100000, max_per_flow=4096, fin_grace=1.0):
         if flow_factory is None:
             from nids.cic_flow_extractor import Flow
             flow_factory = Flow
@@ -14,8 +14,15 @@ class LiveFeatures:
         self.max_flows,self.max_packets,self.max_per_flow=max_flows,max_packets,max_per_flow
         self.active={}; self.buffered=0; self.clock=-math.inf
         self.dropped=0; self.invalidated=0
+        if not math.isfinite(fin_grace) or fin_grace <= 0:
+            raise ValueError('fin_grace must be positive')
+        self.fin_grace = fin_grace
+        self.fin_seen = {}
+        self.fin_complete = {}
     def _close(self,key,reason,valid=True):
         f=self.active.pop(key); self.buffered-=len(f.all_packets)
+        self.fin_seen.pop(key, None)
+        self.fin_complete.pop(key, None)
         if not valid:
             self.invalidated+=1
             return None
@@ -27,7 +34,9 @@ class LiveFeatures:
         if not math.isfinite(t) or t<self.clock: raise ValueError('clock must be nondecreasing')
         self.clock=t; rows=[]
         for k,f in list(self.active.items()):
-            if t-f.last_t>=self.idle or t-f.first.t>=self.max_age:
+            if k in self.fin_complete and t-f.last_t>=self.fin_grace:
+                rows.append(self._close(k,'tcp_fin_grace'))
+            elif t-f.last_t>=self.idle or t-f.first.t>=self.max_age:
                 rows.append(self._close(k,'idle' if t-f.last_t>=self.idle else 'max_age'))
         return rows
     def add(self,p):
@@ -45,6 +54,11 @@ class LiveFeatures:
         f.add(p); self.buffered+=1
         if p.proto==6 and p.flags & 4:
             rows.append(self._close(key,'tcp_rst'))
+        elif p.proto==6 and p.flags & 1:
+            directions = self.fin_seen.setdefault(key, set())
+            directions.add((p.src,p.sport,p.dst,p.dport))
+            if len(directions)==2:
+                self.fin_complete[key] = p.t
         return rows
     def flush(self):
         return [self._close(k,'capture_end_partial') for k in list(self.active)]

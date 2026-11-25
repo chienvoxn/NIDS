@@ -38,6 +38,7 @@ def main():
             emit(monitor.add(info))
         try:
             sniff(iface=a.iface,store=False,prn=receive,timeout=a.seconds,count=a.max_packets)
+            emit(monitor.advance(max(monitor.clock,time.time())))
         finally:
             emit(monitor.flush())
             stats.update(dropped=monitor.dropped,invalidated=monitor.invalidated,feature_status='provisional_not_cnn_ready')

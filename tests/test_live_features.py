@@ -41,3 +41,64 @@ def test_real_extractor_if_available():
     assert r['Total Fwd Packets']==1 and r['Total Backward Packets']==1
     assert r['Flow Duration']==1000000 and r['Total Length of Bwd Packets']==10
     assert len(set(r)-{'source_ip','destination_ip','source_port','destination_port','protocol','start_time','end_time','close_reason','feature_status'})==60
+
+
+def test_tcp_fin_grace_lifecycle():
+    m = LiveFeatures(FakeFlow, fin_grace=1.0)
+
+    m.add(packet(0))
+
+    p = packet(1)
+    p.flags = 17
+    assert not m.add(p)
+
+    p = packet(2, True)
+    p.flags = 17
+    assert not m.add(p)
+
+    p = packet(2.1)
+    p.flags = 16
+    assert not m.add(p)
+
+    assert not m.advance(2.5)
+
+    rows = m.advance(3.2)
+
+    assert len(rows) == 1
+    assert rows[0]['count'] == 4
+    assert rows[0]['close_reason'] == 'tcp_fin_grace'
+    assert m.buffered == 0
+    assert not m.active
+    assert not m.fin_seen
+    assert not m.fin_complete
+
+
+def test_single_fin_keeps_flow_open():
+    m = LiveFeatures(FakeFlow)
+
+    p = packet(0)
+    p.flags = 1
+    m.add(p)
+
+    assert not m.advance(2)
+    assert len(m.active) == 1
+
+    assert m.flush()[0]['close_reason'] == 'capture_end_partial'
+
+
+def test_rst_cleans_fin_tracking():
+    m = LiveFeatures(FakeFlow)
+
+    p = packet(0)
+    p.flags = 1
+    m.add(p)
+
+    p = packet(1, True)
+    p.flags = 4
+
+    rows = m.add(p)
+
+    assert rows[0]['close_reason'] == 'tcp_rst'
+    assert not m.fin_seen
+    assert not m.fin_complete
+    assert m.buffered == 0
