@@ -4,9 +4,9 @@ import pandas as pd
 import networkx as nx
 
 ALIASES = {
- 'src': ('SrcAddr','srcaddr','src_ip','src'), 'dst': ('DstAddr','dstaddr','dst_ip','dst'),
- 'time': ('StartTime','starttime','timestamp','time'), 'sport': ('Sport','sport','src_port'),
- 'dport': ('Dport','dport','dst_port'), 'bytes': ('TotBytes','totbytes','bytes'),
+ 'src': ('SrcAddr','srcaddr','src_ip','src','source_ip'), 'dst': ('DstAddr','dstaddr','dst_ip','dst','destination_ip'),
+ 'time': ('StartTime','starttime','timestamp','time','start_time'), 'sport': ('Sport','sport','src_port','source_port'),
+ 'dport': ('Dport','dport','dst_port','destination_port'), 'bytes': ('TotBytes','totbytes','bytes'),
  'duration': ('Dur','dur','duration'), 'packets': ('TotPkts','totpkts','packets'),
  'label': ('Label','label','labels')
 }
@@ -31,18 +31,34 @@ def beaconing_features(df, min_events=5):
         raise ValueError(f'CTU dataset lacks src/dst/time columns; resolved={c}')
     tmp = df[[c['src'],c['dst'],c['time']]].copy()
     tmp.columns = ['src','dst','time']
-    tmp['time'] = pd.to_datetime(tmp['time'], errors='coerce')
+    if pd.api.types.is_numeric_dtype(tmp['time']):
+        tmp['time'] = pd.to_datetime(
+            tmp['time'], unit='s', errors='coerce', utc=True
+        )
+    else:
+        tmp['time'] = pd.to_datetime(
+            tmp['time'], errors='coerce', utc=True
+        )
     tmp = tmp.dropna().sort_values('time')
     out=[]
     for (src,dst),group in tmp.groupby(['src','dst']):
-        ts = group['time'].astype('int64').to_numpy() / 1e9
+        times = group['time']
+        ts = (
+            times - times.iloc[0]
+        ).dt.total_seconds().to_numpy()
         gaps = np.diff(ts)
         if len(gaps)+1 < min_events or len(gaps)==0: continue
         mu=float(gaps.mean())
         out.append({'src':str(src),'dst':str(dst),'connections':len(ts),
                     'iat_mean_s':mu,'iat_std_s':float(gaps.std()),
                     'iat_cv':float(gaps.std()/mu) if mu>0 else None})
-    return pd.DataFrame(out)
+    return pd.DataFrame(
+        out,
+        columns=[
+            'src', 'dst', 'connections',
+            'iat_mean_s', 'iat_std_s', 'iat_cv'
+        ]
+    )
 
 def communication_graph(df):
     c=resolve_columns(df)

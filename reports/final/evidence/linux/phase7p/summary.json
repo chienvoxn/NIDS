@@ -1,0 +1,9 @@
+{
+  "input_flows": 12,
+  "nodes": 2,
+  "edges": 1,
+  "density": 0.5,
+  "beaconing_candidates": 1,
+  "verified_botnet": false,
+  "source": "benign_isolated_linux_lab"
+}

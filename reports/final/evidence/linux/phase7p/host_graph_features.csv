@@ -1,0 +1,3 @@
+node,in_degree,out_degree,unique_peers,clustering
+10.203.0.2,0,1,1,0
+10.203.0.1,1,0,1,0
