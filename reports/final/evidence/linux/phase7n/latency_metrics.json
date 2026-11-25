@@ -1,0 +1,30 @@
+{
+  "model": {
+    "variant": "cnn_mhsa",
+    "dataset": "cic",
+    "profile": "full",
+    "seed": 42,
+    "best_epoch": 14,
+    "validation_f1": 0.9966771919955855,
+    "split_sha256": {
+      "train": "597d8ec35dcebb218af51dc15302757fb81c8127a062b972903eb242ed84615e",
+      "validation": "0786e13f3cada384fe61077caed781ff30e262ab74bc16c46ac7df2c8444c89c",
+      "test": "3eacdb2b228737ecd8cc57f1c83acd7b5eda62ef73aa857cff462ac51e2e83c9"
+    }
+  },
+  "captured_packets": 74,
+  "predictions": 12,
+  "benign_predictions": 12,
+  "predictions_during_capture": 6,
+  "mean_latency_ms": 148.38516849992325,
+  "median_latency_ms": 199.0361070002109,
+  "p95_latency_ms": 247.30774264971842,
+  "max_latency_ms": 247.8569269997024,
+  "capture_drops": 0,
+  "inference_drops": 0,
+  "official_alerts": 0,
+  "regression_tests_passed": 51,
+  "pipeline_validation_passed": 15,
+  "verified_live": false,
+  "semantic_parity": false
+}
