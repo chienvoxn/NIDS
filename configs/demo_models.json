@@ -11,8 +11,20 @@
     "profile": "full",
     "variant": "cnn_mhsa"
   },
+  "CTU CNN + MHSA seed 44": {
+    "directory": "outputs/final/ctu_final_runs/seed_44",
+    "dataset": "ctu",
+    "profile": "full",
+    "variant": "cnn_mhsa"
+  },
   "CTU CNN + MHSA seed 42": {
     "directory": "outputs/final/ctu_final_runs/seed_42",
+    "dataset": "ctu",
+    "profile": "full",
+    "variant": "cnn_mhsa"
+  },
+  "CTU CNN + MHSA seed 43": {
+    "directory": "outputs/final/ctu_final_runs/seed_43",
     "dataset": "ctu",
     "profile": "full",
     "variant": "cnn_mhsa"

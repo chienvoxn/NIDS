@@ -1,0 +1,21 @@
+{
+  "width": 32,
+  "lr": 0.001,
+  "dropout": 0.1,
+  "class_weight": "none",
+  "epochs": 50,
+  "patience": 10,
+  "batch_size": 512,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "variants": [
+    "cnn",
+    "cnn_se",
+    "cnn_mhsa",
+    "cnn_se_mhsa"
+  ],
+  "commit": "dfb84460072a0bcaeed01d9eec0e1ac0dd371531"
+}

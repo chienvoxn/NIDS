@@ -1,4 +1,4 @@
-﻿# NIDS Official Model Selection
+# NIDS Official Model Selection
 
 ## Primary model
 
@@ -71,10 +71,47 @@ network attack experiments.
 - Minority attack classes remain challenging.
 - Botnet detection requires additional graph and
   beaconing analysis.
-- CTU deployment artifacts require restoration.
+- CTU deployment artifacts restored and tested.
 - Dashboard acceptance testing is deferred.
 - Live feature parity has not been established.
 - Verified live AI detection remains disabled.
 
 Historical CNN + SE + MHSA results are preserved
 for comparison and reproducibility.
+
+
+## CTU-13 deployment selection
+
+- Primary model: CNN + MHSA.
+- Completed seeds: 42, 43, 44.
+- Deployment seed: 44.
+- Selection criterion: highest validation F1.
+- Features: 57.
+- Classes: 2.
+- Validation F1: 99.3730%.
+- Test Binary F1: 99.3723%.
+- Test Accuracy: 99.5326%.
+- Test FPR: 0.4746%.
+
+Mean Binary F1 across three seeds: 99.1594%.
+
+Checkpoint:
+outputs/final/ctu_final_runs/seed_44/cnn_mhsa.pt
+
+Checkpoint SHA256:
+c5d5f183ae9cb93c4209e0b6edf8db0a059580f31f623c599ab922bc6bfa6bab
+
+## CTU reproducibility verification
+
+- All 12 CNN checkpoints loaded successfully.
+- All 106 local regression tests passed.
+- Train, validation and test split indices verified.
+- CPU and GPU aggregate metrics match for all MHSA seeds.
+- CPU and GPU confusion matrices match.
+- The local Parquet file hash is recorded separately.
+- Original training Parquet byte equality is not established.
+- Verified live detection remains disabled.
+
+Evidence:
+- ctu_final/mhsa_cpu_verification.csv
+- ctu_final/mhsa_deployment_selection.json
