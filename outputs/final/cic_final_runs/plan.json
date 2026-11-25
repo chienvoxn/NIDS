@@ -1,0 +1,26 @@
+{
+  "width": 32,
+  "lr": 0.001,
+  "dropout": 0.1,
+  "class_weight": "none",
+  "epochs": 15,
+  "patience": 5,
+  "batch_size": 512,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "variants": [
+    "cnn",
+    "cnn_se",
+    "cnn_mhsa",
+    "cnn_se_mhsa"
+  ],
+  "commit": "dfb84460072a0bcaeed01d9eec0e1ac0dd371531",
+  "split_sha256": {
+    "train": "597d8ec35dcebb218af51dc15302757fb81c8127a062b972903eb242ed84615e",
+    "validation": "0786e13f3cada384fe61077caed781ff30e262ab74bc16c46ac7df2c8444c89c",
+    "test": "3eacdb2b228737ecd8cc57f1c83acd7b5eda62ef73aa857cff462ac51e2e83c9"
+  }
+}

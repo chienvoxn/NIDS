@@ -12,3 +12,6 @@ pytest>=8
 nbformat>=5
 jupyterlab>=4
 streamlit>=1.35
+# SOC Dashboard and live network monitoring
+plotly>=5.18,<7
+scapy>=2.5,<3

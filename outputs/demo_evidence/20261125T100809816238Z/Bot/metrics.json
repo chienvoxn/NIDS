@@ -1,0 +1,18 @@
+{
+  "accuracy": 0.79,
+  "precision": 0.855072463768116,
+  "recall": 0.79,
+  "f1": 0.7867647058823529,
+  "average": "weighted",
+  "fpr": 0.02,
+  "detection_rate": 0.6,
+  "tn": 98,
+  "fp": 2,
+  "fn": 40,
+  "tp": 60,
+  "scenario": "Bot",
+  "flows": 200,
+  "batch_size": 32,
+  "processing_ms_per_flow": 0.4692799999793351,
+  "batch_p95_ms": 15.521719999014747
+}

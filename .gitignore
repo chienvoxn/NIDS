@@ -21,3 +21,6 @@ reports/*pytest.xml
 /outputs/final/
 /data/processed/final/
 /data/raw/
+
+# Local development backups
+*.bak

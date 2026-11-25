@@ -1,0 +1,17 @@
+{
+  "model": {
+    "dataset": "cic",
+    "profile": "full",
+    "seed": 42,
+    "best_epoch": 14,
+    "validation_f1": 0.9886834864689351,
+    "split_sha256": {
+      "train": "597d8ec35dcebb218af51dc15302757fb81c8127a062b972903eb242ed84615e",
+      "validation": "0786e13f3cada384fe61077caed781ff30e262ab74bc16c46ac7df2c8444c89c",
+      "test": "3eacdb2b228737ecd8cc57f1c83acd7b5eda62ef73aa857cff462ac51e2e83c9"
+    }
+  },
+  "mode": "labeled CSV replay, not live attack",
+  "selection_seed": 42,
+  "limit_per_class": 100
+}

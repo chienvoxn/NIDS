@@ -1,0 +1,18 @@
+{
+  "accuracy": 0.94,
+  "precision": 0.9482091982091982,
+  "recall": 0.94,
+  "f1": 0.9423580346355215,
+  "average": "weighted",
+  "fpr": 0.02,
+  "detection_rate": 0.9,
+  "tn": 98,
+  "fp": 2,
+  "fn": 10,
+  "tp": 90,
+  "scenario": "PortScan",
+  "flows": 200,
+  "batch_size": 32,
+  "processing_ms_per_flow": 0.4976985000030254,
+  "batch_p95_ms": 17.694189999383525
+}

@@ -1,0 +1,5 @@
+{
+  "CIC provisional T01": {"directory":"outputs/final/tuning/cic/T01","dataset":"cic","profile":"tuning"},
+  "CTU final seed 42": {"directory":"outputs/final/ctu_final_runs/seed_42","dataset":"ctu","profile":"full"},
+  "CIC final seed 42": {"directory":"outputs/final/cic_final_runs/seed_42","dataset":"cic","profile":"full"}
+}

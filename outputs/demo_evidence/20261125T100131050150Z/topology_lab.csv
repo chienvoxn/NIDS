@@ -1,0 +1,4 @@
+case,expected_shape,predicted_shape,match,nodes,edges,maliciousness
+Centralized,centralized,centralized,True,9,8,not inferred
+P2P,p2p_like,p2p_like,True,8,8,not inferred
+Benign hub (same shape),centralized,centralized,True,9,8,not inferred

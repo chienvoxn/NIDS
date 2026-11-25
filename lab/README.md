@@ -1,0 +1,4 @@
+# Demo lab (authorized isolated network only)
+Use two VMs on a host-only network; no bridged public network. Capture only traffic you own and have permission to inspect. Start with recorded benign and attack-labelled CIC flows for CNN CSV inference. For PCAP analysis use recorded captures or harmless local traffic; compare against independently recorded scenario labels and timestamps. Do not equate graph hubs or periodic connections with confirmed botnets.
+
+Suggested acceptance scenarios: normal web traffic, recorded PortScan, recorded DoS. Record scenario ID, capture source, true label, start/end, predicted label, confidence, FP/FN and end-to-end latency. Report the difference between offline dataset and lab results. Raw PCAP CNN inference remains blocked until feature parity is verified against the training extractor. Live capture and sliding-window expiry are future implementation steps.
